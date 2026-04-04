@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1600, initial-scale=1" />
+    <title>VeriClaw GitHub Hero</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg-0: #08111f;
+        --bg-1: #0a1a2d;
+        --bg-2: #0b1119;
+        --line: rgba(76, 135, 190, 0.38);
+        --pill: rgba(18, 37, 61, 0.84);
+        --text: #f4f8ff;
+        --muted: #cfdeef;
+        --soft: #9cb5cf;
+        --cyan: #7ad8ff;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        width: 1600px;
+        height: 900px;
+        overflow: hidden;
+        background:
+          radial-gradient(circle at 74% 18%, rgba(110, 216, 255, 0.22), transparent 28%),
+          radial-gradient(circle at 84% 80%, rgba(102, 239, 206, 0.18), transparent 25%),
+          radial-gradient(circle at 20% 88%, rgba(68, 195, 255, 0.12), transparent 30%),
+          linear-gradient(120deg, var(--bg-0), var(--bg-1) 58%, var(--bg-2));
+        font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
+      }
+
+      .frame {
+        position: relative;
+        width: 1600px;
+        height: 900px;
+        overflow: hidden;
+      }
+
+      .copy {
+        position: absolute;
+        left: 84px;
+        top: 84px;
+        width: 680px;
+        color: var(--text);
+      }
+
+      .eyebrow {
+        display: inline-flex;
+        align-items: center;
+        height: 48px;
+        padding: 0 22px;
+        border-radius: 999px;
+        border: 1px solid rgba(82, 148, 212, 0.62);
+        background: rgba(13, 29, 48, 0.72);
+        color: #b6e3ff;
+        font-size: 21px;
+        font-weight: 650;
+        letter-spacing: -0.02em;
+      }
+
+      h1 {
+        margin: 26px 0 0;
+        font-size: 82px;
+        line-height: 0.94;
+        letter-spacing: -0.05em;
+      }
+
+      .subtitle {
+        margin-top: 26px;
+        color: #bee7ff;
+        font-size: 34px;
+        font-weight: 650;
+        letter-spacing: -0.03em;
+      }
+
+      .body {
+        margin-top: 34px;
+        color: var(--muted);
+        font-size: 28px;
+        line-height: 1.42;
+        letter-spacing: -0.025em;
+      }
+
+      .chips {
+        display: flex;
+        gap: 14px;
+        margin-top: 34px;
+      }
+
+      .chip {
+        min-width: 198px;
+        padding: 18px 28px 20px;
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        background: var(--pill);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+      }
+
+      .chip b {
+        display: block;
+        color: var(--cyan);
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+      }
+
+      .chip span {
+        display: block;
+        margin-top: 6px;
+        color: #e2ebf5;
+        font-size: 18px;
+        font-weight: 650;
+        letter-spacing: -0.025em;
+      }
+
+      .footer {
+        margin-top: 48px;
+        color: var(--soft);
+        font-size: 18px;
+        letter-spacing: -0.02em;
+      }
+
+      .stage {
+        position: absolute;
+        right: 44px;
+        top: 28px;
+        width: 820px;
+        height: 844px;
+      }
+
+      .halo {
+        position: absolute;
+        left: 184px;
+        top: 88px;
+        width: 430px;
+        height: 430px;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgba(244, 231, 210, 0.42), rgba(176, 201, 223, 0.18) 48%, transparent 72%);
+        filter: blur(16px);
+      }
+
+      .icon-wrap {
+        position: absolute;
+        left: 212px;
+        top: 138px;
+        width: 388px;
+        height: 388px;
+        border-radius: 92px;
+        box-shadow: 0 44px 96px rgba(2, 8, 18, 0.52);
+      }
+
+      .icon-wrap img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: 92px;
+      }
+
+      .phone {
+        position: absolute;
+        width: 214px;
+        padding: 10px;
+        border-radius: 42px;
+        background: rgba(8, 19, 32, 0.92);
+        border: 1px solid rgba(82, 139, 193, 0.44);
+        box-shadow: 0 34px 72px rgba(4, 9, 18, 0.56);
+      }
+
+      .phone img {
+        display: block;
+        width: 100%;
+        border-radius: 34px;
+      }
+
+      .phone-a {
+        right: 108px;
+        top: 96px;
+        transform: rotate(12deg);
+      }
+
+      .phone-b {
+        right: 48px;
+        bottom: 106px;
+        transform: rotate(-10deg);
+      }
+
+      .note {
+        position: absolute;
+        left: 130px;
+        bottom: 120px;
+        width: 420px;
+        padding: 24px 28px;
+        border-radius: 30px;
+        background: rgba(11, 24, 39, 0.9);
+        border: 1px solid rgba(76, 135, 190, 0.38);
+        box-shadow: 0 28px 56px rgba(3, 8, 16, 0.38);
+      }
+
+      .note strong {
+        display: block;
+        color: var(--cyan);
+        font-size: 18px;
+        letter-spacing: -0.02em;
+      }
+
+      .note span {
+        display: block;
+        margin-top: 8px;
+        color: #dce8f5;
+        font-size: 24px;
+        font-weight: 650;
+        letter-spacing: -0.03em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="frame">
+      <section class="copy">
+        <div class="eyebrow">Apple-native correction companion</div>
+        <h1>VeriClaw 爪印</h1>
+        <div class="subtitle">Close the loop on bot drift.</div>
+        <div class="body">
+          Turn hallucination, disobedience, and role drift into evidence,
+          diagnosis, intervention, verification, and casebook learning.
+        </div>
+        <div class="chips">
+          <div class="chip">
+            <b>Evidence-first</b>
+            <span>Catch the moment</span>
+          </div>
+          <div class="chip">
+            <b>Role-aware</b>
+            <span>Diagnose the drift</span>
+          </div>
+          <div class="chip">
+            <b>Verification</b>
+            <span>Prove the fix held</span>
+          </div>
+        </div>
+        <div class="footer">
+          Built as a native supervision layer for OpenClaw, not a clone of it.
+        </div>
+      </section>
+
+      <section class="stage">
+        <div class="halo"></div>
+        <div class="phone phone-a">
+          <img src="./screenshots/01-connect-gateway.png" alt="" />
+        </div>
+        <div class="icon-wrap">
+          <img src="./branding/vericlaw-brand-mark.png" alt="" />
+        </div>
+        <div class="phone phone-b">
+          <img src="./screenshots/03-role-aware-followup.png" alt="" />
+        </div>
+        <div class="note">
+          <strong>Companion for OpenClaw</strong>
+          <span>Native correction surface, not another generic dashboard.</span>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
