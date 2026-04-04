@@ -1,0 +1,21 @@
+VeriClaw 爪印
+
+This repository publishes launch materials, public documentation, and related
+brand/legal materials for VeriClaw 爪印.
+
+Parts of the repository are derived from or adapted against the OpenClaw
+project and should preserve the applicable upstream attribution and license
+materials when redistributed in substantial form.
+
+Redistribution expectations:
+
+- keep the root [LICENSE](LICENSE)
+- keep this [NOTICE](NOTICE)
+- keep [ATTRIBUTION.md](ATTRIBUTION.md)
+- preserve clear source reference when redistributing substantial copies
+- follow [TRADEMARKS.md](TRADEMARKS.md) for brand use
+
+Upstream reference:
+
+- https://github.com/openclaw/openclaw
+
