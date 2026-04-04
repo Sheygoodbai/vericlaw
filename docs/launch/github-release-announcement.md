@@ -34,6 +34,12 @@ OpenClaw remains the runtime and gateway. VeriClaw adds the native supervision
 layer for the moments when a bot is drifting, hallucinating, overreaching, or
 failing its professional role contract.
 
+Landing page:
+- https://sheygoodbai.github.io/vericlaw/
+
+Download the source package:
+- https://github.com/Sheygoodbai/vericlaw/archive/refs/heads/main.zip
+
 Instead of stopping at alerts, the core loop is:
 
 - evidence
@@ -67,6 +73,7 @@ questions clearly:
 - OpenClaw runtime plus VeriClaw companion story
 - Apple companion submission path continues in parallel
 - watchOS remains outside the current release gate
+- source distribution, screenshots, and launch materials are public now
 
 ## Legal and redistribution
 
@@ -103,3 +110,4 @@ OpenClaw remains the runtime. VeriClaw adds the native supervision layer.
 - Do not claim watchOS is in the current release scope.
 - Do not overstate market exclusivity.
 - Keep the legal/IP pack linked anywhere the release body is substantially reused.
+- Keep a clear CTA to the landing page, release page, or source ZIP in public posts.

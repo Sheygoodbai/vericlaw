@@ -21,6 +21,9 @@ Current positioning:
 ## Repository-facing checklist
 
 - README hero and launch section mention `VeriClaw 爪印` clearly
+- repository description, homepage, and topics are refreshed for `AI agent correction`, `LLM supervision`, and `OpenClaw companion` discovery
+- GitHub Pages landing page is live from `/docs`
+- social preview image is configured in repository settings if a stronger share card is needed
 - GitHub release body is ready from
   [github-release-announcement.md](github-release-announcement.md)
 - copy deck is aligned in
@@ -50,8 +53,10 @@ Current positioning:
 2. Confirm the version/tag you plan to publish is newer than the latest existing GitHub release.
 3. Publish or draft the GitHub release body from
    [github-release-announcement.md](github-release-announcement.md).
-4. Recheck the top-level README after push on the live GitHub page.
-5. If Apple is still pending, explicitly state `GitHub-first` in any release note, discussion, or pinned update.
+4. Confirm the landing page, README, and release page all point to the same CTA path.
+5. If no native binary asset is public yet, route downloads to the release page or source ZIP without implying a native installer exists.
+6. Recheck the top-level README after push on the live GitHub page.
+7. If Apple is still pending, explicitly state `GitHub-first` in any release note, discussion, or pinned update.
 
 ## Scope caution
 

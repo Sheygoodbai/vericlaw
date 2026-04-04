@@ -5,7 +5,23 @@
 <h1 align="center">VeriClaw 爪印</h1>
 
 <p align="center">
+  <a href="https://github.com/Sheygoodbai/vericlaw/releases/latest">
+    <img alt="Latest release" src="https://img.shields.io/github/v/release/Sheygoodbai/vericlaw?display_name=release&label=latest%20release&color=0f766e" />
+  </a>
+  <a href="https://sheygoodbai.github.io/vericlaw/">
+    <img alt="Landing page" src="https://img.shields.io/badge/landing%20page-live-c2410c" />
+  </a>
+  <a href="LICENSE">
+    <img alt="MIT License" src="https://img.shields.io/badge/license-MIT-111827" />
+  </a>
+</p>
+
+<p align="center">
   <strong>Apple-native correction companion for OpenClaw</strong>
+</p>
+
+<p align="center">
+  AI agent correction, LLM supervision, hallucination remediation, and role-drift diagnosis for OpenClaw on macOS and iPhone companion surfaces.
 </p>
 
 <p align="center">
@@ -13,7 +29,11 @@
 </p>
 
 <p align="center">
+  <a href="https://sheygoodbai.github.io/vericlaw/"><strong>Landing page</strong></a>
+  ·
   <a href="https://github.com/Sheygoodbai/vericlaw/releases/tag/v0.1.0"><strong>Latest release</strong></a>
+  ·
+  <a href="https://github.com/Sheygoodbai/vericlaw/archive/refs/heads/main.zip"><strong>Download source zip</strong></a>
   ·
   <a href="docs/launch/github-launch-kit.md"><strong>Launch kit</strong></a>
   ·
@@ -56,6 +76,22 @@ that moment into a closed correction loop instead of a passive alert.
 VeriClaw is built for moments where teams need to answer three questions fast:
 what went wrong, what should happen next, and whether the correction actually held.
 
+## Download and share
+
+- Visit the [landing page](https://sheygoodbai.github.io/vericlaw/) for the fastest product overview, screenshots, and share-ready positioning.
+- Open the [latest release](https://github.com/Sheygoodbai/vericlaw/releases/latest) for the current public launch snapshot.
+- Download the public source package as a [ZIP archive](https://github.com/Sheygoodbai/vericlaw/archive/refs/heads/main.zip) or clone the repository directly:
+
+```bash
+git clone https://github.com/Sheygoodbai/vericlaw.git
+```
+
+- Reuse the launch copy, screenshots, and legal redistribution pack when forwarding the project internally or externally.
+
+Current public download posture is GitHub-first: source distribution, launch materials,
+screenshots, and release notes are public now, while Apple companion distribution
+continues in parallel.
+
 ## Product glimpse
 
 <table>
@@ -85,12 +121,31 @@ what went wrong, what should happen next, and whether the correction actually he
   </sub>
 </p>
 
+## Who should open this repository
+
+- Teams evaluating `AI agent supervision`, `LLM correction`, and `hallucination remediation` workflows
+- Builders looking for `role-drift diagnosis`, `evidence-first incident review`, and `verification loops`
+- Operators who want an `Apple-native` companion surface around OpenClaw instead of a generic web-only dashboard
+- Partners, press, or early users who need a shareable launch kit, screenshots, and redistribution guidance
+
 ## What makes it different
 
 - `Companion, not clone`: OpenClaw remains the runtime and gateway substrate. VeriClaw adds the native supervision and correction layer.
 - `Correction, not only monitoring`: the product is meant to recommend the next intervention, not just display drift after the fact.
 - `Professional-role drift`: many failures are framed as role-contract breakdowns when that leads to better remediation.
 - `Casebook learning`: every closed loop should leave behind reusable correction memory instead of another disconnected incident log.
+
+## Search intent and positioning
+
+Teams usually discover VeriClaw through concrete problems rather than category names.
+This repository is intentionally written for searches around:
+
+- `AI agent correction`
+- `LLM supervision for production bots`
+- `hallucination and fake-completion remediation`
+- `role-drift diagnosis for assistants`
+- `macOS-native OpenClaw companion`
+- `evidence -> diagnosis -> intervention -> verification workflow`
 
 ## Release surface
 
@@ -103,6 +158,7 @@ what went wrong, what should happen next, and whether the correction actually he
 - [docs/launch/github-launch-kit.md](docs/launch/github-launch-kit.md): reusable copy deck for repository, release, and launch posts
 - [docs/launch/github-release-announcement.md](docs/launch/github-release-announcement.md): release body draft
 - [docs/launch/github-publish-checklist.md](docs/launch/github-publish-checklist.md): publishing checklist
+- [https://sheygoodbai.github.io/vericlaw/](https://sheygoodbai.github.io/vericlaw/): public landing page for search and social sharing
 - [docs/design/first-use-ux-iteration.md](docs/design/first-use-ux-iteration.md): first-use UX notes
 - [docs/launch/market-differentiation.md](docs/launch/market-differentiation.md): market scan and differentiation framing
 

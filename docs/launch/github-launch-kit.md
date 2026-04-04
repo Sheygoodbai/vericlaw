@@ -114,6 +114,30 @@ Avoid:
 - implying that the current launch ships watchOS as part of the release window
 - implying fully autonomous correction when user confirmation still matters
 
+## SEO and distribution hooks
+
+Use these phrases naturally across the README, landing page, release body, and
+forwardable blurbs:
+
+- `AI agent correction`
+- `LLM supervision`
+- `hallucination remediation`
+- `role-drift diagnosis`
+- `macOS-native OpenClaw companion`
+- `evidence -> diagnosis -> intervention -> verification`
+
+These phrases should stay attached to concrete product claims rather than
+becoming a loose keyword pile.
+
+## Download and share CTA lines
+
+Use these when you want stronger click-through into the release or repository:
+
+- `Open the GitHub-first launch pack for VeriClaw 爪印`
+- `Download the source package and forward the launch kit`
+- `Share the release page, screenshots, and redistribution guidance`
+- `Star or fork the repo to track the public launch surface`
+
 ## FAQ copy
 
 `What is VeriClaw?`

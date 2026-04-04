@@ -1,0 +1,893 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VeriClaw 爪印 | AI Agent Correction for OpenClaw</title>
+    <meta
+      name="description"
+      content="VeriClaw 爪印 is the Apple-native correction companion for OpenClaw: AI agent supervision, hallucination remediation, role-drift diagnosis, intervention guidance, verification, and casebook learning."
+    />
+    <meta
+      name="keywords"
+      content="VeriClaw, OpenClaw, AI agent correction, LLM supervision, hallucination remediation, role drift diagnosis, AI agent observability, macOS AI companion"
+    />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <link rel="canonical" href="https://sheygoodbai.github.io/vericlaw/" />
+    <link rel="icon" type="image/png" href="assets/branding/vericlaw-brand-mark.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="VeriClaw 爪印 | AI Agent Correction for OpenClaw" />
+    <meta
+      property="og:description"
+      content="Apple-native correction companion for OpenClaw with evidence, diagnosis, intervention, verification, and casebook learning."
+    />
+    <meta property="og:url" content="https://sheygoodbai.github.io/vericlaw/" />
+    <meta
+      property="og:image"
+      content="https://sheygoodbai.github.io/vericlaw/assets/social-preview-brand.png"
+    />
+    <meta property="og:image:alt" content="VeriClaw social preview" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="VeriClaw 爪印 | AI Agent Correction for OpenClaw" />
+    <meta
+      name="twitter:description"
+      content="AI agent correction, LLM supervision, and role-drift diagnosis for OpenClaw on Apple-native surfaces."
+    />
+    <meta
+      name="twitter:image"
+      content="https://sheygoodbai.github.io/vericlaw/assets/social-preview-brand.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg: #f4efe6;
+        --surface: rgba(255, 250, 242, 0.84);
+        --ink: #121312;
+        --muted: #5d635f;
+        --line: rgba(18, 19, 18, 0.12);
+        --accent: #0f766e;
+        --warm: #c2410c;
+        --hero: #0d1d1c;
+        --hero-muted: rgba(244, 239, 230, 0.76);
+        --shadow: 0 24px 60px rgba(13, 29, 28, 0.18);
+        --radius: 28px;
+        --content: min(1120px, calc(100vw - 40px));
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        background:
+          radial-gradient(circle at top left, rgba(194, 65, 12, 0.08), transparent 28%),
+          radial-gradient(circle at top right, rgba(15, 118, 110, 0.1), transparent 30%),
+          var(--bg);
+        color: var(--ink);
+        font-family: "Space Grotesk", sans-serif;
+        text-rendering: optimizeLegibility;
+      }
+
+      img {
+        display: block;
+        max-width: 100%;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      .shell {
+        width: var(--content);
+        margin: 0 auto;
+      }
+
+      .topbar {
+        position: relative;
+        z-index: 2;
+        width: var(--content);
+        margin: 0 auto;
+        padding: 26px 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+      }
+
+      .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 14px;
+        text-decoration: none;
+      }
+
+      .brand-mark {
+        width: 44px;
+        height: 44px;
+        border-radius: 14px;
+        box-shadow: 0 14px 30px rgba(0, 0, 0, 0.16);
+      }
+
+      .brand-copy strong,
+      .brand-copy span {
+        display: block;
+      }
+
+      .brand-copy strong {
+        font-size: 0.9rem;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+      }
+
+      .brand-copy span {
+        color: rgba(18, 19, 18, 0.66);
+        font-size: 0.9rem;
+      }
+
+      .nav {
+        display: inline-flex;
+        align-items: center;
+        gap: 18px;
+        font-size: 0.94rem;
+      }
+
+      .nav a {
+        text-decoration: none;
+        color: rgba(18, 19, 18, 0.78);
+      }
+
+      .nav a:hover,
+      .nav a:focus-visible {
+        color: var(--ink);
+      }
+
+      .hero {
+        position: relative;
+        overflow: hidden;
+        margin-top: 18px;
+        padding: 42px 0 54px;
+      }
+
+      .hero::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background:
+          linear-gradient(135deg, rgba(15, 118, 110, 0.22), transparent 46%),
+          linear-gradient(180deg, rgba(194, 65, 12, 0.12), transparent 52%),
+          var(--hero);
+      }
+
+      .hero::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: url("assets/vericlaw-lobster-diffuse.svg");
+        background-repeat: no-repeat;
+        background-position: right -120px top -10px;
+        background-size: 620px auto;
+        opacity: 0.18;
+        mix-blend-mode: screen;
+      }
+
+      .hero-inner {
+        position: relative;
+        z-index: 1;
+        width: var(--content);
+        margin: 0 auto;
+        min-height: calc(100svh - 160px);
+        display: grid;
+        grid-template-columns: minmax(0, 480px) minmax(0, 1fr);
+        align-items: center;
+        gap: 42px;
+      }
+
+      .hero-copy {
+        color: white;
+        animation: rise 0.9s ease-out both;
+      }
+
+      .eyebrow {
+        display: inline-block;
+        padding: 10px 14px;
+        border: 1px solid rgba(244, 239, 230, 0.14);
+        border-radius: 999px;
+        color: var(--hero-muted);
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        font-size: 0.74rem;
+      }
+
+      h1 {
+        margin: 20px 0 16px;
+        font-family: "Source Serif 4", serif;
+        font-size: clamp(3.4rem, 6vw, 6.4rem);
+        line-height: 0.92;
+        letter-spacing: -0.04em;
+      }
+
+      .hero-copy p {
+        max-width: 34rem;
+        margin: 0;
+        color: var(--hero-muted);
+        font-size: 1.08rem;
+        line-height: 1.75;
+      }
+
+      .hero-copy p + p {
+        margin-top: 16px;
+      }
+
+      .hero-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+        margin-top: 30px;
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 50px;
+        padding: 0 20px;
+        border-radius: 999px;
+        text-decoration: none;
+        font-size: 0.96rem;
+        transition:
+          transform 180ms ease,
+          background-color 180ms ease,
+          color 180ms ease,
+          border-color 180ms ease;
+      }
+
+      .button:hover,
+      .button:focus-visible {
+        transform: translateY(-2px);
+      }
+
+      .button-primary {
+        background: linear-gradient(135deg, #18a196, var(--accent));
+        color: white;
+        box-shadow: 0 14px 28px rgba(24, 161, 150, 0.22);
+      }
+
+      .button-secondary {
+        border: 1px solid rgba(244, 239, 230, 0.18);
+        color: white;
+        background: rgba(244, 239, 230, 0.04);
+      }
+
+      .button-warm {
+        background: linear-gradient(135deg, #d97706, var(--warm));
+        color: white;
+        box-shadow: 0 14px 28px rgba(194, 65, 12, 0.2);
+      }
+
+      .hero-notes {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px 18px;
+        margin-top: 28px;
+        color: rgba(244, 239, 230, 0.72);
+        font-size: 0.88rem;
+      }
+
+      .hero-visual {
+        position: relative;
+        min-height: 580px;
+        animation: rise 1.05s ease-out both;
+        animation-delay: 120ms;
+      }
+
+      .hero-frame {
+        position: absolute;
+        border-radius: 28px;
+        overflow: hidden;
+        border: 1px solid rgba(244, 239, 230, 0.08);
+        background: rgba(255, 255, 255, 0.06);
+        box-shadow: var(--shadow);
+      }
+
+      .hero-frame img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .hero-main {
+        inset: 40px 0 0 118px;
+      }
+
+      .hero-side {
+        width: 250px;
+        height: 162px;
+        left: 0;
+        top: 20px;
+        transform: rotate(-8deg);
+        animation: drift 7s ease-in-out infinite;
+      }
+
+      .hero-bottom {
+        width: 270px;
+        height: 170px;
+        left: 32px;
+        bottom: 0;
+        transform: rotate(6deg);
+        animation: drift 8s ease-in-out infinite reverse;
+      }
+
+      main section {
+        padding: 90px 0;
+      }
+
+      .section-head {
+        display: grid;
+        grid-template-columns: minmax(0, 260px) minmax(0, 1fr);
+        gap: 32px;
+        align-items: start;
+        margin-bottom: 30px;
+      }
+
+      .section-head h2 {
+        margin: 0;
+        font-family: "Source Serif 4", serif;
+        font-size: clamp(2.2rem, 4vw, 3.6rem);
+        line-height: 0.98;
+      }
+
+      .section-head p {
+        margin: 0;
+        color: var(--muted);
+        font-size: 1rem;
+        line-height: 1.8;
+      }
+
+      .triple {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 22px;
+        border-top: 1px solid var(--line);
+      }
+
+      .triple article {
+        padding-top: 26px;
+        border-top: 3px solid transparent;
+      }
+
+      .triple article:nth-child(1) {
+        border-color: var(--accent);
+      }
+
+      .triple article:nth-child(2) {
+        border-color: var(--warm);
+      }
+
+      .triple article:nth-child(3) {
+        border-color: #14532d;
+      }
+
+      .triple h3,
+      .keywords h3,
+      .download-panel h3 {
+        margin: 0 0 12px;
+        font-size: 1.08rem;
+      }
+
+      .triple p,
+      .keywords p,
+      .download-panel p {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.72;
+      }
+
+      .workflow {
+        display: grid;
+        grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+        gap: 32px;
+        align-items: center;
+      }
+
+      .workflow-media {
+        position: relative;
+        min-height: 520px;
+        border-radius: var(--radius);
+        overflow: hidden;
+        background:
+          linear-gradient(180deg, rgba(15, 118, 110, 0.16), rgba(15, 118, 110, 0)),
+          rgba(15, 118, 110, 0.06);
+      }
+
+      .workflow-media img {
+        position: absolute;
+        border-radius: 24px;
+        border: 1px solid rgba(18, 19, 18, 0.08);
+        box-shadow: 0 20px 45px rgba(18, 19, 18, 0.15);
+      }
+
+      .workflow-media img:nth-child(1) {
+        width: 72%;
+        left: 5%;
+        top: 12%;
+      }
+
+      .workflow-media img:nth-child(2) {
+        width: 50%;
+        right: 5%;
+        top: 10%;
+      }
+
+      .workflow-media img:nth-child(3) {
+        width: 46%;
+        right: 10%;
+        bottom: 9%;
+      }
+
+      .workflow-copy ol {
+        margin: 24px 0 0;
+        padding-left: 18px;
+        color: var(--muted);
+        line-height: 1.85;
+      }
+
+      .workflow-copy li + li {
+        margin-top: 8px;
+      }
+
+      .keywords {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 18px;
+      }
+
+      .keyword {
+        padding: 22px 0 0;
+        border-top: 1px solid var(--line);
+      }
+
+      .keyword strong {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 1rem;
+      }
+
+      .download-strip {
+        position: relative;
+        overflow: hidden;
+        border-radius: 34px;
+        padding: 38px;
+        background:
+          linear-gradient(135deg, rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 0.52)),
+          linear-gradient(180deg, rgba(15, 118, 110, 0.12), rgba(194, 65, 12, 0.1));
+        border: 1px solid rgba(18, 19, 18, 0.08);
+      }
+
+      .download-strip::before {
+        content: "";
+        position: absolute;
+        width: 220px;
+        height: 220px;
+        right: -50px;
+        top: -50px;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgba(15, 118, 110, 0.14), transparent 68%);
+      }
+
+      .download-grid {
+        position: relative;
+        z-index: 1;
+        display: grid;
+        grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+        gap: 28px;
+        align-items: start;
+      }
+
+      .download-grid p {
+        max-width: 42rem;
+      }
+
+      .download-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 24px;
+      }
+
+      .download-panel {
+        padding-top: 4px;
+      }
+
+      .download-panel ul {
+        margin: 18px 0 0;
+        padding-left: 18px;
+        color: var(--muted);
+        line-height: 1.8;
+      }
+
+      footer {
+        width: var(--content);
+        margin: 0 auto;
+        padding: 0 0 42px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 18px;
+        color: rgba(18, 19, 18, 0.6);
+        font-size: 0.9rem;
+      }
+
+      footer a {
+        color: rgba(18, 19, 18, 0.78);
+      }
+
+      @keyframes rise {
+        from {
+          opacity: 0;
+          transform: translateY(24px);
+        }
+
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes drift {
+        0%,
+        100% {
+          transform: translateY(0) rotate(-8deg);
+        }
+
+        50% {
+          transform: translateY(-10px) rotate(-6deg);
+        }
+      }
+
+      @media (max-width: 980px) {
+        .topbar {
+          padding-top: 20px;
+          flex-direction: column;
+          align-items: flex-start;
+        }
+
+        .hero-inner,
+        .section-head,
+        .workflow,
+        .download-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .hero {
+          padding-top: 22px;
+        }
+
+        .hero-inner {
+          min-height: unset;
+        }
+
+        .hero-visual {
+          min-height: 460px;
+        }
+
+        .hero-main {
+          inset: 86px 0 0 46px;
+        }
+
+        .triple,
+        .keywords {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        footer {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+      }
+
+      @media (max-width: 640px) {
+        .nav {
+          flex-wrap: wrap;
+          gap: 12px;
+        }
+
+        .hero {
+          padding-bottom: 38px;
+        }
+
+        .hero-copy p {
+          font-size: 1rem;
+        }
+
+        .hero-visual {
+          min-height: 360px;
+        }
+
+        .hero-main {
+          inset: 92px 0 0 28px;
+        }
+
+        .hero-side {
+          width: 170px;
+          height: 116px;
+        }
+
+        .hero-bottom {
+          width: 180px;
+          height: 118px;
+        }
+
+        main section {
+          padding: 72px 0;
+        }
+
+        .triple,
+        .keywords {
+          grid-template-columns: 1fr;
+        }
+
+        .download-strip {
+          padding: 28px 22px;
+        }
+      }
+    </style>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareSourceCode",
+        "name": "VeriClaw 爪印",
+        "description": "AI agent correction and LLM supervision companion for OpenClaw on Apple-native surfaces.",
+        "codeRepository": "https://github.com/Sheygoodbai/vericlaw",
+        "url": "https://sheygoodbai.github.io/vericlaw/",
+        "image": "https://sheygoodbai.github.io/vericlaw/assets/social-preview-brand.png",
+        "license": "https://github.com/Sheygoodbai/vericlaw/blob/main/LICENSE",
+        "keywords": [
+          "AI agent correction",
+          "LLM supervision",
+          "Hallucination remediation",
+          "Role drift diagnosis",
+          "OpenClaw companion",
+          "macOS AI companion"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="https://github.com/Sheygoodbai/vericlaw">
+        <img
+          class="brand-mark"
+          src="assets/branding/vericlaw-brand-mark.png"
+          alt="VeriClaw brand mark"
+        />
+        <span class="brand-copy">
+          <strong>VeriClaw 爪印</strong>
+          <span>Apple-native correction companion for OpenClaw</span>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="https://github.com/Sheygoodbai/vericlaw/releases/latest">Release</a>
+        <a href="launch/github-launch-kit.md">Launch kit</a>
+        <a href="launch/market-differentiation.md">Differentiation</a>
+        <a href="https://github.com/Sheygoodbai/vericlaw">GitHub</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <span class="eyebrow">GitHub-first public launch</span>
+          <h1>VeriClaw 爪印</h1>
+          <p>
+            AI agent correction, LLM supervision, and role-drift diagnosis for
+            OpenClaw on Apple-native surfaces.
+          </p>
+          <p>
+            Turn hallucination, fake completion, overreach, and broken
+            professional-role contracts into evidence, diagnosis, intervention,
+            verification, and casebook learning.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://github.com/Sheygoodbai/vericlaw/releases/latest">
+              Open latest release
+            </a>
+            <a class="button button-secondary" href="https://github.com/Sheygoodbai/vericlaw/archive/refs/heads/main.zip">
+              Download source zip
+            </a>
+            <a class="button button-warm" href="launch/github-launch-kit.md">
+              Share the launch kit
+            </a>
+          </div>
+          <div class="hero-notes">
+            <span>evidence -> diagnosis -> intervention -> verification</span>
+            <span>macOS and iPhone companion story</span>
+            <span>OpenClaw remains the runtime and gateway</span>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-frame hero-side">
+            <img src="assets/screenshots/01-connect-gateway.png" alt="" />
+          </div>
+          <div class="hero-frame hero-main">
+            <img src="assets/screenshots/04-context-dashboard.png" alt="" />
+          </div>
+          <div class="hero-frame hero-bottom">
+            <img src="assets/screenshots/03-role-aware-followup.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main class="shell">
+      <section>
+        <div class="section-head">
+          <h2>Built for the moment a bot drifts.</h2>
+          <p>
+            VeriClaw is not another monitoring-only surface. It is a correction
+            workspace for teams that need to decide what happened, what should
+            happen next, and whether the fix actually held.
+          </p>
+        </div>
+        <div class="triple">
+          <article>
+            <h3>Evidence before guesswork</h3>
+            <p>
+              Capture what the assistant actually did before context disappears
+              into another incident thread or dashboard screenshot.
+            </p>
+          </article>
+          <article>
+            <h3>Role-drift diagnosis</h3>
+            <p>
+              Frame failures as broken professional-role contracts when that
+              helps teams move from confusion to a concrete intervention faster.
+            </p>
+          </article>
+          <article>
+            <h3>Verification and casebook learning</h3>
+            <p>
+              Close the loop only after the prescribed correction is tested and
+              the reusable lesson is written back into the casebook.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <div class="workflow">
+          <div class="workflow-media" aria-hidden="true">
+            <img src="assets/screenshots/02-review-settings.png" alt="" />
+            <img src="assets/screenshots/03-role-aware-followup.png" alt="" />
+            <img src="assets/screenshots/01-connect-gateway.png" alt="" />
+          </div>
+          <div class="workflow-copy">
+            <div class="section-head" style="margin-bottom: 0;">
+              <h2>The correction loop</h2>
+              <p>
+                This repository is the public launch pack for the VeriClaw story:
+                screenshots, positioning, release copy, legal redistribution
+                materials, and the GitHub-first launch surface.
+              </p>
+            </div>
+            <ol>
+              <li>Start from evidence, not vibes.</li>
+              <li>Diagnose hallucination, overreach, fake completion, or role drift.</li>
+              <li>Choose an intervention the operator can review and apply.</li>
+              <li>Verify the correction before calling the loop closed.</li>
+              <li>Leave behind casebook learning for the next incident.</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Search-ready positioning</h2>
+          <p>
+            The page and repository copy intentionally speak to the problems
+            people search for: AI agent supervision, LLM correction,
+            hallucination remediation, role-drift diagnosis, and Apple-native
+            oversight around OpenClaw.
+          </p>
+        </div>
+        <div class="keywords">
+          <div class="keyword">
+            <strong>AI agent correction</strong>
+            <p>
+              For operators who need more than logs when a production assistant
+              drifts or overreaches.
+            </p>
+          </div>
+          <div class="keyword">
+            <strong>LLM supervision</strong>
+            <p>
+              A correction-first story for teams evaluating supervision workflows
+              instead of monitoring-only observability.
+            </p>
+          </div>
+          <div class="keyword">
+            <strong>Hallucination remediation</strong>
+            <p>
+              Evidence, intervention guidance, and verification for moments when
+              a bot invents, guesses, or closes work falsely.
+            </p>
+          </div>
+          <div class="keyword">
+            <strong>OpenClaw companion</strong>
+            <p>
+              VeriClaw strengthens OpenClaw as a native companion surface rather
+              than pretending to replace the runtime and gateway.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="download-strip">
+          <div class="download-grid">
+            <div>
+              <div class="section-head" style="margin-bottom: 0;">
+                <h2>Download, forward, and reuse.</h2>
+                <p>
+                  The public surface is GitHub-first today. That means the
+                  cleanest calls to action are the release page, the source ZIP,
+                  the launch kit, and the screenshot pack you can forward
+                  internally or externally.
+                </p>
+              </div>
+              <div class="download-actions">
+                <a class="button button-primary" href="https://github.com/Sheygoodbai/vericlaw/releases/latest">
+                  Release notes
+                </a>
+                <a class="button button-secondary" href="https://github.com/Sheygoodbai/vericlaw/archive/refs/heads/main.zip">
+                  Source ZIP
+                </a>
+                <a class="button button-warm" href="https://github.com/Sheygoodbai/vericlaw">
+                  Star or fork on GitHub
+                </a>
+              </div>
+            </div>
+            <div class="download-panel">
+              <h3>What people can get right now</h3>
+              <p>
+                The repository already includes shareable launch assets and
+                public redistribution guidance, even while Apple-native
+                distribution hardening continues in parallel.
+              </p>
+              <ul>
+                <li>launch copy and release-ready messaging</li>
+                <li>product screenshots and social preview assets</li>
+                <li>legal, attribution, trademark, and enforcement materials</li>
+                <li>market positioning and first-use UX notes</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>
+        VeriClaw 爪印 is the Apple-native correction companion for OpenClaw.
+      </span>
+      <span>
+        <a href="https://github.com/Sheygoodbai/vericlaw">GitHub</a>
+        ·
+        <a href="launch/github-publish-checklist.md">Publish checklist</a>
+        ·
+        <a href="https://github.com/openclaw/openclaw">Upstream OpenClaw</a>
+      </span>
+    </footer>
+  </body>
+</html>
