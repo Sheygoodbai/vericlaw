@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Download VeriClaw 爪印</title>
+    <meta
+      name="description"
+      content="Stable public download entry for VeriClaw 爪印 with direct GitHub release assets, checksums, release notes, and source archive."
+    />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <link rel="canonical" href="https://sheygoodbai.github.io/vericlaw/download/" />
+    <link rel="icon" type="image/png" href="../assets/branding/vericlaw-brand-mark.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Download VeriClaw 爪印" />
+    <meta
+      property="og:description"
+      content="Direct release downloads for VeriClaw 爪印 with macOS app, checksums, release notes, and source archive."
+    />
+    <meta property="og:url" content="https://sheygoodbai.github.io/vericlaw/download/" />
+    <meta
+      property="og:image"
+      content="https://sheygoodbai.github.io/vericlaw/assets/social-preview-brand.png"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="VeriClaw social preview" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Download VeriClaw 爪印" />
+    <meta
+      name="twitter:description"
+      content="Stable public download entry for VeriClaw 爪印 with direct GitHub release assets."
+    />
+    <meta
+      name="twitter:image"
+      content="https://sheygoodbai.github.io/vericlaw/assets/social-preview-brand.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg: #f4efe6;
+        --surface: rgba(255, 250, 242, 0.9);
+        --surface-strong: #fffaf2;
+        --ink: #121312;
+        --muted: #5d635f;
+        --line: rgba(18, 19, 18, 0.12);
+        --accent: #0f766e;
+        --warm: #c2410c;
+        --hero: #0d1d1c;
+        --hero-muted: rgba(244, 239, 230, 0.78);
+        --shadow: 0 24px 60px rgba(13, 29, 28, 0.16);
+        --radius: 28px;
+        --content: min(1080px, calc(100vw - 40px));
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background:
+          radial-gradient(circle at top left, rgba(194, 65, 12, 0.08), transparent 30%),
+          radial-gradient(circle at top right, rgba(15, 118, 110, 0.12), transparent 32%),
+          var(--bg);
+        color: var(--ink);
+        font-family: "Space Grotesk", sans-serif;
+        text-rendering: optimizeLegibility;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      img {
+        display: block;
+        max-width: 100%;
+      }
+
+      .topbar,
+      main,
+      footer {
+        width: var(--content);
+        margin: 0 auto;
+      }
+
+      .topbar {
+        padding: 26px 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+      }
+
+      .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 14px;
+        text-decoration: none;
+      }
+
+      .brand-mark {
+        width: 44px;
+        height: 44px;
+        border-radius: 14px;
+        box-shadow: 0 14px 30px rgba(0, 0, 0, 0.16);
+      }
+
+      .brand-copy strong,
+      .brand-copy span {
+        display: block;
+      }
+
+      .brand-copy strong {
+        font-size: 0.9rem;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+      }
+
+      .brand-copy span {
+        color: rgba(18, 19, 18, 0.66);
+        font-size: 0.9rem;
+      }
+
+      .nav {
+        display: inline-flex;
+        gap: 18px;
+        font-size: 0.94rem;
+      }
+
+      .nav a {
+        color: rgba(18, 19, 18, 0.78);
+        text-decoration: none;
+      }
+
+      .nav a:hover,
+      .nav a:focus-visible {
+        color: var(--ink);
+      }
+
+      main {
+        padding: 20px 0 54px;
+      }
+
+      .hero {
+        position: relative;
+        overflow: hidden;
+        border-radius: 34px;
+        padding: 36px;
+        background:
+          linear-gradient(135deg, rgba(15, 118, 110, 0.22), transparent 44%),
+          linear-gradient(180deg, rgba(194, 65, 12, 0.12), transparent 52%),
+          var(--hero);
+        color: white;
+        box-shadow: var(--shadow);
+      }
+
+      .hero::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: url("../assets/vericlaw-lobster-diffuse.svg");
+        background-repeat: no-repeat;
+        background-position: right -120px top -20px;
+        background-size: 560px auto;
+        opacity: 0.18;
+        mix-blend-mode: screen;
+        pointer-events: none;
+      }
+
+      .hero-grid {
+        position: relative;
+        z-index: 1;
+        display: grid;
+        grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+        gap: 28px;
+        align-items: end;
+      }
+
+      .eyebrow {
+        display: inline-block;
+        padding: 10px 14px;
+        border: 1px solid rgba(244, 239, 230, 0.14);
+        border-radius: 999px;
+        color: var(--hero-muted);
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        font-size: 0.74rem;
+      }
+
+      h1 {
+        margin: 18px 0 14px;
+        font-family: "Source Serif 4", serif;
+        font-size: clamp(3rem, 5vw, 4.6rem);
+        line-height: 0.94;
+        letter-spacing: -0.04em;
+      }
+
+      .hero p {
+        margin: 0;
+        max-width: 640px;
+        color: var(--hero-muted);
+        line-height: 1.68;
+      }
+
+      .hero-actions {
+        margin-top: 24px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 50px;
+        padding: 0 20px;
+        border-radius: 999px;
+        border: 1px solid transparent;
+        font-weight: 600;
+        text-decoration: none;
+        transition:
+          transform 160ms ease,
+          box-shadow 160ms ease,
+          background 160ms ease,
+          border-color 160ms ease;
+      }
+
+      .button:hover,
+      .button:focus-visible {
+        transform: translateY(-1px);
+      }
+
+      .button-primary {
+        background: linear-gradient(135deg, #14b8a6, #0f766e);
+        color: white;
+        box-shadow: 0 18px 36px rgba(15, 118, 110, 0.24);
+      }
+
+      .button-secondary {
+        border-color: rgba(244, 239, 230, 0.22);
+        background: rgba(244, 239, 230, 0.08);
+        color: white;
+      }
+
+      .button-warm {
+        background: rgba(194, 65, 12, 0.14);
+        border-color: rgba(194, 65, 12, 0.22);
+        color: #ffd5c2;
+      }
+
+      .hero-panel {
+        padding: 22px;
+        border-radius: 24px;
+        background: rgba(255, 250, 242, 0.08);
+        border: 1px solid rgba(255, 250, 242, 0.12);
+        backdrop-filter: blur(18px);
+      }
+
+      .hero-panel strong,
+      .hero-panel span {
+        display: block;
+      }
+
+      .hero-panel strong {
+        font-size: 0.88rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: rgba(244, 239, 230, 0.9);
+      }
+
+      .hero-panel span {
+        margin-top: 8px;
+        color: var(--hero-muted);
+        line-height: 1.65;
+      }
+
+      .section {
+        margin-top: 26px;
+        display: grid;
+        gap: 20px;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 20px;
+      }
+
+      .card {
+        padding: 24px;
+        border-radius: 26px;
+        background: var(--surface);
+        border: 1px solid var(--line);
+        box-shadow: 0 18px 40px rgba(18, 19, 18, 0.08);
+      }
+
+      .card h2,
+      .card h3 {
+        margin: 0;
+        font-family: "Source Serif 4", serif;
+        letter-spacing: -0.03em;
+      }
+
+      .card h2 {
+        font-size: 2rem;
+      }
+
+      .card h3 {
+        font-size: 1.2rem;
+      }
+
+      .card p {
+        margin: 12px 0 0;
+        color: var(--muted);
+        line-height: 1.68;
+      }
+
+      .download-meta {
+        margin-top: 18px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .pill {
+        display: inline-flex;
+        align-items: center;
+        min-height: 34px;
+        padding: 0 12px;
+        border-radius: 999px;
+        background: rgba(15, 118, 110, 0.08);
+        color: var(--accent);
+        font-size: 0.88rem;
+        font-weight: 600;
+      }
+
+      .checksum {
+        margin-top: 18px;
+        padding: 16px 18px;
+        border-radius: 18px;
+        background: rgba(18, 19, 18, 0.05);
+        overflow-x: auto;
+        font-size: 0.88rem;
+        line-height: 1.7;
+      }
+
+      code {
+        font-family:
+          ui-monospace, SFMono-Regular, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+          "Courier New", monospace;
+      }
+
+      ul {
+        margin: 14px 0 0;
+        padding-left: 18px;
+        color: var(--muted);
+        line-height: 1.75;
+      }
+
+      footer {
+        padding: 0 0 36px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 14px;
+        color: rgba(18, 19, 18, 0.7);
+        font-size: 0.94rem;
+      }
+
+      footer a {
+        text-decoration: none;
+      }
+
+      @media (max-width: 900px) {
+        .hero-grid,
+        .grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media (max-width: 680px) {
+        .topbar {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+
+        .nav,
+        .hero-actions {
+          width: 100%;
+        }
+
+        .button {
+          width: 100%;
+        }
+
+        .hero {
+          padding: 28px 22px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="../">
+        <img
+          class="brand-mark"
+          src="../assets/branding/vericlaw-brand-mark.png"
+          alt="VeriClaw brand mark"
+        />
+        <span class="brand-copy">
+          <strong>VeriClaw 爪印</strong>
+          <span>Stable public download</span>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="../">Home</a>
+        <a href="https://github.com/Sheygoodbai/vericlaw/releases/latest">Release</a>
+        <a href="https://github.com/Sheygoodbai/vericlaw">GitHub</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-grid">
+          <div>
+            <span class="eyebrow">GitHub-hosted direct download</span>
+            <h1>Download VeriClaw without the ClawHub bottleneck.</h1>
+            <p>
+              This page links straight to the current GitHub release assets for
+              VeriClaw 爪印, so public users have a stable download entry even
+              when registry-side anonymous download limits are noisy.
+            </p>
+            <div class="hero-actions">
+              <a
+                class="button button-primary"
+                href="https://github.com/Sheygoodbai/vericlaw/releases/download/v0.1.0/VeriClaw-v0.1.0-macOS-arm64.zip"
+              >
+                Download macOS app
+              </a>
+              <a
+                class="button button-secondary"
+                href="https://github.com/Sheygoodbai/vericlaw/releases/latest"
+              >
+                Open latest release
+              </a>
+              <a
+                class="button button-warm"
+                href="https://github.com/Sheygoodbai/vericlaw/releases/download/v0.1.0/SHA256SUMS.txt"
+              >
+                Check SHA256
+              </a>
+            </div>
+          </div>
+          <aside class="hero-panel">
+            <strong>Current stable asset</strong>
+            <span>
+              <code>VeriClaw-v0.1.0-macOS-arm64.zip</code>
+            </span>
+            <span>
+              Release published April 4, 2026. Apple Silicon / arm64 build.
+            </span>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="card">
+          <h2>Direct app download</h2>
+          <p>
+            Use the GitHub release asset if you want the fastest path from
+            public page to installed app.
+          </p>
+          <div class="download-meta">
+            <span class="pill">v0.1.0</span>
+            <span class="pill">macOS arm64</span>
+            <span class="pill">25.7 MB</span>
+          </div>
+          <div class="hero-actions" style="margin-top: 18px;">
+            <a
+              class="button button-primary"
+              href="https://github.com/Sheygoodbai/vericlaw/releases/download/v0.1.0/VeriClaw-v0.1.0-macOS-arm64.zip"
+            >
+              Download app ZIP
+            </a>
+            <a
+              class="button button-secondary"
+              href="https://github.com/Sheygoodbai/vericlaw/releases/download/v0.1.0/SHA256SUMS.txt"
+            >
+              Download checksums
+            </a>
+          </div>
+          <div class="checksum">
+            <code>sha256 3e18587623fc137c38c8f71621230677f10edb404d70df8353d093057fdc4886</code>
+          </div>
+        </div>
+
+        <div class="grid">
+          <article class="card">
+            <h3>Release notes</h3>
+            <p>
+              Open the latest public release page for changelog, scope, and
+              current launch framing.
+            </p>
+            <div class="hero-actions" style="margin-top: 18px;">
+              <a class="button button-primary" href="https://github.com/Sheygoodbai/vericlaw/releases/latest">
+                Latest release
+              </a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Source archive</h3>
+            <p>
+              Need the tagged source instead of the app build? Use the
+              versioned release source archive.
+            </p>
+            <div class="hero-actions" style="margin-top: 18px;">
+              <a
+                class="button button-secondary"
+                href="https://github.com/Sheygoodbai/vericlaw/archive/refs/tags/v0.1.0.zip"
+              >
+                Source ZIP
+              </a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Repository</h3>
+            <p>
+              Browse code, launch assets, legal materials, and documentation on
+              GitHub.
+            </p>
+            <div class="hero-actions" style="margin-top: 18px;">
+              <a class="button button-secondary" href="https://github.com/Sheygoodbai/vericlaw">
+                Open GitHub repo
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <div class="card">
+          <h3>Why this page exists</h3>
+          <p>
+            Public download traffic should not depend on a registry endpoint
+            that can rate-limit anonymous ZIP requests. This page gives VeriClaw
+            a release-first fallback that stays simple:
+          </p>
+          <ul>
+            <li>direct GitHub-hosted app asset for the current stable release</li>
+            <li>tagged source archive for code-first users</li>
+            <li>release notes and checksums in the same place</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>VeriClaw 爪印 is the Apple-native correction companion for OpenClaw.</span>
+      <span>
+        <a href="../">Home</a>
+        ·
+        <a href="https://github.com/Sheygoodbai/vericlaw/releases/latest">Release</a>
+        ·
+        <a href="https://github.com/openclaw/openclaw">Upstream OpenClaw</a>
+      </span>
+    </footer>
+  </body>
+</html>

@@ -31,6 +31,8 @@
 <p align="center">
   <a href="https://sheygoodbai.github.io/vericlaw/"><strong>Landing page</strong></a>
   ·
+  <a href="https://sheygoodbai.github.io/vericlaw/download/"><strong>Download page</strong></a>
+  ·
   <a href="https://github.com/Sheygoodbai/vericlaw/releases/tag/v0.1.0"><strong>Latest release</strong></a>
   ·
   <a href="https://github.com/Sheygoodbai/vericlaw/archive/refs/heads/main.zip"><strong>Download source zip</strong></a>
@@ -79,6 +81,7 @@ what went wrong, what should happen next, and whether the correction actually he
 ## Download and share
 
 - Visit the [landing page](https://sheygoodbai.github.io/vericlaw/) for the fastest product overview, screenshots, and share-ready positioning.
+- Use the [download page](https://sheygoodbai.github.io/vericlaw/download/) for the most stable public entry to the current release asset, checksums, and source archive.
 - Open the [latest release](https://github.com/Sheygoodbai/vericlaw/releases/latest) for the current public launch snapshot.
 - Download the public source package as a [ZIP archive](https://github.com/Sheygoodbai/vericlaw/archive/refs/heads/main.zip) or clone the repository directly:
 
