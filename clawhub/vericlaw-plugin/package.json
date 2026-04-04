@@ -1,0 +1,43 @@
+{
+  "name": "vericlaw",
+  "displayName": "VeriClaw",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Evidence-first correction companion for supervising bots, tracing deviations, and routing precise intervention from the VeriClaw public repository.",
+  "keywords": [
+    "vericlaw",
+    "bot correction",
+    "evidence panel",
+    "ai supervision",
+    "agent quality",
+    "hallucination correction",
+    "work attitude",
+    "casebook",
+    "apple native",
+    "openclaw compatible"
+  ],
+  "homepage": "https://sheygoodbai.github.io/vericlaw/",
+  "bugs": {
+    "url": "https://github.com/Sheygoodbai/vericlaw/issues"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sheygoodbai/vericlaw.git",
+    "directory": "clawhub/vericlaw-plugin"
+  },
+  "type": "module",
+  "openclaw": {
+    "extensions": [
+      "./src/index.js"
+    ],
+    "compat": {
+      "pluginApi": ">=2026.3.14",
+      "minGatewayVersion": "2026.3.14"
+    },
+    "build": {
+      "openclawVersion": "2026.3.14",
+      "pluginSdkVersion": "2026.3.14"
+    }
+  }
+}

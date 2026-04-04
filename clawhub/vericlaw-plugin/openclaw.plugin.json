@@ -1,0 +1,34 @@
+{
+  "id": "vericlaw",
+  "name": "VeriClaw",
+  "description": "VeriClaw public companion entry for evidence-first bot correction, casebook routing, and release downloads.",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "landingUrl": {
+        "type": "string"
+      },
+      "downloadUrl": {
+        "type": "string"
+      },
+      "repositoryUrl": {
+        "type": "string"
+      }
+    }
+  },
+  "uiHints": {
+    "landingUrl": {
+      "label": "Landing URL",
+      "help": "Public product overview page for VeriClaw."
+    },
+    "downloadUrl": {
+      "label": "Download URL",
+      "help": "Stable public download page for the latest VeriClaw release."
+    },
+    "repositoryUrl": {
+      "label": "Repository URL",
+      "help": "Source-of-truth GitHub repository for VeriClaw."
+    }
+  }
+}
