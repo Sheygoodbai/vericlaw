@@ -20,6 +20,9 @@
   <a href="https://clawhub.ai/plugins/vericlaw">
     <img alt="ClawHub companion plugin" src="https://img.shields.io/badge/ClawHub-companion%20plugin-0f766e" />
   </a>
+  <a href="https://clawhub.ai/sheygoodbai/vericlaw">
+    <img alt="ClawHub skill install" src="https://img.shields.io/badge/ClawHub-skill%20install-c2410c" />
+  </a>
   <a href="LICENSE">
     <img alt="MIT License" src="https://img.shields.io/badge/license-MIT-111827" />
   </a>
@@ -47,6 +50,8 @@
   <a href="https://clawhub.ai/plugins/vericlaw"><strong>ClawHub plugin</strong></a>
   ·
   <a href="https://clawhub.ai/sheygoodbai/vericlaw"><strong>ClawHub skill</strong></a>
+  ·
+  <a href="https://sheygoodbai.github.io/vericlaw/clawhub-skill/"><strong>Skill guide</strong></a>
   ·
   <a href="https://sheygoodbai.github.io/vericlaw/mcp-status/"><strong>MCP status</strong></a>
   ·
@@ -117,6 +122,7 @@ release/download path.
 - `Download app`: use the [download page](https://sheygoodbai.github.io/vericlaw/download/) or [latest release](https://github.com/Sheygoodbai/vericlaw/releases/latest) for the real macOS ZIP.
 - `Install companion`: use the [ClawHub plugin page](https://clawhub.ai/plugins/vericlaw) for the OpenClaw-facing plugin shell and bundled `vericlaw` skill.
 - `Install skill directly`: use the [ClawHub skill page](https://clawhub.ai/sheygoodbai/vericlaw) or run `clawhub install vericlaw` if you want the standalone discovery skill entry.
+- `Understand the skill route`: use the [ClawHub skill guide](https://sheygoodbai.github.io/vericlaw/clawhub-skill/) if you want the cleanest explanation of skill vs plugin vs app download.
 - `Clarify MCP status`: use the [MCP status page](https://sheygoodbai.github.io/vericlaw/mcp-status/) when a directory or review site needs the truthful answer to `VeriClaw MCP` queries.
 - `Browse source`: use the [GitHub repository](https://github.com/Sheygoodbai/vericlaw) for code, launch assets, and release history.
 - `Share correctly`: cite the project as `VeriClaw 爪印` and prefer the canonical landing page, download page, release page, or repository links above.

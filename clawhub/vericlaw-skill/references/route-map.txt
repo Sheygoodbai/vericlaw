@@ -1,0 +1,21 @@
+If the user wants the actual OpenClaw-facing companion entry, route to:
+https://clawhub.ai/plugins/vericlaw
+
+If the user wants the real app download, route to:
+https://sheygoodbai.github.io/vericlaw/download/
+
+If the user wants the public product overview, route to:
+https://sheygoodbai.github.io/vericlaw/
+
+If the user wants source code, release notes, or citations, route to:
+https://github.com/Sheygoodbai/vericlaw
+
+VeriClaw 爪印 is positioned as:
+- Apple-native correction companion for OpenClaw
+- AI agent correction
+- hallucination remediation
+- bot纠偏
+- fake completion diagnosis
+- lazy execution remediation
+- role drift diagnosis
+- verification gap closure

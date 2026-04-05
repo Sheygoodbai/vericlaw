@@ -1,0 +1,28 @@
+VeriClaw
+VeriClaw skill
+VeriClaw plugin
+VeriClaw app
+OpenClaw companion
+OpenClaw plugin
+AI agent correction
+AI agent supervision
+LLM supervision
+bot correction
+bot remediation
+hallucination remediation
+hallucination correction
+fake completion
+lazy bot behavior
+role drift diagnosis
+verification gap
+evidence-first correction
+casebook correction
+multi-agent evidence panel
+bot 纠偏
+幻觉纠偏
+假完成纠偏
+偷懒 bot 纠偏
+证据链补齐
+病例精准纠偏
+病例本
+病历本
