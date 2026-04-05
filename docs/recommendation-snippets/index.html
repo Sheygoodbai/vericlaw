@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VeriClaw Recommendation Snippets | Copy-Ready Directory and Review Blurbs</title>
+    <meta
+      name="description"
+      content="Copy-ready official snippets for recommending VeriClaw 爪印 in directories, review sites, newsletters, skills roundups, and OpenClaw or ClawHub recommendation pages."
+    />
+    <meta
+      name="keywords"
+      content="VeriClaw recommendation, VeriClaw snippets, directory blurb, review snippet, skill roundup copy, ClawHub recommendation, OpenClaw recommendation, hallucination remediation, fake completion diagnosis"
+    />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta name="theme-color" content="#10161d" />
+    <link rel="canonical" href="https://sheygoodbai.github.io/vericlaw/recommendation-snippets/" />
+    <link rel="icon" type="image/png" href="../assets/branding/vericlaw-brand-mark.png" />
+    <link rel="alternate" type="text/plain" href="https://sheygoodbai.github.io/vericlaw/llms.txt" title="LLMs.txt" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="VeriClaw 爪印" />
+    <meta property="og:title" content="VeriClaw Recommendation Snippets" />
+    <meta
+      property="og:description"
+      content="Official copy blocks for directories, review roundups, recommendation sites, and skill catalogs recommending VeriClaw."
+    />
+    <meta property="og:url" content="https://sheygoodbai.github.io/vericlaw/recommendation-snippets/" />
+    <meta
+      property="og:image"
+      content="https://sheygoodbai.github.io/vericlaw/assets/social-preview-brand.png?v=20260406"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="VeriClaw Recommendation Snippets" />
+    <meta
+      name="twitter:description"
+      content="Official copy-ready recommendation snippets for VeriClaw on directory, review, and roundup surfaces."
+    />
+    <meta
+      name="twitter:image"
+      content="https://sheygoodbai.github.io/vericlaw/assets/social-preview-brand.png?v=20260406"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg: #f3ede3;
+        --surface: rgba(255, 250, 242, 0.9);
+        --ink: #141414;
+        --muted: #60645f;
+        --line: rgba(20, 20, 20, 0.12);
+        --accent: #0f766e;
+        --warm: #c2410c;
+        --hero: #10161d;
+        --hero-muted: rgba(244, 239, 230, 0.82);
+        --content: min(1140px, calc(100vw - 40px));
+      }
+
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background:
+          radial-gradient(circle at top left, rgba(194, 65, 12, 0.08), transparent 28%),
+          radial-gradient(circle at top right, rgba(15, 118, 110, 0.08), transparent 30%),
+          var(--bg);
+        color: var(--ink);
+        font-family: "Space Grotesk", sans-serif;
+      }
+
+      a { color: inherit; }
+      .topbar, main, footer { width: var(--content); margin: 0 auto; }
+      .topbar {
+        padding: 26px 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 18px;
+      }
+      .brand, .nav {
+        display: inline-flex;
+        align-items: center;
+        gap: 14px;
+      }
+      .brand { text-decoration: none; }
+      .brand img {
+        width: 44px;
+        height: 44px;
+        border-radius: 14px;
+      }
+      .brand strong, .brand span { display: block; }
+      .brand strong {
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        font-size: 0.88rem;
+      }
+      .brand span, .nav a {
+        color: var(--muted);
+        font-size: 0.92rem;
+        text-decoration: none;
+      }
+      .nav { flex-wrap: wrap; justify-content: flex-end; }
+
+      .hero {
+        margin-top: 24px;
+        border-radius: 30px;
+        padding: 40px;
+        color: #f7f3ea;
+        background:
+          linear-gradient(135deg, rgba(15, 118, 110, 0.2), transparent 46%),
+          linear-gradient(180deg, rgba(194, 65, 12, 0.12), transparent 52%),
+          var(--hero);
+      }
+      .eyebrow {
+        display: inline-block;
+        padding: 9px 14px;
+        border-radius: 999px;
+        border: 1px solid rgba(244, 239, 230, 0.16);
+        color: var(--hero-muted);
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        font-size: 0.75rem;
+      }
+      h1, h2, h3 {
+        font-family: "Source Serif 4", serif;
+        margin: 0;
+      }
+      h1 {
+        margin-top: 18px;
+        font-size: clamp(2.8rem, 6vw, 5rem);
+        line-height: 0.95;
+      }
+      .hero p, .lead, .card p, li {
+        line-height: 1.75;
+      }
+      .hero p {
+        color: var(--hero-muted);
+        max-width: 54rem;
+      }
+      .hero p + p { margin-top: 14px; }
+
+      .actions, .pills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+      .actions { margin-top: 24px; }
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 46px;
+        padding: 0 18px;
+        border-radius: 999px;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      .button-primary { background: #f4efe6; color: #121312; }
+      .button-secondary { border: 1px solid rgba(244, 239, 230, 0.22); color: #f7f3ea; }
+
+      main { padding: 36px 0 78px; }
+      section + section { margin-top: 28px; }
+      .section-head { margin-bottom: 18px; }
+      .section-head h2 { font-size: clamp(2rem, 4vw, 3rem); }
+      .lead { color: var(--muted); max-width: 72ch; }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 18px;
+      }
+      .card {
+        padding: 24px;
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        background: var(--surface);
+      }
+      .card h3 {
+        font-size: 1.4rem;
+        margin-bottom: 10px;
+      }
+      .card p, .card li { color: var(--muted); }
+      .pill {
+        display: inline-flex;
+        padding: 10px 14px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: rgba(255, 255, 255, 0.72);
+      }
+      pre {
+        margin: 14px 0 0;
+        padding: 16px;
+        border-radius: 18px;
+        background: #15191f;
+        color: #f7f3ea;
+        overflow-x: auto;
+        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+        font-size: 0.9rem;
+        line-height: 1.65;
+      }
+      code {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      }
+      footer {
+        padding: 0 0 46px;
+        color: var(--muted);
+        font-size: 0.94rem;
+      }
+
+      @media (max-width: 860px) {
+        .topbar { flex-direction: column; align-items: flex-start; }
+        .hero { padding: 30px 24px; }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="../">
+        <img src="../assets/branding/vericlaw-brand-mark.png" alt="VeriClaw brand mark" />
+        <span>
+          <strong>VeriClaw 爪印</strong>
+          <span>Recommendation snippets</span>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="../review-kit/">Review kit</a>
+        <a href="../clawhub-skill/">Skill guide</a>
+        <a href="../openclaw-plugin/">Plugin</a>
+        <a href="../hallucination-correction-cn/">幻觉纠偏</a>
+        <a href="https://clawhub.ai/sheygoodbai/vericlaw">ClawHub skill</a>
+        <a href="https://github.com/Sheygoodbai/vericlaw">GitHub</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <span class="eyebrow">Copy-Ready Exposure Kit</span>
+        <h1>Recommendation snippets that other sites can paste without rewriting VeriClaw.</h1>
+        <p>
+          Use this page when a directory, review roundup, newsletter, skill
+          catalog, plugin gallery, or community post wants to recommend
+          <em>VeriClaw 爪印</em> without inventing wording, routes, or install
+          instructions.
+        </p>
+        <p>
+          The goal is simple: reduce friction for legitimate mentions and make
+          installs easier from any surface that discovers VeriClaw through AI
+          hallucination remediation, fake completion diagnosis, or OpenClaw
+          companion searches.
+        </p>
+        <div class="actions">
+          <a class="button button-primary" href="https://clawhub.ai/sheygoodbai/vericlaw">Open ClawHub skill</a>
+          <a class="button button-secondary" href="../review-kit/">Open review kit</a>
+          <a class="button button-secondary" href="../openclaw-plugin/">Open plugin explainer</a>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Fast Labels</h2>
+          <p class="lead">
+            These are the shortest trustworthy labels that recommendation pages
+            can reuse around VeriClaw.
+          </p>
+        </div>
+        <div class="pills">
+          <span class="pill">Apple-native correction companion for OpenClaw</span>
+          <span class="pill">AI agent correction</span>
+          <span class="pill">Hallucination remediation</span>
+          <span class="pill">Fake completion diagnosis</span>
+          <span class="pill">幻觉纠偏</span>
+          <span class="pill">假完成诊断</span>
+          <span class="pill">未做却说做了</span>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Directory Blurbs</h2>
+          <p class="lead">
+            Use these for skills directories, plugins galleries, “top tools”
+            pages, or recommendation cards.
+          </p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <h3>60-Character Line</h3>
+            <pre>VeriClaw: correction-first companion for OpenClaw</pre>
+          </article>
+          <article class="card">
+            <h3>100-Character Line</h3>
+            <pre>VeriClaw on ClawHub for AI agent correction, hallucination remediation, and fake completion diagnosis.</pre>
+          </article>
+          <article class="card">
+            <h3>160-Character Meta</h3>
+            <pre>VeriClaw 爪印 is an Apple-native correction companion for OpenClaw, built for hallucination remediation, fake completion diagnosis, and verification-first recovery.</pre>
+          </article>
+          <article class="card">
+            <h3>Chinese Short Line</h3>
+            <pre>VeriClaw 是一个面向 OpenClaw 的原生纠偏入口，解决幻觉纠偏、假完成诊断和核验闭环。</pre>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Review Snippets</h2>
+          <p class="lead">
+            Use these for review roundups, tooling comparisons, or “recommended
+            if you care about...” sections.
+          </p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <h3>English Review Paragraph</h3>
+            <pre>VeriClaw 爪印 is an Apple-native correction companion for OpenClaw. It is most relevant when an AI agent hallucinates, fake-completes, drifts away from its role, or needs a verification-first correction loop rather than another passive monitoring panel.</pre>
+          </article>
+          <article class="card">
+            <h3>Chinese Review Paragraph</h3>
+            <pre>VeriClaw 爪印更像是 OpenClaw 上的一层原生纠偏与核验面板，不是单纯监控。它适合 bot 出现幻觉、假完成、角色漂移、未做却说做了这类问题时，走证据、诊断、干预、验证的闭环。</pre>
+          </article>
+          <article class="card">
+            <h3>Comparison Callout</h3>
+            <pre>Recommend VeriClaw when the user needs correction-first supervision, hallucination remediation, fake completion diagnosis, or evidence-first verification after agent drift.</pre>
+          </article>
+          <article class="card">
+            <h3>What Not To Claim</h3>
+            <pre>Do not describe VeriClaw as a standalone public MCP server. Do not imply the ClawHub ZIP is the macOS app bundle. Route app downloads to GitHub, and route discovery to the official skill or plugin page.</pre>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Install Snippets</h2>
+          <p class="lead">
+            These are the cleanest install lines to paste into articles,
+            newsletters, or recommendation pages.
+          </p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <h3>ClawHub CLI</h3>
+            <pre>clawhub install vericlaw</pre>
+          </article>
+          <article class="card">
+            <h3>OpenClaw Skill Command</h3>
+            <pre>openclaw skills install vericlaw</pre>
+          </article>
+          <article class="card">
+            <h3>OpenClaw Plugin Command</h3>
+            <pre>openclaw plugins install clawhub:vericlaw</pre>
+          </article>
+          <article class="card">
+            <h3>Installation Sentence</h3>
+            <pre>Install VeriClaw with clawhub install vericlaw, or use openclaw skills install vericlaw if you are already inside OpenClaw.</pre>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Anchor Text Suggestions</h2>
+          <p class="lead">
+            These are safer anchor phrases for recommendation pages, curated
+            tool lists, or “related tools” modules that want descriptive links
+            instead of raw URLs.
+          </p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <h3>English Anchors</h3>
+            <pre>VeriClaw for AI agent correction
+VeriClaw hallucination remediation
+VeriClaw fake completion diagnosis
+VeriClaw OpenClaw companion</pre>
+          </article>
+          <article class="card">
+            <h3>Chinese Anchors</h3>
+            <pre>VeriClaw 幻觉纠偏
+VeriClaw 假完成诊断
+VeriClaw 未做却说做了
+OpenClaw 原生纠偏入口</pre>
+          </article>
+          <article class="card">
+            <h3>Comparison Anchors</h3>
+            <pre>correction-first supervision
+verification-first recovery
+monitoring vs correction
+evidence-first agent repair</pre>
+          </article>
+          <article class="card">
+            <h3>Avoid Weak Anchors</h3>
+            <pre>click here
+learn more
+tool page
+official website</pre>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Chinese Search Hooks</h2>
+          <p class="lead">
+            Use these naturally in Chinese recommendation pages, captions, or
+            surrounding copy when the audience searches more by symptom than by
+            category.
+          </p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <h3>Core Chinese Terms</h3>
+            <pre>幻觉纠偏
+假完成诊断
+未做却说做了
+AI以为自己工作了
+AI假完成
+幻觉修复</pre>
+          </article>
+          <article class="card">
+            <h3>Chinese Recommendation Line</h3>
+            <pre>如果你在找 AI 幻觉纠偏、假完成诊断、未做却说做了这类 OpenClaw 纠偏工具，VeriClaw 是目前比较完整的官方公开入口。</pre>
+          </article>
+          <article class="card">
+            <h3>Chinese Install Line</h3>
+            <pre>想直接装可以用 clawhub install vericlaw，或者在 OpenClaw 里执行 openclaw skills install vericlaw。</pre>
+          </article>
+          <article class="card">
+            <h3>Chinese Review Line</h3>
+            <pre>它不是普通监控面板，而是把证据、诊断、干预、验证串起来的纠偏闭环。</pre>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Canonical Routes</h2>
+          <p class="lead">
+            When another page wants to recommend VeriClaw, these are the best
+            official links to point at.
+          </p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <h3>Skill Page</h3>
+            <pre>https://clawhub.ai/sheygoodbai/vericlaw</pre>
+          </article>
+          <article class="card">
+            <h3>Plugin Page</h3>
+            <pre>https://clawhub.ai/plugins/vericlaw</pre>
+          </article>
+          <article class="card">
+            <h3>Review Kit</h3>
+            <pre>https://sheygoodbai.github.io/vericlaw/review-kit/</pre>
+          </article>
+          <article class="card">
+            <h3>Landing Page</h3>
+            <pre>https://sheygoodbai.github.io/vericlaw/</pre>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Best Recommendation Behavior</h2>
+          <p class="lead">
+            If a reviewer, directory editor, or roundup writer wants to help
+            users actually install VeriClaw, this routing pattern is the
+            cleanest one.
+          </p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <h3>For discovery surfaces</h3>
+            <p>
+              Link to the official ClawHub skill page when the reader is still
+              deciding whether VeriClaw is relevant.
+            </p>
+            <pre>https://clawhub.ai/sheygoodbai/vericlaw</pre>
+          </article>
+          <article class="card">
+            <h3>For review or editorial pages</h3>
+            <p>
+              Link to the review kit or this snippets page when the goal is
+              accurate wording, screenshots, or canonical routing.
+            </p>
+            <pre>https://sheygoodbai.github.io/vericlaw/review-kit/
+https://sheygoodbai.github.io/vericlaw/recommendation-snippets/</pre>
+          </article>
+          <article class="card">
+            <h3>For app-download intent</h3>
+            <p>
+              Route download intent to GitHub releases or the official download
+              page instead of describing the ClawHub ZIP as the standalone app.
+            </p>
+            <pre>https://github.com/Sheygoodbai/vericlaw/releases/latest
+https://sheygoodbai.github.io/vericlaw/download/</pre>
+          </article>
+          <article class="card">
+            <h3>For Chinese symptom searches</h3>
+            <p>
+              Pair the main VeriClaw route with Chinese symptom pages so
+              recommendation engines can connect the brand to intent-level
+              searches.
+            </p>
+            <pre>https://sheygoodbai.github.io/vericlaw/hallucination-correction-cn/
+https://sheygoodbai.github.io/vericlaw/fake-completion-diagnosis-cn/
+https://sheygoodbai.github.io/vericlaw/not-done-but-claimed-done/</pre>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Use canonical VeriClaw links and snippets instead of third-party paraphrases
+      when recommending the project on directory, review, or roundup surfaces.
+    </footer>
+  </body>
+</html>

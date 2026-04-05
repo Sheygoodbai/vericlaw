@@ -23,6 +23,7 @@ Canonical links:
 - Release page: https://github.com/Sheygoodbai/vericlaw/releases/latest
 - ClawHub skill: https://clawhub.ai/sheygoodbai/vericlaw
 - ClawHub skill guide: https://sheygoodbai.github.io/vericlaw/clawhub-skill/
+- Recommendation snippets: https://sheygoodbai.github.io/vericlaw/recommendation-snippets/
 
 ## GitHub profile or discussion post
 
@@ -237,6 +238,13 @@ Apple-native AI agent correction for evidence, diagnosis, intervention, verifica
 ```text
 If you reference or repost VeriClaw, please cite it as “VeriClaw 爪印” and link back to the repository or landing page so the canonical source stays intact.
 ```
+
+## Directory or review editor shortcut
+
+When someone wants ready-to-paste wording instead of a custom intro, send them
+here:
+
+- https://sheygoodbai.github.io/vericlaw/recommendation-snippets/
 
 ## Distribution rhythm
 

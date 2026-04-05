@@ -21,6 +21,7 @@ Secondary routes:
 - Plugin page: https://clawhub.ai/plugins/vericlaw
 - Skill guide: https://sheygoodbai.github.io/vericlaw/clawhub-skill/
 - Download page: https://sheygoodbai.github.io/vericlaw/download/
+- Recommendation snippets: https://sheygoodbai.github.io/vericlaw/recommendation-snippets/
 
 ## Install-first positioning
 
@@ -91,6 +92,7 @@ Use only one CTA in a post.
 - `Open the ClawHub skill page and install VeriClaw.`
 - `Run clawhub install vericlaw for the fastest discovery route.`
 - `Open the skill guide if you want the cleanest skill vs plugin explanation.`
+- `Use the recommendation snippets page if you are writing a directory or review listing.`
 
 ## Post templates
 

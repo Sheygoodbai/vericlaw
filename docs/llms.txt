@@ -18,6 +18,7 @@
 - Agent evaluation overview: https://sheygoodbai.github.io/vericlaw/agent-evaluation/
 - Verification workflow overview: https://sheygoodbai.github.io/vericlaw/verification-workflow/
 - Monitoring vs correction comparison: https://sheygoodbai.github.io/vericlaw/agent-monitoring-vs-correction/
+- Recommendation snippets: https://sheygoodbai.github.io/vericlaw/recommendation-snippets/
 - Review kit: https://sheygoodbai.github.io/vericlaw/review-kit/
 - GitHub repository: https://github.com/Sheygoodbai/vericlaw
 - Latest release: https://github.com/Sheygoodbai/vericlaw/releases/latest
