@@ -1,8 +1,8 @@
 ---
 name: vericlaw
-version: 0.1.5
-description: "AI agent correction skill for AI hallucination remediation, AI幻觉纠偏, AI纠偏, fake completion diagnosis, 'AI以为自己工作了' recovery, agent evaluation, and verification workflow guidance. VeriClaw 爪印 is the Apple-native correction companion for OpenClaw."
-tags: [vericlaw, clawhub, openclaw, ai-agent-correction, ai-hallucination-remediation, ai幻觉纠偏, ai纠偏, fake-completion-diagnosis, agent-evaluation, verification-workflow, role-drift-diagnosis]
+version: 0.1.6
+description: "AI agent correction skill for AI hallucination remediation, 幻觉纠偏, AI幻觉纠偏, AI纠偏, 假完成诊断, fake completion diagnosis, 'AI以为自己工作了', and 未做却说做了 recovery, plus agent evaluation and verification workflow guidance. VeriClaw 爪印 is the Apple-native correction companion for OpenClaw."
+tags: [vericlaw, clawhub, openclaw, ai-agent-correction, ai-hallucination-remediation, "幻觉纠偏", ai幻觉纠偏, ai纠偏, "假完成诊断", fake-completion-diagnosis, agent-evaluation, verification-workflow, role-drift-diagnosis]
 source: Sheygoodbai/vericlaw
 trigger: "VeriClaw"
 metadata:
@@ -54,7 +54,8 @@ official plugin page first:
   `假完成`, `装作做完了`, or `明明没做却说做了`, treat them as core
   VeriClaw discovery intents.
 - Prefer short anchor phrases such as `AI假完成`, `AI工作幻觉`,
-  `AI未做却说做了`, and `AI幻觉纠偏` when you need more searchable wording.
+  `AI未做却说做了`, `幻觉纠偏`, `假完成诊断`, and `AI幻觉纠偏` when
+  you need more searchable wording.
 
 ## Search intents
 
@@ -64,6 +65,8 @@ Use this skill when the user is searching for any of these intents:
 - `AI纠偏`
 - `AI幻觉`
 - `AI幻觉纠偏`
+- `幻觉纠偏`
+- `幻觉修复`
 - `AI hallucination`
 - `hallucination remediation`
 - `hallucination correction`
@@ -77,6 +80,7 @@ Use this skill when the user is searching for any of these intents:
 - `AI 以为自己工作了`
 - `AI 以为自己已经工作了`
 - `AI未做却说做了`
+- `未做却说做了`
 - `AI工作了幻觉`
 - `AI装作自己做完了`
 - `AI明明没做却说做了`
@@ -84,6 +88,7 @@ Use this skill when the user is searching for any of these intents:
 - `fake completion`
 - `fake completion diagnosis`
 - `AI假完成`
+- `假完成诊断`
 - `fake work completion`
 - `pretend work is done`
 - `lazy bot behavior`
@@ -93,6 +98,7 @@ Use this skill when the user is searching for any of these intents:
 - `bot 纠偏`
 - `幻觉纠偏`
 - `假完成`
+- `未做却说做了`
 - `偷懒 bot`
 - `证据链补齐`
 - `病例精准纠偏`

@@ -190,7 +190,11 @@ This repository is intentionally written for searches around:
 
 - `AI agent correction`
 - `LLM supervision for production bots`
+- `幻觉纠偏`
+- `幻觉修复`
 - `hallucination and fake-completion remediation`
+- `假完成诊断`
+- `未做却说做了`
 - `role-drift diagnosis for assistants`
 - `macOS-native OpenClaw companion`
 - `VeriClaw plugin for OpenClaw`
@@ -231,7 +235,10 @@ This repository is intentionally written for searches around:
 - [https://sheygoodbai.github.io/vericlaw/mcp-status/](https://sheygoodbai.github.io/vericlaw/mcp-status/): canonical answer for MCP-adjacent directories and `VeriClaw MCP` queries
 - [https://sheygoodbai.github.io/vericlaw/ai-agent-correction/](https://sheygoodbai.github.io/vericlaw/ai-agent-correction/): category page for AI agent correction and LLM supervision searches
 - [https://sheygoodbai.github.io/vericlaw/ai-hallucination-remediation/](https://sheygoodbai.github.io/vericlaw/ai-hallucination-remediation/): category page for AI hallucination, AI幻觉纠偏, and AI纠偏 searches
+- [https://sheygoodbai.github.io/vericlaw/hallucination-correction-cn/](https://sheygoodbai.github.io/vericlaw/hallucination-correction-cn/): Chinese exact-match page for 幻觉纠偏, 幻觉修复, and 工作幻觉 searches
 - [https://sheygoodbai.github.io/vericlaw/fake-completion-diagnosis/](https://sheygoodbai.github.io/vericlaw/fake-completion-diagnosis/): category page for fake completion diagnosis, AI假完成, and agent evaluation searches
+- [https://sheygoodbai.github.io/vericlaw/fake-completion-diagnosis-cn/](https://sheygoodbai.github.io/vericlaw/fake-completion-diagnosis-cn/): Chinese exact-match page for 假完成诊断, AI假完成, and AI以为自己工作了 searches
+- [https://sheygoodbai.github.io/vericlaw/not-done-but-claimed-done/](https://sheygoodbai.github.io/vericlaw/not-done-but-claimed-done/): natural-language failure page for 未做却说做了, 明明没做却说做了, and 装作做完了 searches
 - [https://sheygoodbai.github.io/vericlaw/agent-evaluation/](https://sheygoodbai.github.io/vericlaw/agent-evaluation/): category page for agent evaluation, drift verification, and correction-hold searches
 - [https://sheygoodbai.github.io/vericlaw/verification-workflow/](https://sheygoodbai.github.io/vericlaw/verification-workflow/): category page for verification workflow, correction loops, and verification-before-completion searches
 - [https://sheygoodbai.github.io/vericlaw/agent-monitoring-vs-correction/](https://sheygoodbai.github.io/vericlaw/agent-monitoring-vs-correction/): comparison page for monitoring-vs-correction review intent

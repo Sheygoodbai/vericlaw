@@ -8,6 +8,7 @@ AI agent correction
 AI纠偏
 AI幻觉
 AI幻觉纠偏
+幻觉修复
 AI hallucination
 AI hallucination remediation
 AI agent supervision
@@ -22,6 +23,7 @@ verification workflow
 fake completion
 fake completion diagnosis
 AI假完成
+假完成诊断
 fake work completion
 pretend work is done
 AI以为自己工作了
