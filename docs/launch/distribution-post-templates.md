@@ -24,6 +24,7 @@ Canonical links:
 - ClawHub skill: https://clawhub.ai/sheygoodbai/vericlaw
 - ClawHub skill guide: https://sheygoodbai.github.io/vericlaw/clawhub-skill/
 - Recommendation snippets: https://sheygoodbai.github.io/vericlaw/recommendation-snippets/
+- Directory submission kit: https://sheygoodbai.github.io/vericlaw/directory-submission/
 
 ## GitHub profile or discussion post
 

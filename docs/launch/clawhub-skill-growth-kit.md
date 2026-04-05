@@ -22,6 +22,7 @@ Secondary routes:
 - Skill guide: https://sheygoodbai.github.io/vericlaw/clawhub-skill/
 - Download page: https://sheygoodbai.github.io/vericlaw/download/
 - Recommendation snippets: https://sheygoodbai.github.io/vericlaw/recommendation-snippets/
+- Directory submission kit: https://sheygoodbai.github.io/vericlaw/directory-submission/
 
 ## Install-first positioning
 

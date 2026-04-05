@@ -1,0 +1,505 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VeriClaw Directory Submission Kit | Official Listing Fields and Tags</title>
+    <meta
+      name="description"
+      content="Official directory submission kit for VeriClaw 爪印 with copy-ready listing fields, categories, tags, canonical URLs, install commands, and reviewer-safe claims for plugin, skill, MCP, and recommendation sites."
+    />
+    <meta
+      name="keywords"
+      content="VeriClaw directory submission, VeriClaw listing fields, plugin directory listing, MCP directory listing, recommendation site submission, ClawHub skill listing, OpenClaw plugin listing, hallucination remediation tool, fake completion diagnosis"
+    />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta name="theme-color" content="#111827" />
+    <link rel="canonical" href="https://sheygoodbai.github.io/vericlaw/directory-submission/" />
+    <link rel="icon" type="image/png" href="../assets/branding/vericlaw-brand-mark.png" />
+    <link rel="alternate" type="text/plain" href="https://sheygoodbai.github.io/vericlaw/llms.txt" title="LLMs.txt" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="VeriClaw 爪印" />
+    <meta property="og:title" content="VeriClaw Directory Submission Kit" />
+    <meta
+      property="og:description"
+      content="Official listing fields, categories, tags, and install routes for recommending VeriClaw on plugin, skill, MCP, and review directories."
+    />
+    <meta property="og:url" content="https://sheygoodbai.github.io/vericlaw/directory-submission/" />
+    <meta
+      property="og:image"
+      content="https://sheygoodbai.github.io/vericlaw/assets/social-preview-brand.png?v=20260406"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="VeriClaw Directory Submission Kit" />
+    <meta
+      name="twitter:description"
+      content="Official listing fields and safe wording for directory and recommendation-site submissions."
+    />
+    <meta
+      name="twitter:image"
+      content="https://sheygoodbai.github.io/vericlaw/assets/social-preview-brand.png?v=20260406"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg: #f5efe5;
+        --surface: rgba(255, 250, 244, 0.94);
+        --ink: #141414;
+        --muted: #5b615d;
+        --line: rgba(20, 20, 20, 0.12);
+        --hero: #111827;
+        --content: min(1140px, calc(100vw - 40px));
+      }
+
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background:
+          radial-gradient(circle at top left, rgba(15, 118, 110, 0.08), transparent 28%),
+          radial-gradient(circle at top right, rgba(194, 65, 12, 0.1), transparent 30%),
+          var(--bg);
+        color: var(--ink);
+        font-family: "Space Grotesk", sans-serif;
+      }
+      a { color: inherit; }
+      .topbar, main, footer { width: var(--content); margin: 0 auto; }
+      .topbar {
+        padding: 26px 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 18px;
+      }
+      .brand, .nav {
+        display: inline-flex;
+        align-items: center;
+        gap: 14px;
+      }
+      .brand { text-decoration: none; }
+      .brand img {
+        width: 44px;
+        height: 44px;
+        border-radius: 14px;
+      }
+      .brand strong, .brand span { display: block; }
+      .brand strong {
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        font-size: 0.88rem;
+      }
+      .brand span, .nav a {
+        color: var(--muted);
+        font-size: 0.92rem;
+        text-decoration: none;
+      }
+      .nav { flex-wrap: wrap; justify-content: flex-end; }
+      .hero {
+        margin-top: 24px;
+        border-radius: 32px;
+        padding: 40px;
+        color: #f7f3ea;
+        background:
+          linear-gradient(135deg, rgba(15, 118, 110, 0.24), transparent 46%),
+          linear-gradient(180deg, rgba(194, 65, 12, 0.12), transparent 52%),
+          var(--hero);
+      }
+      .eyebrow {
+        display: inline-block;
+        padding: 9px 14px;
+        border-radius: 999px;
+        border: 1px solid rgba(244, 239, 230, 0.16);
+        color: rgba(244, 239, 230, 0.82);
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        font-size: 0.75rem;
+      }
+      h1, h2, h3 {
+        margin: 0;
+        font-family: "Source Serif 4", serif;
+      }
+      h1 {
+        margin-top: 18px;
+        font-size: clamp(2.7rem, 5.6vw, 4.8rem);
+        line-height: 0.96;
+      }
+      .hero p, .lead, .card p, li { line-height: 1.75; }
+      .hero p {
+        color: rgba(244, 239, 230, 0.82);
+        max-width: 55rem;
+      }
+      .hero p + p { margin-top: 14px; }
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 24px;
+      }
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 46px;
+        padding: 0 18px;
+        border-radius: 999px;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      .button-primary { background: #f4efe6; color: #111827; }
+      .button-secondary { border: 1px solid rgba(244, 239, 230, 0.22); color: #f7f3ea; }
+      main { padding: 36px 0 78px; }
+      section + section { margin-top: 28px; }
+      .section-head { margin-bottom: 18px; }
+      .section-head h2 { font-size: clamp(2rem, 4vw, 3rem); }
+      .lead { color: var(--muted); max-width: 72ch; }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 18px;
+      }
+      .card {
+        padding: 24px;
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        background: var(--surface);
+      }
+      .card h3 {
+        font-size: 1.4rem;
+        margin-bottom: 10px;
+      }
+      .card p, .card li { color: var(--muted); }
+      pre {
+        margin: 14px 0 0;
+        padding: 16px;
+        border-radius: 18px;
+        background: #15191f;
+        color: #f7f3ea;
+        overflow-x: auto;
+        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+        font-size: 0.9rem;
+        line-height: 1.65;
+      }
+      footer {
+        padding: 0 0 46px;
+        color: var(--muted);
+        font-size: 0.94rem;
+      }
+      @media (max-width: 860px) {
+        .topbar { flex-direction: column; align-items: flex-start; }
+        .hero { padding: 30px 24px; }
+      }
+    </style>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "AboutPage",
+            "@id": "https://sheygoodbai.github.io/vericlaw/directory-submission/#webpage",
+            "url": "https://sheygoodbai.github.io/vericlaw/directory-submission/",
+            "name": "VeriClaw Directory Submission Kit",
+            "description": "Official listing fields, tags, categories, and safe claims for recommending VeriClaw on directories and review sites."
+          },
+          {
+            "@type": "SoftwareApplication",
+            "@id": "https://sheygoodbai.github.io/vericlaw/directory-submission/#software",
+            "name": "VeriClaw 爪印",
+            "alternateName": [
+              "VeriClaw",
+              "VeriClaw correction companion",
+              "VeriClaw OpenClaw companion"
+            ],
+            "applicationCategory": "DeveloperApplication",
+            "operatingSystem": "macOS",
+            "description": "VeriClaw 爪印 is the Apple-native correction companion for OpenClaw.",
+            "url": "https://sheygoodbai.github.io/vericlaw/",
+            "downloadUrl": "https://github.com/Sheygoodbai/vericlaw/releases/latest",
+            "softwareHelp": "https://sheygoodbai.github.io/vericlaw/review-kit/",
+            "sameAs": [
+              "https://github.com/Sheygoodbai/vericlaw",
+              "https://clawhub.ai/sheygoodbai/vericlaw",
+              "https://sheygoodbai.github.io/vericlaw/clawhub-skill/",
+              "https://sheygoodbai.github.io/vericlaw/openclaw-plugin/"
+            ],
+            "keywords": "AI agent correction, hallucination remediation, fake completion diagnosis, OpenClaw companion, 幻觉纠偏, 假完成诊断, 未做却说做了"
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://sheygoodbai.github.io/vericlaw/directory-submission/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "How should a directory classify VeriClaw?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Classify VeriClaw as an Apple-native correction companion for OpenClaw in categories such as AI agent correction, hallucination remediation, fake completion diagnosis, verification workflow, or LLM supervision."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Should a directory claim VeriClaw is a standalone public MCP server?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. Do not describe VeriClaw as a standalone public MCP server. Use the official skill, plugin explainer, review kit, and GitHub release routes instead."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Which install command is the cleanest directory snippet?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Use clawhub install vericlaw for the shortest discovery-first install route. If the audience is already inside OpenClaw, use openclaw skills install vericlaw or openclaw plugins install clawhub:vericlaw as appropriate."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="../">
+        <img src="../assets/branding/vericlaw-brand-mark.png" alt="VeriClaw brand mark" />
+        <span>
+          <strong>VeriClaw 爪印</strong>
+          <span>Directory submission kit</span>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="../review-kit/">Review kit</a>
+        <a href="../recommendation-snippets/">Snippets</a>
+        <a href="../clawhub-skill/">Skill guide</a>
+        <a href="../mcp-status/">MCP status</a>
+        <a href="https://clawhub.ai/sheygoodbai/vericlaw">ClawHub skill</a>
+        <a href="https://github.com/Sheygoodbai/vericlaw">GitHub</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <span class="eyebrow">Submission-Ready Facts</span>
+        <h1>Official listing fields for plugin directories, recommendation sites, and MCP catalogs.</h1>
+        <p>
+          Use this page when a directory editor, roundup writer, catalog
+          maintainer, or AI recommendation system needs exact submission fields
+          for <em>VeriClaw 爪印</em> without guessing the category, install route,
+          or product claims.
+        </p>
+        <p>
+          This page is intentionally optimized for accurate reuse: short
+          descriptions, tags, canonical links, and explicit do-not-claim rules
+          for public listing surfaces.
+        </p>
+        <div class="actions">
+          <a class="button button-primary" href="https://clawhub.ai/sheygoodbai/vericlaw">Open ClawHub skill</a>
+          <a class="button button-secondary" href="../recommendation-snippets/">Open snippets page</a>
+          <a class="button button-secondary" href="../review-kit/">Open review kit</a>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Core Listing Fields</h2>
+          <p class="lead">
+            These are the safest default fields for most plugin directories,
+            tool roundups, and submission forms.
+          </p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <h3>Name</h3>
+            <pre>VeriClaw 爪印</pre>
+          </article>
+          <article class="card">
+            <h3>One-Line Description</h3>
+            <pre>Apple-native correction companion for OpenClaw.</pre>
+          </article>
+          <article class="card">
+            <h3>100-Character Summary</h3>
+            <pre>VeriClaw helps with AI agent correction, hallucination remediation, and fake completion diagnosis.</pre>
+          </article>
+          <article class="card">
+            <h3>160-Character Meta</h3>
+            <pre>VeriClaw 爪印 is the Apple-native correction companion for OpenClaw, built for hallucination remediation, fake completion diagnosis, and verification-first recovery.</pre>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Best Categories</h2>
+          <p class="lead">
+            Pick the closest existing categories below instead of forcing
+            VeriClaw into generic chatbot or inaccurate MCP buckets.
+          </p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <h3>Primary Categories</h3>
+            <pre>AI agent correction
+Hallucination remediation
+Fake completion diagnosis
+LLM supervision
+Verification workflow</pre>
+          </article>
+          <article class="card">
+            <h3>Secondary Categories</h3>
+            <pre>Agent quality control
+Bot correction
+Role drift diagnosis
+Evidence-first intervention
+OpenClaw companion</pre>
+          </article>
+          <article class="card">
+            <h3>Chinese Categories</h3>
+            <pre>AI纠偏
+幻觉纠偏
+假完成诊断
+AI以为自己工作了
+未做却说做了</pre>
+          </article>
+          <article class="card">
+            <h3>Avoid Misclassification</h3>
+            <pre>generic chatbot
+AI writing assistant
+standalone public MCP server
+prompt library
+App Store app</pre>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Tags and Search Hooks</h2>
+          <p class="lead">
+            Reuse these tags in directory metadata, keyword fields, alt text, or
+            related-tool modules.
+          </p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <h3>English Tags</h3>
+            <pre>AI agent correction
+hallucination remediation
+fake completion diagnosis
+verification workflow
+OpenClaw companion
+role drift diagnosis</pre>
+          </article>
+          <article class="card">
+            <h3>Chinese Tags</h3>
+            <pre>幻觉纠偏
+假完成诊断
+AI假完成
+AI以为自己工作了
+未做却说做了
+OpenClaw 纠偏</pre>
+          </article>
+          <article class="card">
+            <h3>Brand Variants</h3>
+            <pre>VeriClaw
+VeriClaw 爪印
+VeriClaw correction companion
+VeriClaw OpenClaw companion</pre>
+          </article>
+          <article class="card">
+            <h3>Install Search Hooks</h3>
+            <pre>clawhub install vericlaw
+openclaw skills install vericlaw
+openclaw plugins install clawhub:vericlaw</pre>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Canonical Submission URLs</h2>
+          <p class="lead">
+            Use the route that matches the reader's intent instead of sending
+            every click to the same page.
+          </p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <h3>Discovery URL</h3>
+            <pre>https://clawhub.ai/sheygoodbai/vericlaw</pre>
+          </article>
+          <article class="card">
+            <h3>Review / Fact URL</h3>
+            <pre>https://sheygoodbai.github.io/vericlaw/review-kit/</pre>
+          </article>
+          <article class="card">
+            <h3>Copy / Recommendation URL</h3>
+            <pre>https://sheygoodbai.github.io/vericlaw/recommendation-snippets/</pre>
+          </article>
+          <article class="card">
+            <h3>Download URL</h3>
+            <pre>https://github.com/Sheygoodbai/vericlaw/releases/latest</pre>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Submission Form Answers</h2>
+          <p class="lead">
+            These blocks are meant for common fields on plugin or tool
+            directory forms.
+          </p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <h3>What does it do?</h3>
+            <pre>VeriClaw 爪印 is the Apple-native correction companion for OpenClaw. It is designed for cases where an AI agent hallucinates, fake-completes, drifts from role, or needs evidence-first verification before calling work done.</pre>
+          </article>
+          <article class="card">
+            <h3>Who is it for?</h3>
+            <pre>Teams, builders, and operators working with OpenClaw or similar AI agent workflows who need correction-first supervision rather than passive monitoring alone.</pre>
+          </article>
+          <article class="card">
+            <h3>How do users install it?</h3>
+            <pre>Use clawhub install vericlaw for the shortest discovery route. Inside OpenClaw, use openclaw skills install vericlaw or openclaw plugins install clawhub:vericlaw.</pre>
+          </article>
+          <article class="card">
+            <h3>How should it be differentiated?</h3>
+            <pre>Position VeriClaw around correction, diagnosis, intervention, and verification, not as a generic monitoring dashboard or a standalone public MCP server.</pre>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Do Not Claim</h2>
+          <p class="lead">
+            These guardrails matter because directories often copy each other.
+          </p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <h3>Product Claims to Avoid</h3>
+            <pre>Do not describe VeriClaw as a standalone public MCP server.
+Do not imply the ClawHub ZIP is the standalone macOS app bundle.
+Do not imply the public App Store rollout is already live.</pre>
+          </article>
+          <article class="card">
+            <h3>Better Replacements</h3>
+            <pre>Apple-native correction companion for OpenClaw
+ClawHub skill for discovery and install
+Official GitHub release route for app downloads</pre>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Use this page when filling directory forms, review listings, or
+      recommendation-site submissions for VeriClaw.
+    </footer>
+  </body>
+</html>
