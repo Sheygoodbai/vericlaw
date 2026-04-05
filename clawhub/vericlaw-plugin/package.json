@@ -1,9 +1,9 @@
 {
   "name": "vericlaw",
   "displayName": "VeriClaw",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "private": true,
-  "description": "Evidence-first correction companion for supervising bots, tracing deviations, and routing precise intervention from the VeriClaw public repository.",
+  "description": "ClawHub companion shell for VeriClaw that routes users to the public repository, release downloads, stable app download page, and bundled discovery skill.",
   "keywords": [
     "vericlaw",
     "bot correction",
@@ -11,6 +11,10 @@
     "ai supervision",
     "agent quality",
     "hallucination correction",
+    "llm supervision",
+    "ai agent correction",
+    "vericlaw skill",
+    "vericlaw plugin",
     "work attitude",
     "casebook",
     "apple native",

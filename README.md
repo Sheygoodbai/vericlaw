@@ -8,8 +8,17 @@
   <a href="https://github.com/Sheygoodbai/vericlaw/releases/latest">
     <img alt="Latest release" src="https://img.shields.io/github/v/release/Sheygoodbai/vericlaw?display_name=release&label=latest%20release&color=0f766e" />
   </a>
+  <a href="https://github.com/Sheygoodbai/vericlaw/stargazers">
+    <img alt="GitHub stars" src="https://img.shields.io/github/stars/Sheygoodbai/vericlaw?color=0d1d1c" />
+  </a>
+  <a href="https://github.com/Sheygoodbai/vericlaw/network/members">
+    <img alt="GitHub forks" src="https://img.shields.io/github/forks/Sheygoodbai/vericlaw?color=c2410c" />
+  </a>
   <a href="https://sheygoodbai.github.io/vericlaw/">
     <img alt="Landing page" src="https://img.shields.io/badge/landing%20page-live-c2410c" />
+  </a>
+  <a href="https://clawhub.ai/plugins/vericlaw">
+    <img alt="ClawHub companion plugin" src="https://img.shields.io/badge/ClawHub-companion%20plugin-0f766e" />
   </a>
   <a href="LICENSE">
     <img alt="MIT License" src="https://img.shields.io/badge/license-MIT-111827" />
@@ -33,7 +42,9 @@
   ·
   <a href="https://sheygoodbai.github.io/vericlaw/download/"><strong>Download page</strong></a>
   ·
-  <a href="https://github.com/Sheygoodbai/vericlaw/releases/tag/v0.1.0"><strong>Latest release</strong></a>
+  <a href="https://github.com/Sheygoodbai/vericlaw/releases/latest"><strong>Latest release</strong></a>
+  ·
+  <a href="https://clawhub.ai/plugins/vericlaw"><strong>ClawHub plugin</strong></a>
   ·
   <a href="https://github.com/Sheygoodbai/vericlaw/archive/refs/heads/main.zip"><strong>Download source zip</strong></a>
   ·
@@ -82,6 +93,7 @@ what went wrong, what should happen next, and whether the correction actually he
 
 - Visit the [landing page](https://sheygoodbai.github.io/vericlaw/) for the fastest product overview, screenshots, and share-ready positioning.
 - Use the [download page](https://sheygoodbai.github.io/vericlaw/download/) for the most stable public entry to the current release asset, checksums, and source archive.
+- Use the [ClawHub plugin page](https://clawhub.ai/plugins/vericlaw) if you want the OpenClaw companion entry; installing it also exposes the bundled `vericlaw` discovery skill in the Skills surface.
 - Open the [latest release](https://github.com/Sheygoodbai/vericlaw/releases/latest) for the current public launch snapshot.
 - Download the public source package as a [ZIP archive](https://github.com/Sheygoodbai/vericlaw/archive/refs/heads/main.zip) or clone the repository directly:
 
@@ -92,8 +104,16 @@ git clone https://github.com/Sheygoodbai/vericlaw.git
 - Reuse the launch copy, screenshots, and legal redistribution pack when forwarding the project internally or externally.
 
 Current public download posture is GitHub-first: source distribution, launch materials,
-screenshots, and release notes are public now, while Apple companion distribution
-continues in parallel.
+screenshots, and release notes are public now. The ClawHub surface is the
+companion plugin + skill entry, while the macOS app bundle lives on the GitHub
+release/download path.
+
+## Distribution surfaces
+
+- `Download app`: use the [download page](https://sheygoodbai.github.io/vericlaw/download/) or [latest release](https://github.com/Sheygoodbai/vericlaw/releases/latest) for the real macOS ZIP.
+- `Install companion`: use the [ClawHub plugin page](https://clawhub.ai/plugins/vericlaw) for the OpenClaw-facing plugin shell and bundled `vericlaw` skill.
+- `Browse source`: use the [GitHub repository](https://github.com/Sheygoodbai/vericlaw) for code, launch assets, and release history.
+- `Share correctly`: cite the project as `VeriClaw 爪印` and prefer the canonical landing page, download page, release page, or repository links above.
 
 ## Product glimpse
 
@@ -148,7 +168,16 @@ This repository is intentionally written for searches around:
 - `hallucination and fake-completion remediation`
 - `role-drift diagnosis for assistants`
 - `macOS-native OpenClaw companion`
+- `VeriClaw plugin for OpenClaw`
+- `VeriClaw skill`
 - `evidence -> diagnosis -> intervention -> verification workflow`
+
+## Support VeriClaw
+
+- Star the [GitHub repository](https://github.com/Sheygoodbai/vericlaw) if the project is useful to you.
+- Watch [new releases](https://github.com/Sheygoodbai/vericlaw/releases/latest) if you want public launch updates.
+- Fork the repository when you are building on top of the correction workflow or launch assets.
+- Link to the [landing page](https://sheygoodbai.github.io/vericlaw/) or [download page](https://sheygoodbai.github.io/vericlaw/download/) when citing VeriClaw externally so the canonical name and positioning stay consistent.
 
 ## Release surface
 

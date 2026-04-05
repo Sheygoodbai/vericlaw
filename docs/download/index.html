@@ -8,10 +8,15 @@
       name="description"
       content="Stable public download entry for VeriClaw 爪印 with direct GitHub release assets, checksums, release notes, and source archive."
     />
+    <meta
+      name="keywords"
+      content="VeriClaw download, VeriClaw app, VeriClaw plugin, VeriClaw skill, OpenClaw companion, AI agent correction"
+    />
     <meta name="robots" content="index,follow,max-image-preview:large" />
     <link rel="canonical" href="https://sheygoodbai.github.io/vericlaw/download/" />
     <link rel="icon" type="image/png" href="../assets/branding/vericlaw-brand-mark.png" />
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="VeriClaw 爪印" />
     <meta property="og:title" content="Download VeriClaw 爪印" />
     <meta
       property="og:description"
@@ -406,6 +411,50 @@
         }
       }
     </style>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "SoftwareApplication",
+            "name": "VeriClaw 爪印",
+            "alternateName": "VeriClaw",
+            "applicationCategory": "DeveloperApplication",
+            "operatingSystem": "macOS",
+            "softwareVersion": "0.1.1",
+            "url": "https://sheygoodbai.github.io/vericlaw/download/",
+            "downloadUrl": "https://github.com/Sheygoodbai/vericlaw/releases/download/v0.1.1/VeriClaw-v0.1.1-macOS-arm64.zip",
+            "sameAs": [
+              "https://github.com/Sheygoodbai/vericlaw/releases/latest",
+              "https://github.com/Sheygoodbai/vericlaw",
+              "https://clawhub.ai/plugins/vericlaw"
+            ],
+            "description": "Direct macOS download page for VeriClaw 爪印, the Apple-native correction companion for OpenClaw."
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Why does the ClawHub Download zip look empty?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The ClawHub Download zip is the tiny OpenClaw companion plugin package. The real VeriClaw macOS app bundle is the GitHub-hosted release asset linked from this page."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Where do I get the VeriClaw skill?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Install the VeriClaw companion plugin from ClawHub and OpenClaw will expose the bundled vericlaw skill in the Skills surface."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
     <header class="topbar">
@@ -438,12 +487,22 @@
               VeriClaw 爪印, so public users have a stable download entry even
               when registry-side anonymous download limits are noisy.
             </p>
+            <p>
+              If you need the OpenClaw companion plugin and bundled skill
+              instead of the standalone app ZIP, use the ClawHub plugin page.
+            </p>
             <div class="hero-actions">
               <a
                 class="button button-primary"
                 href="https://github.com/Sheygoodbai/vericlaw/releases/download/v0.1.1/VeriClaw-v0.1.1-macOS-arm64.zip"
               >
                 Download macOS app
+              </a>
+              <a
+                class="button button-secondary"
+                href="https://clawhub.ai/plugins/vericlaw"
+              >
+                Install companion plugin
               </a>
               <a
                 class="button button-secondary"
@@ -466,6 +525,9 @@
             </span>
             <span>
               Release published April 5, 2026. Apple Silicon / arm64 build.
+            </span>
+            <span>
+              Companion plugin and bundled `vericlaw` skill live on ClawHub.
             </span>
           </aside>
         </div>
@@ -533,6 +595,20 @@
           </article>
 
           <article class="card">
+            <h3>OpenClaw companion</h3>
+            <p>
+              Need the plugin-facing surface instead of the standalone app ZIP?
+              Install the VeriClaw companion plugin on ClawHub. It also bundles
+              the `vericlaw` discovery skill.
+            </p>
+            <div class="hero-actions" style="margin-top: 18px;">
+              <a class="button button-secondary" href="https://clawhub.ai/plugins/vericlaw">
+                Open ClawHub plugin
+              </a>
+            </div>
+          </article>
+
+          <article class="card">
             <h3>Repository</h3>
             <p>
               Browse code, launch assets, legal materials, and documentation on
@@ -555,9 +631,25 @@
           </p>
           <ul>
             <li>direct GitHub-hosted app asset for the current stable release</li>
+            <li>separate ClawHub companion plugin path for OpenClaw installs</li>
             <li>tagged source archive for code-first users</li>
             <li>release notes and checksums in the same place</li>
           </ul>
+        </div>
+
+        <div class="card">
+          <h3>Quick clarification</h3>
+          <p>
+            <strong>Why does ClawHub `Download zip` look empty?</strong> Because
+            that ZIP is the tiny OpenClaw companion plugin shell, not the macOS
+            app bundle. Use the GitHub-hosted app asset above when you want the
+            actual `VeriClaw 爪印.app`.
+          </p>
+          <p>
+            <strong>Where is the skill?</strong> Installing the companion plugin
+            from ClawHub also exposes the bundled `vericlaw` skill inside
+            OpenClaw's Skills surface.
+          </p>
         </div>
       </section>
     </main>

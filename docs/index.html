@@ -10,12 +10,13 @@
     />
     <meta
       name="keywords"
-      content="VeriClaw, OpenClaw, AI agent correction, LLM supervision, hallucination remediation, role drift diagnosis, AI agent observability, macOS AI companion"
+      content="VeriClaw, VeriClaw plugin, VeriClaw skill, OpenClaw, AI agent correction, LLM supervision, hallucination remediation, role drift diagnosis, AI agent observability, macOS AI companion"
     />
     <meta name="robots" content="index,follow,max-image-preview:large" />
     <link rel="canonical" href="https://sheygoodbai.github.io/vericlaw/" />
     <link rel="icon" type="image/png" href="assets/branding/vericlaw-brand-mark.png" />
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="VeriClaw 爪印" />
     <meta property="og:title" content="VeriClaw 爪印 | AI Agent Correction for OpenClaw" />
     <meta
       property="og:description"
@@ -24,7 +25,7 @@
     <meta property="og:url" content="https://sheygoodbai.github.io/vericlaw/" />
     <meta
       property="og:image"
-      content="https://sheygoodbai.github.io/vericlaw/assets/social-preview-brand.png"
+      content="https://sheygoodbai.github.io/vericlaw/assets/social-preview-brand.png?v=20260405"
     />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -37,7 +38,7 @@
     />
     <meta
       name="twitter:image"
-      content="https://sheygoodbai.github.io/vericlaw/assets/social-preview-brand.png"
+      content="https://sheygoodbai.github.io/vericlaw/assets/social-preview-brand.png?v=20260405"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -646,20 +647,47 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "SoftwareSourceCode",
-        "name": "VeriClaw 爪印",
-        "description": "AI agent correction and LLM supervision companion for OpenClaw on Apple-native surfaces.",
-        "codeRepository": "https://github.com/Sheygoodbai/vericlaw",
-        "url": "https://sheygoodbai.github.io/vericlaw/",
-        "image": "https://sheygoodbai.github.io/vericlaw/assets/social-preview-brand.png",
-        "license": "https://github.com/Sheygoodbai/vericlaw/blob/main/LICENSE",
-        "keywords": [
-          "AI agent correction",
-          "LLM supervision",
-          "Hallucination remediation",
-          "Role drift diagnosis",
-          "OpenClaw companion",
-          "macOS AI companion"
+        "@graph": [
+          {
+            "@type": "SoftwareSourceCode",
+            "name": "VeriClaw 爪印",
+            "alternateName": "VeriClaw",
+            "description": "AI agent correction and LLM supervision companion for OpenClaw on Apple-native surfaces.",
+            "codeRepository": "https://github.com/Sheygoodbai/vericlaw",
+            "url": "https://sheygoodbai.github.io/vericlaw/",
+            "downloadUrl": "https://sheygoodbai.github.io/vericlaw/download/",
+            "sameAs": [
+              "https://github.com/Sheygoodbai/vericlaw",
+              "https://clawhub.ai/plugins/vericlaw"
+            ],
+            "image": "https://sheygoodbai.github.io/vericlaw/assets/social-preview-brand.png?v=20260405",
+            "license": "https://github.com/Sheygoodbai/vericlaw/blob/main/LICENSE",
+            "keywords": [
+              "AI agent correction",
+              "LLM supervision",
+              "Hallucination remediation",
+              "Role drift diagnosis",
+              "OpenClaw companion",
+              "VeriClaw plugin",
+              "VeriClaw skill",
+              "macOS AI companion"
+            ]
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "VeriClaw 爪印",
+            "alternateName": "VeriClaw",
+            "applicationCategory": "DeveloperApplication",
+            "operatingSystem": "macOS",
+            "softwareVersion": "0.1.1",
+            "url": "https://sheygoodbai.github.io/vericlaw/download/",
+            "downloadUrl": "https://sheygoodbai.github.io/vericlaw/download/",
+            "sameAs": [
+              "https://github.com/Sheygoodbai/vericlaw/releases/latest",
+              "https://clawhub.ai/plugins/vericlaw"
+            ],
+            "description": "Apple-native correction companion for OpenClaw with evidence capture, diagnosis, intervention guidance, verification, and casebook learning."
+          }
         ]
       }
     </script>
@@ -796,6 +824,52 @@
 
       <section>
         <div class="section-head">
+          <h2>Choose the right surface.</h2>
+          <p>
+            VeriClaw now has a cleaner split between the public app download,
+            the OpenClaw companion plugin, the bundled discovery skill, and the
+            source repository.
+          </p>
+        </div>
+        <div class="keywords">
+          <div class="keyword">
+            <strong>Download the macOS app</strong>
+            <p>
+              Use the <a href="download/">public download page</a> for the real
+              app ZIP, checksums, and release path.
+            </p>
+          </div>
+          <div class="keyword">
+            <strong>Install the companion plugin</strong>
+            <p>
+              Use the
+              <a href="https://clawhub.ai/plugins/vericlaw">ClawHub plugin page</a>
+              when you want the OpenClaw-facing companion entry instead of the
+              standalone app bundle.
+            </p>
+          </div>
+          <div class="keyword">
+            <strong>Use the bundled skill</strong>
+            <p>
+              Installing the plugin also exposes the `vericlaw` companion skill
+              inside OpenClaw's Skills surface for canonical routing and product
+              discovery.
+            </p>
+          </div>
+          <div class="keyword">
+            <strong>Share or cite the project</strong>
+            <p>
+              Point people to the
+              <a href="https://github.com/Sheygoodbai/vericlaw">GitHub repository</a>,
+              landing page, or download page so the `VeriClaw` name stays
+              attached to the official source.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
           <h2>Search-ready positioning</h2>
           <p>
             The page and repository copy intentionally speak to the problems
@@ -853,8 +927,8 @@
                 <a class="button button-primary" href="download/">
                   Download page
                 </a>
-                <a class="button button-secondary" href="https://github.com/Sheygoodbai/vericlaw/releases/latest">
-                  Release notes
+                <a class="button button-secondary" href="https://clawhub.ai/plugins/vericlaw">
+                  ClawHub plugin
                 </a>
                 <a class="button button-warm" href="https://github.com/Sheygoodbai/vericlaw">
                   Star or fork on GitHub
@@ -869,6 +943,8 @@
                 distribution hardening continues in parallel.
               </p>
               <ul>
+                <li>GitHub-hosted macOS app ZIP and checksums</li>
+                <li>ClawHub companion plugin with bundled `vericlaw` skill</li>
                 <li>launch copy and release-ready messaging</li>
                 <li>product screenshots and social preview assets</li>
                 <li>legal, attribution, trademark, and enforcement materials</li>
