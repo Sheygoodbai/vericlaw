@@ -1,8 +1,8 @@
 ---
 name: hallucination-correction-cn
-version: 0.1.0
-description: "幻觉纠偏 discovery skill for VeriClaw 爪印. Use when the intent is 幻觉纠偏, AI幻觉纠偏, AI纠偏, 幻觉修复, 工作幻觉, or evidence-first correction after AI drift."
-tags: ["幻觉纠偏", ai幻觉纠偏, ai纠偏, "幻觉修复", "工作幻觉", vericlaw, openclaw]
+version: 0.1.2
+description: "幻觉纠偏 discovery skill for VeriClaw 爪印. Use when the intent is 幻觉纠偏, AI幻觉纠偏, AI纠偏, AI纠错, 模型纠偏, 幻觉修复, 工作幻觉, or evidence-first correction after AI drift."
+tags: ["幻觉纠偏", ai幻觉纠偏, ai纠偏, ai纠错, "模型纠偏", "幻觉修复", "工作幻觉", vericlaw, openclaw]
 source: Sheygoodbai/vericlaw
 trigger: "幻觉纠偏"
 metadata:
@@ -18,6 +18,8 @@ Use this skill for:
 - `幻觉纠偏`
 - `AI幻觉纠偏`
 - `AI纠偏`
+- `AI纠错`
+- `模型纠偏`
 - `幻觉修复`
 - `工作幻觉`
 
