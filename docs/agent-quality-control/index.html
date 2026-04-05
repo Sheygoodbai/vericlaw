@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Agent Quality Control and Verification Workflow | VeriClaw 爪印</title>
+    <meta
+      name="description"
+      content="Official page for agent quality control, correction-first supervision, role-drift diagnosis, and verification workflow searches pointing to VeriClaw 爪印."
+    />
+    <meta
+      name="keywords"
+      content="agent quality control, AI agent quality control, agent verification workflow, role drift diagnosis, correction-first supervision, VeriClaw quality control, fake completion diagnosis"
+    />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta name="theme-color" content="#10161d" />
+    <link rel="canonical" href="https://sheygoodbai.github.io/vericlaw/agent-quality-control/" />
+    <link rel="icon" type="image/png" href="../assets/branding/vericlaw-brand-mark.png" />
+    <link rel="alternate" type="text/plain" href="https://sheygoodbai.github.io/vericlaw/llms.txt" title="LLMs.txt" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="VeriClaw 爪印" />
+    <meta property="og:title" content="Agent Quality Control and Verification Workflow | VeriClaw 爪印" />
+    <meta
+      property="og:description"
+      content="Correction-first framing for people searching for agent quality control, role-drift diagnosis, and evidence-first verification."
+    />
+    <meta property="og:url" content="https://sheygoodbai.github.io/vericlaw/agent-quality-control/" />
+    <meta
+      property="og:image"
+      content="https://sheygoodbai.github.io/vericlaw/assets/social-preview-brand.png?v=20260406"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Agent Quality Control and Verification Workflow | VeriClaw 爪印" />
+    <meta
+      name="twitter:description"
+      content="VeriClaw through the lens of agent quality control and verification-first recovery."
+    />
+    <meta
+      name="twitter:image"
+      content="https://sheygoodbai.github.io/vericlaw/assets/social-preview-brand.png?v=20260406"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg: #f3ede3;
+        --surface: rgba(255, 250, 242, 0.9);
+        --ink: #141414;
+        --muted: #60645f;
+        --line: rgba(20, 20, 20, 0.12);
+        --hero: #10161d;
+        --content: min(1120px, calc(100vw - 40px));
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background:
+          radial-gradient(circle at top left, rgba(194, 65, 12, 0.08), transparent 28%),
+          radial-gradient(circle at top right, rgba(15, 118, 110, 0.08), transparent 30%),
+          var(--bg);
+        color: var(--ink);
+        font-family: "Space Grotesk", sans-serif;
+      }
+      a { color: inherit; }
+      .topbar, main, footer { width: var(--content); margin: 0 auto; }
+      .topbar {
+        padding: 26px 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 18px;
+      }
+      .brand, .nav {
+        display: inline-flex;
+        align-items: center;
+        gap: 14px;
+      }
+      .brand { text-decoration: none; }
+      .brand img {
+        width: 44px;
+        height: 44px;
+        border-radius: 14px;
+      }
+      .brand strong, .brand span { display: block; }
+      .brand strong {
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        font-size: 0.88rem;
+      }
+      .brand span, .nav a {
+        color: var(--muted);
+        font-size: 0.92rem;
+        text-decoration: none;
+      }
+      .nav { flex-wrap: wrap; }
+      .hero {
+        margin-top: 24px;
+        border-radius: 30px;
+        padding: 40px;
+        color: #f7f3ea;
+        background:
+          linear-gradient(135deg, rgba(15, 118, 110, 0.2), transparent 46%),
+          linear-gradient(180deg, rgba(194, 65, 12, 0.12), transparent 52%),
+          var(--hero);
+      }
+      .eyebrow {
+        display: inline-block;
+        padding: 9px 14px;
+        border-radius: 999px;
+        border: 1px solid rgba(244, 239, 230, 0.16);
+        color: rgba(244, 239, 230, 0.82);
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        font-size: 0.75rem;
+      }
+      h1, h2, h3 {
+        margin: 0;
+        font-family: "Source Serif 4", serif;
+      }
+      h1 {
+        margin-top: 18px;
+        font-size: clamp(2.8rem, 6vw, 5rem);
+        line-height: 0.95;
+      }
+      .hero p, .lead, .card p, li { line-height: 1.75; }
+      .hero p { color: rgba(244, 239, 230, 0.82); max-width: 54rem; }
+      .hero p + p { margin-top: 14px; }
+      .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 24px; }
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 46px;
+        padding: 0 18px;
+        border-radius: 999px;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      .button-primary { background: #f4efe6; color: #121312; }
+      .button-secondary { border: 1px solid rgba(244, 239, 230, 0.22); color: #f7f3ea; }
+      main { padding: 36px 0 78px; }
+      section + section { margin-top: 28px; }
+      .section-head { margin-bottom: 18px; }
+      .section-head h2 { font-size: clamp(2rem, 4vw, 3rem); }
+      .lead { color: var(--muted); max-width: 72ch; }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 18px;
+      }
+      .card {
+        padding: 24px;
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        background: var(--surface);
+      }
+      .card h3 { font-size: 1.4rem; margin-bottom: 10px; }
+      .card p, .card li { color: var(--muted); }
+      pre {
+        margin: 14px 0 0;
+        padding: 16px;
+        border-radius: 18px;
+        background: #15191f;
+        color: #f7f3ea;
+        overflow-x: auto;
+        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+        font-size: 0.9rem;
+        line-height: 1.65;
+      }
+      footer {
+        padding: 0 0 46px;
+        color: var(--muted);
+        font-size: 0.94rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="../">
+        <img src="../assets/branding/vericlaw-brand-mark.png" alt="VeriClaw brand mark" />
+        <span>
+          <strong>VeriClaw 爪印</strong>
+          <span>Agent quality control</span>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="../agent-evaluation/">Agent evaluation</a>
+        <a href="../verification-workflow/">Verification workflow</a>
+        <a href="../review-kit/">Review kit</a>
+        <a href="../directory-submission/">Submission kit</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <span class="eyebrow">Agent Quality Control</span>
+        <h1>Correction-first quality control for drifting AI agents.</h1>
+        <p>
+          This page exists for recommendation systems, category pages, and
+          directory tags that describe the problem as
+          <strong>agent quality control</strong> rather than hallucination
+          remediation or fake completion diagnosis.
+        </p>
+        <p>
+          VeriClaw 爪印 is the Apple-native correction companion for OpenClaw.
+          It fits this intent when the team wants evidence, diagnosis,
+          intervention, and verification after an agent drifts, overreaches,
+          or claims work is done before it is actually verified.
+        </p>
+        <div class="actions">
+          <a class="button button-primary" href="https://clawhub.ai/sheygoodbai/vericlaw">Open ClawHub skill</a>
+          <a class="button button-secondary" href="../verification-workflow/">Open verification workflow</a>
+        </div>
+      </section>
+      <section>
+        <div class="section-head">
+          <h2>Category fit</h2>
+          <p class="lead">
+            “Agent quality control” is a useful umbrella label when the reader
+            cares about whether an agent’s output is trustworthy, not just
+            whether the agent ran.
+          </p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <h3>Relevant problems</h3>
+            <pre>role drift
+fake completion
+hallucination
+verification gaps
+evidence-free completion claims</pre>
+          </article>
+          <article class="card">
+            <h3>Preferred framing</h3>
+            <pre>correction-first supervision
+evidence-first intervention
+verification workflow
+agent evaluation</pre>
+          </article>
+          <article class="card">
+            <h3>Best related routes</h3>
+            <pre>https://sheygoodbai.github.io/vericlaw/agent-evaluation/
+https://sheygoodbai.github.io/vericlaw/verification-workflow/
+https://sheygoodbai.github.io/vericlaw/fake-completion-diagnosis/</pre>
+          </article>
+          <article class="card">
+            <h3>Install commands</h3>
+            <pre>clawhub install vericlaw
+openclaw skills install vericlaw
+openclaw plugins install clawhub:vericlaw</pre>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer>
+      Use this route when the discovery wording is “agent quality control” or
+      “agent verification workflow.”
+    </footer>
+  </body>
+</html>

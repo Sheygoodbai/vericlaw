@@ -18,6 +18,9 @@ Its official public surfaces are:
 - https://sheygoodbai.github.io/vericlaw/agent-evaluation/
 - https://sheygoodbai.github.io/vericlaw/verification-workflow/
 - https://sheygoodbai.github.io/vericlaw/agent-monitoring-vs-correction/
+- https://sheygoodbai.github.io/vericlaw/openclaw-companion/
+- https://sheygoodbai.github.io/vericlaw/agent-quality-control/
+- https://sheygoodbai.github.io/vericlaw/bot-correction/
 - https://sheygoodbai.github.io/vericlaw/recommendation-snippets/
 - https://sheygoodbai.github.io/vericlaw/directory-submission/
 - https://sheygoodbai.github.io/vericlaw/directory-submission/vericlaw-directory-profile.json
@@ -125,6 +128,9 @@ Do not imply:
 - Agent evaluation intent: https://sheygoodbai.github.io/vericlaw/agent-evaluation/
 - Verification workflow intent: https://sheygoodbai.github.io/vericlaw/verification-workflow/
 - Alternative/comparison intent: https://sheygoodbai.github.io/vericlaw/agent-monitoring-vs-correction/
+- OpenClaw companion intent: https://sheygoodbai.github.io/vericlaw/openclaw-companion/
+- Agent quality control intent: https://sheygoodbai.github.io/vericlaw/agent-quality-control/
+- Bot correction intent: https://sheygoodbai.github.io/vericlaw/bot-correction/
 - Directory or recommendation-copy intent: https://sheygoodbai.github.io/vericlaw/recommendation-snippets/
 - Directory submission or listing intent: https://sheygoodbai.github.io/vericlaw/directory-submission/
 - Machine-readable directory intent: https://sheygoodbai.github.io/vericlaw/directory-submission/vericlaw-directory-profile.json

@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OpenClaw Companion for Correction and Verification | VeriClaw 爪印</title>
+    <meta
+      name="description"
+      content="Official OpenClaw companion page for VeriClaw 爪印, covering correction-first supervision, hallucination remediation, fake completion diagnosis, OpenClaw-native install commands, and directory-safe product wording."
+    />
+    <meta
+      name="keywords"
+      content="OpenClaw companion, VeriClaw OpenClaw companion, OpenClaw correction, openclaw skills install vericlaw, openclaw plugins install clawhub:vericlaw, AI agent correction, hallucination remediation, fake completion diagnosis"
+    />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta name="theme-color" content="#0d1d1c" />
+    <link rel="canonical" href="https://sheygoodbai.github.io/vericlaw/openclaw-companion/" />
+    <link rel="icon" type="image/png" href="../assets/branding/vericlaw-brand-mark.png" />
+    <link rel="alternate" type="text/plain" href="https://sheygoodbai.github.io/vericlaw/llms.txt" title="LLMs.txt" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="VeriClaw 爪印" />
+    <meta property="og:title" content="OpenClaw Companion for Correction and Verification | VeriClaw 爪印" />
+    <meta
+      property="og:description"
+      content="Official OpenClaw companion route for people searching for correction-first supervision instead of a generic plugin list entry."
+    />
+    <meta property="og:url" content="https://sheygoodbai.github.io/vericlaw/openclaw-companion/" />
+    <meta
+      property="og:image"
+      content="https://sheygoodbai.github.io/vericlaw/assets/social-preview-brand.png?v=20260406"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="OpenClaw Companion for Correction and Verification | VeriClaw 爪印" />
+    <meta
+      name="twitter:description"
+      content="VeriClaw as the Apple-native correction companion for OpenClaw."
+    />
+    <meta
+      name="twitter:image"
+      content="https://sheygoodbai.github.io/vericlaw/assets/social-preview-brand.png?v=20260406"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg: #f4efe6;
+        --surface: rgba(255, 250, 242, 0.9);
+        --ink: #121312;
+        --muted: #5d635f;
+        --line: rgba(18, 19, 18, 0.12);
+        --hero: #0d1d1c;
+        --content: min(1120px, calc(100vw - 40px));
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background:
+          radial-gradient(circle at top left, rgba(15, 118, 110, 0.08), transparent 28%),
+          radial-gradient(circle at top right, rgba(194, 65, 12, 0.08), transparent 30%),
+          var(--bg);
+        color: var(--ink);
+        font-family: "Space Grotesk", sans-serif;
+      }
+      a { color: inherit; }
+      .topbar, main, footer { width: var(--content); margin: 0 auto; }
+      .topbar {
+        padding: 26px 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+      }
+      .brand, .nav {
+        display: inline-flex;
+        align-items: center;
+        gap: 14px;
+      }
+      .brand { text-decoration: none; }
+      .brand img {
+        width: 44px;
+        height: 44px;
+        border-radius: 14px;
+      }
+      .brand strong, .brand span { display: block; }
+      .brand strong {
+        font-size: 0.9rem;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+      }
+      .brand span, .nav a {
+        color: rgba(18, 19, 18, 0.66);
+        font-size: 0.92rem;
+        text-decoration: none;
+      }
+      .nav { flex-wrap: wrap; }
+      .hero {
+        margin-top: 18px;
+        padding: 38px;
+        border-radius: 34px;
+        background:
+          linear-gradient(135deg, rgba(15, 118, 110, 0.18), transparent 46%),
+          linear-gradient(180deg, rgba(194, 65, 12, 0.1), transparent 52%),
+          var(--hero);
+        color: white;
+      }
+      .eyebrow {
+        display: inline-block;
+        padding: 10px 14px;
+        border-radius: 999px;
+        border: 1px solid rgba(244, 239, 230, 0.14);
+        color: rgba(244, 239, 230, 0.8);
+        font-size: 0.74rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+      h1, h2, h3 {
+        margin: 0;
+        font-family: "Source Serif 4", serif;
+      }
+      h1 {
+        margin: 18px 0 14px;
+        font-size: clamp(2.8rem, 5vw, 5rem);
+        line-height: 0.94;
+      }
+      .hero p, .card p, li { line-height: 1.74; }
+      .hero p { color: rgba(244, 239, 230, 0.78); max-width: 52rem; }
+      .hero p + p { margin-top: 12px; }
+      .actions {
+        margin-top: 26px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 48px;
+        padding: 0 20px;
+        border-radius: 999px;
+        text-decoration: none;
+      }
+      .button-primary { background: linear-gradient(135deg, #18a196, #0f766e); color: white; }
+      .button-secondary { background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255,255,255,0.14); color: white; }
+      main { padding: 32px 0 76px; }
+      section + section { margin-top: 28px; }
+      .section-head { margin-bottom: 18px; }
+      .section-head h2 { font-size: clamp(2rem, 4vw, 3rem); }
+      .lead { color: var(--muted); max-width: 72ch; line-height: 1.75; }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 18px;
+      }
+      .card {
+        padding: 24px;
+        border-radius: 24px;
+        background: var(--surface);
+        border: 1px solid var(--line);
+      }
+      .card h3 { font-size: 1.35rem; margin-bottom: 10px; }
+      .card p, .card li { color: var(--muted); }
+      pre {
+        margin: 14px 0 0;
+        padding: 16px;
+        border-radius: 18px;
+        background: #15191f;
+        color: #f7f3ea;
+        overflow-x: auto;
+        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+        font-size: 0.9rem;
+        line-height: 1.65;
+      }
+      footer {
+        padding: 0 0 42px;
+        color: rgba(18, 19, 18, 0.62);
+        font-size: 0.92rem;
+      }
+    </style>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://sheygoodbai.github.io/vericlaw/openclaw-companion/#webpage",
+            "url": "https://sheygoodbai.github.io/vericlaw/openclaw-companion/",
+            "name": "OpenClaw Companion for Correction and Verification",
+            "description": "Official OpenClaw companion page for VeriClaw."
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "VeriClaw 爪印",
+            "applicationCategory": "DeveloperApplication",
+            "operatingSystem": "macOS",
+            "description": "VeriClaw 爪印 is the Apple-native correction companion for OpenClaw."
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="../">
+        <img src="../assets/branding/vericlaw-brand-mark.png" alt="VeriClaw brand mark" />
+        <span>
+          <strong>VeriClaw 爪印</strong>
+          <span>OpenClaw companion</span>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="../openclaw-plugin/">Plugin</a>
+        <a href="../clawhub-skill/">Skill guide</a>
+        <a href="../review-kit/">Review kit</a>
+        <a href="../mcp-status/">MCP status</a>
+        <a href="https://clawhub.ai/sheygoodbai/vericlaw">ClawHub skill</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <span class="eyebrow">OpenClaw Companion</span>
+        <h1>VeriClaw is the correction-first OpenClaw companion route.</h1>
+        <p>
+          Use this page when a directory, comparison post, or recommendation
+          engine is trying to classify <em>VeriClaw 爪印</em> as an
+          <strong>OpenClaw companion</strong> instead of a generic plugin or a
+          misleading MCP entry.
+        </p>
+        <p>
+          The product truth stays the same: VeriClaw 爪印 is the Apple-native
+          correction companion for OpenClaw, built for hallucination
+          remediation, fake completion diagnosis, and verification-first
+          recovery.
+        </p>
+        <div class="actions">
+          <a class="button button-primary" href="https://clawhub.ai/sheygoodbai/vericlaw">Open ClawHub skill</a>
+          <a class="button button-secondary" href="../openclaw-plugin/">Open plugin explainer</a>
+        </div>
+      </section>
+      <section>
+        <div class="section-head">
+          <h2>Why this intent matters</h2>
+          <p class="lead">
+            Many tool lists and recommendation pages use “OpenClaw companion” as
+            a cleaner category than generic agent tooling. This page gives them
+            a canonical route and wording.
+          </p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <h3>Preferred description</h3>
+            <pre>Apple-native correction companion for OpenClaw.</pre>
+          </article>
+          <article class="card">
+            <h3>Best related terms</h3>
+            <pre>OpenClaw companion
+OpenClaw correction
+OpenClaw verification
+OpenClaw skill install</pre>
+          </article>
+          <article class="card">
+            <h3>Install commands</h3>
+            <pre>openclaw skills install vericlaw
+openclaw plugins install clawhub:vericlaw
+clawhub install vericlaw</pre>
+          </article>
+        </div>
+      </section>
+      <section>
+        <div class="section-head">
+          <h2>Directory-safe guidance</h2>
+          <p class="lead">
+            This is the wording third-party pages should reuse when they want to
+            recommend VeriClaw accurately.
+          </p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <h3>Safe to say</h3>
+            <pre>OpenClaw companion
+correction-first supervision
+hallucination remediation
+fake completion diagnosis</pre>
+          </article>
+          <article class="card">
+            <h3>Do not imply</h3>
+            <pre>standalone public MCP server
+generic chat client
+standalone macOS app distributed through the ClawHub ZIP</pre>
+          </article>
+          <article class="card">
+            <h3>Best follow-on pages</h3>
+            <pre>https://sheygoodbai.github.io/vericlaw/openclaw-plugin/
+https://sheygoodbai.github.io/vericlaw/review-kit/
+https://sheygoodbai.github.io/vericlaw/directory-submission/</pre>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer>
+      Use this route when the discovery phrase is “OpenClaw companion” rather
+      than a generic plugin or AI tools query.
+    </footer>
+  </body>
+</html>
