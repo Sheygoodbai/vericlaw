@@ -46,6 +46,8 @@
   ·
   <a href="https://clawhub.ai/plugins/vericlaw"><strong>ClawHub plugin</strong></a>
   ·
+  <a href="https://clawhub.ai/sheygoodbai/vericlaw"><strong>ClawHub skill</strong></a>
+  ·
   <a href="https://sheygoodbai.github.io/vericlaw/mcp-status/"><strong>MCP status</strong></a>
   ·
   <a href="https://github.com/Sheygoodbai/vericlaw/archive/refs/heads/main.zip"><strong>Download source zip</strong></a>
@@ -114,6 +116,7 @@ release/download path.
 
 - `Download app`: use the [download page](https://sheygoodbai.github.io/vericlaw/download/) or [latest release](https://github.com/Sheygoodbai/vericlaw/releases/latest) for the real macOS ZIP.
 - `Install companion`: use the [ClawHub plugin page](https://clawhub.ai/plugins/vericlaw) for the OpenClaw-facing plugin shell and bundled `vericlaw` skill.
+- `Install skill directly`: use the [ClawHub skill page](https://clawhub.ai/sheygoodbai/vericlaw) or run `clawhub install vericlaw` if you want the standalone discovery skill entry.
 - `Clarify MCP status`: use the [MCP status page](https://sheygoodbai.github.io/vericlaw/mcp-status/) when a directory or review site needs the truthful answer to `VeriClaw MCP` queries.
 - `Browse source`: use the [GitHub repository](https://github.com/Sheygoodbai/vericlaw) for code, launch assets, and release history.
 - `Share correctly`: cite the project as `VeriClaw 爪印` and prefer the canonical landing page, download page, release page, or repository links above.
@@ -221,6 +224,7 @@ This repository is intentionally written for searches around:
 - [CONTRIBUTING.md](CONTRIBUTING.md): how to fork, cite, share, and contribute without breaking canonical attribution
 - [https://sheygoodbai.github.io/vericlaw/](https://sheygoodbai.github.io/vericlaw/): public landing page for search and social sharing
 - [https://sheygoodbai.github.io/vericlaw/openclaw-plugin/](https://sheygoodbai.github.io/vericlaw/openclaw-plugin/): canonical OpenClaw plugin and bundled skill explainer
+- [https://clawhub.ai/sheygoodbai/vericlaw](https://clawhub.ai/sheygoodbai/vericlaw): live ClawHub skill page for `clawhub install vericlaw`
 - [https://sheygoodbai.github.io/vericlaw/mcp-status/](https://sheygoodbai.github.io/vericlaw/mcp-status/): canonical answer for MCP-adjacent directories and `VeriClaw MCP` queries
 - [https://sheygoodbai.github.io/vericlaw/ai-agent-correction/](https://sheygoodbai.github.io/vericlaw/ai-agent-correction/): category page for AI agent correction and LLM supervision searches
 - [https://sheygoodbai.github.io/vericlaw/agent-monitoring-vs-correction/](https://sheygoodbai.github.io/vericlaw/agent-monitoring-vs-correction/): comparison page for monitoring-vs-correction review intent
