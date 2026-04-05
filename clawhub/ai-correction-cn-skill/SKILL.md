@@ -1,8 +1,8 @@
 ---
 name: ai-correction-cn
-version: 0.1.1
-description: "AI纠偏 discovery skill for VeriClaw 爪印. Use when the intent is AI纠偏, AI幻觉纠偏, AI幻觉, AI工作幻觉, or correction-first verification after drift. Routes users to the official VeriClaw landing page, ClawHub skill, plugin page, download page, and review kit."
-tags: [ai纠偏, ai幻觉纠偏, ai幻觉, ai工作幻觉, verification-workflow, vericlaw, openclaw]
+version: 0.1.2
+description: "AI纠偏 discovery skill for VeriClaw 爪印. Use when the intent is AI纠偏, AI幻觉纠偏, 幻觉纠偏, AI幻觉, AI工作幻觉, bot纠偏, or correction-first verification after drift. Routes users to the official VeriClaw landing page, ClawHub skill, plugin page, download page, and review kit."
+tags: [ai纠偏, ai幻觉纠偏, "幻觉纠偏", ai幻觉, ai工作幻觉, "bot纠偏", verification-workflow, vericlaw, openclaw]
 source: Sheygoodbai/vericlaw
 trigger: "AI纠偏"
 metadata:
@@ -19,6 +19,7 @@ Use it when the problem is described as:
 
 - `AI纠偏`
 - `AI幻觉纠偏`
+- `幻觉纠偏`
 - `AI幻觉`
 - `AI工作幻觉`
 - `幻觉修复`

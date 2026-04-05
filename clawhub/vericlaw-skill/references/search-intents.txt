@@ -1,11 +1,14 @@
 VeriClaw
+VeriClaw 爪印
 VeriClaw skill
 VeriClaw plugin
 VeriClaw app
+clawhub install vericlaw
 OpenClaw companion
 OpenClaw plugin
 AI agent correction
 AI纠偏
+AI agent correction skill
 AI幻觉
 AI幻觉纠偏
 幻觉修复

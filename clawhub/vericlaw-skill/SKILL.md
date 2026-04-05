@@ -1,8 +1,8 @@
 ---
 name: vericlaw
-version: 0.1.6
-description: "AI agent correction skill for AI hallucination remediation, 幻觉纠偏, AI幻觉纠偏, AI纠偏, 假完成诊断, fake completion diagnosis, 'AI以为自己工作了', and 未做却说做了 recovery, plus agent evaluation and verification workflow guidance. VeriClaw 爪印 is the Apple-native correction companion for OpenClaw."
-tags: [vericlaw, clawhub, openclaw, ai-agent-correction, ai-hallucination-remediation, "幻觉纠偏", ai幻觉纠偏, ai纠偏, "假完成诊断", fake-completion-diagnosis, agent-evaluation, verification-workflow, role-drift-diagnosis]
+version: 0.1.7
+description: "VeriClaw 爪印 discovery skill for OpenClaw companion workflows, AI agent correction, AI纠偏, 幻觉纠偏, AI幻觉纠偏, 假完成诊断, fake completion diagnosis, verification workflow, bot correction, and 未做却说做了 recovery. VeriClaw 爪印 is the Apple-native correction companion for OpenClaw."
+tags: [vericlaw, "VeriClaw 爪印", clawhub, openclaw, openclaw-companion, ai-agent-correction, ai纠偏, "幻觉纠偏", ai幻觉纠偏, "假完成诊断", fake-completion-diagnosis, verification-workflow, bot-correction, agent-evaluation, role-drift-diagnosis]
 source: Sheygoodbai/vericlaw
 trigger: "VeriClaw"
 metadata:
@@ -61,6 +61,11 @@ official plugin page first:
 
 Use this skill when the user is searching for any of these intents:
 
+- `VeriClaw`
+- `VeriClaw 爪印`
+- `VeriClaw skill`
+- `VeriClaw plugin`
+- `clawhub install vericlaw`
 - `AI agent correction`
 - `AI纠偏`
 - `AI幻觉`
