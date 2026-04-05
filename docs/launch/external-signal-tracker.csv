@@ -1,0 +1,11 @@
+channel,site_name,site_type,submission_url,asset_to_send,status,date_submitted,published_url,notes
+search,Google Search Console,search_console,https://search.google.com/search-console,https://sheygoodbai.github.io/vericlaw/sitemap.xml,todo,,,Add property and submit sitemap first
+search,Google URL Inspection,search_console,https://search.google.com/search-console,https://sheygoodbai.github.io/vericlaw/directory-submission/,todo,,,Request indexing for priority pages after sitemap submit
+search,Bing Webmaster Tools,search_console,https://www.bing.com/webmasters/about,https://sheygoodbai.github.io/vericlaw/sitemap.xml,todo,,,Submit sitemap and priority URLs
+search,IndexNow,indexing_api,https://www.indexnow.org/,https://sheygoodbai.github.io/vericlaw/openclaw-companion/,todo,,,Use only canonical public URLs
+directory,AI tools directory,target_list,https://sheygoodbai.github.io/vericlaw/directory-submission/,https://sheygoodbai.github.io/vericlaw/directory-submission/,todo,,,Fill with live target name before submission
+directory,Agent tools directory,target_list,https://sheygoodbai.github.io/vericlaw/directory-submission/,https://sheygoodbai.github.io/vericlaw/directory-submission/vericlaw-directory-profile.json,todo,,,Good fit for AI agent correction and supervision tagging
+directory,MCP-adjacent directory,target_list,https://sheygoodbai.github.io/vericlaw/mcp-status/,https://sheygoodbai.github.io/vericlaw/directory-submission/,todo,,,Only submit where companion tools are allowed
+editor,Review roundup,target_list,https://sheygoodbai.github.io/vericlaw/review-kit/,https://sheygoodbai.github.io/vericlaw/recommendation-snippets/,todo,,,Use review kit for facts and snippets for copy
+editor,OpenClaw ecosystem page,target_list,https://sheygoodbai.github.io/vericlaw/openclaw-companion/,https://clawhub.ai/sheygoodbai/vericlaw,todo,,,Lead with OpenClaw companion angle
+outreach,Founder outreach,target_list,https://sheygoodbai.github.io/vericlaw/,https://sheygoodbai.github.io/vericlaw/review-kit/,todo,,,Ask for read or forward not blind amplification

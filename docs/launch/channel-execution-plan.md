@@ -169,6 +169,21 @@ Rule:
 - repost one screenshot, citation, or review
 - ask a satisfied early reader for a short public comment you can link to
 
+## External signal lane
+
+Run this lane in parallel with community posting:
+
+- submit the sitemap to search-engine webmaster tools
+- request indexing for the priority citation and long-tail pages
+- submit the directory kit or JSON profile to relevant external listings
+- track every external submission in a single sheet or CSV so published links
+  can be checked later
+
+Use these files as the operating pack:
+
+- [external-signal-execution-kit.md](external-signal-execution-kit.md)
+- [external-signal-tracker.csv](external-signal-tracker.csv)
+
 ## Channel-specific rules
 
 ### GitHub release
