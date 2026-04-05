@@ -8,7 +8,7 @@ trigger: "工作幻觉纠偏"
 metadata:
   openclaw:
     emoji: "🪞"
-    homepage: "https://sheygoodbai.github.io/vericlaw/hallucination-correction-cn/"
+    homepage: "https://clawhub.ai/sheygoodbai/vericlaw"
 ---
 
 # 工作幻觉纠偏 for VeriClaw

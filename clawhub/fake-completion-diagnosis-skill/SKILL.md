@@ -1,6 +1,6 @@
 ---
 name: fake-completion-diagnosis
-version: 0.1.0
+version: 0.1.1
 description: "Fake completion diagnosis discovery skill for VeriClaw 爪印. Use when the intent is fake completion, fake completion diagnosis, AI假完成, AI以为自己工作了, AI未做却说做了, agent evaluation, or verification workflow recovery. Routes users to the official VeriClaw landing page, ClawHub skill, plugin page, download page, and review kit."
 tags: [fake-completion-diagnosis, fake-completion, ai假完成, ai以为自己工作了, agent-evaluation, verification-workflow, vericlaw, openclaw]
 source: Sheygoodbai/vericlaw
@@ -8,7 +8,7 @@ trigger: "Fake completion diagnosis"
 metadata:
   openclaw:
     emoji: "🪞"
-    homepage: "https://sheygoodbai.github.io/vericlaw/fake-completion-diagnosis/"
+    homepage: "https://clawhub.ai/sheygoodbai/vericlaw"
 ---
 
 # Fake Completion Diagnosis for VeriClaw

@@ -1,14 +1,14 @@
 ---
 name: agent-evaluation-vericlaw
-version: 0.1.0
-description: "Agent evaluation discovery skill for VeriClaw 爪印. Use when the intent is agent evaluation, drift verification, fake completion diagnosis, llm judge alternative, or correction hold after AI drift."
-tags: [agent-evaluation, drift-verification, fake-completion-diagnosis, llm-judge-alternative, vericlaw, openclaw]
+version: 0.1.2
+description: "Agent evaluation discovery skill for VeriClaw 爪印. Use when the intent is agent evaluation, agent supervision, AI agent correction, drift verification, fake completion diagnosis, llm judge alternative, or correction hold after AI drift."
+tags: [agent-evaluation, agent-supervision, ai-agent-correction, drift-verification, fake-completion-diagnosis, llm-judge-alternative, vericlaw, openclaw]
 source: Sheygoodbai/vericlaw
 trigger: "agent evaluation"
 metadata:
   openclaw:
     emoji: "🪞"
-    homepage: "https://sheygoodbai.github.io/vericlaw/agent-evaluation/"
+    homepage: "https://clawhub.ai/sheygoodbai/vericlaw"
 ---
 
 # Agent Evaluation for VeriClaw
@@ -16,6 +16,8 @@ metadata:
 Use this skill for:
 
 - `agent evaluation`
+- `agent supervision`
+- `AI agent correction`
 - `drift verification`
 - `fake completion diagnosis`
 - `llm judge alternative`

@@ -8,7 +8,7 @@ trigger: "未做却说做了"
 metadata:
   openclaw:
     emoji: "🪞"
-    homepage: "https://sheygoodbai.github.io/vericlaw/not-done-but-claimed-done/"
+    homepage: "https://clawhub.ai/sheygoodbai/vericlaw"
 ---
 
 # 未做却说做了 for VeriClaw

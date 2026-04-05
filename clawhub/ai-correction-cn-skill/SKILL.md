@@ -1,14 +1,14 @@
 ---
 name: ai-correction-cn
-version: 0.1.2
-description: "AI纠偏 discovery skill for VeriClaw 爪印. Use when the intent is AI纠偏, AI幻觉纠偏, 幻觉纠偏, AI幻觉, AI工作幻觉, bot纠偏, or correction-first verification after drift. Routes users to the official VeriClaw landing page, ClawHub skill, plugin page, download page, and review kit."
-tags: [ai纠偏, ai幻觉纠偏, "幻觉纠偏", ai幻觉, ai工作幻觉, "bot纠偏", verification-workflow, vericlaw, openclaw]
+version: 0.1.4
+description: "AI纠偏 discovery skill for VeriClaw 爪印. Use when the intent is AI纠偏, AI纠偏 workflow, AI幻觉纠偏, 幻觉纠偏, AI幻觉, AI工作幻觉, bot纠偏, or correction-first verification after drift. Routes users to the official VeriClaw landing page, ClawHub skill, plugin page, download page, and review kit."
+tags: [ai纠偏, "AI纠偏 workflow", ai幻觉纠偏, "幻觉纠偏", ai幻觉, ai工作幻觉, "bot纠偏", verification-workflow, vericlaw, openclaw]
 source: Sheygoodbai/vericlaw
 trigger: "AI纠偏"
 metadata:
   openclaw:
     emoji: "🪞"
-    homepage: "https://sheygoodbai.github.io/vericlaw/ai-hallucination-remediation/"
+    homepage: "https://clawhub.ai/sheygoodbai/vericlaw"
 ---
 
 # AI纠偏 for VeriClaw
@@ -18,6 +18,7 @@ This skill is a focused Chinese discovery route into `VeriClaw 爪印`.
 Use it when the problem is described as:
 
 - `AI纠偏`
+- `AI纠偏 workflow`
 - `AI幻觉纠偏`
 - `幻觉纠偏`
 - `AI幻觉`

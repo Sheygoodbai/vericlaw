@@ -8,7 +8,7 @@ trigger: "bot纠偏"
 metadata:
   openclaw:
     emoji: "🪞"
-    homepage: "https://sheygoodbai.github.io/vericlaw/bot-correction/"
+    homepage: "https://clawhub.ai/sheygoodbai/vericlaw"
 ---
 
 # bot纠偏 for VeriClaw

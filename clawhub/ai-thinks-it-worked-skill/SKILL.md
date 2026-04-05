@@ -8,7 +8,7 @@ trigger: "AI以为自己工作了"
 metadata:
   openclaw:
     emoji: "🪞"
-    homepage: "https://sheygoodbai.github.io/vericlaw/fake-completion-diagnosis/"
+    homepage: "https://clawhub.ai/sheygoodbai/vericlaw"
 ---
 
 # AI以为自己工作了 for VeriClaw

@@ -8,7 +8,7 @@ trigger: "AI agent correction"
 metadata:
   openclaw:
     emoji: "🪞"
-    homepage: "https://sheygoodbai.github.io/vericlaw/ai-agent-correction/"
+    homepage: "https://clawhub.ai/sheygoodbai/vericlaw"
 ---
 
 # AI Agent Correction for VeriClaw

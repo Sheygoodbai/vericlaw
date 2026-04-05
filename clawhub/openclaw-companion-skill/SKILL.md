@@ -1,6 +1,6 @@
 ---
 name: openclaw-companion
-version: 0.1.0
+version: 0.1.1
 description: "OpenClaw companion discovery skill for VeriClaw 爪印. Use when the intent is OpenClaw companion, OpenClaw correction, OpenClaw verification, openclaw skills install vericlaw, or openclaw plugins install clawhub:vericlaw."
 tags: [openclaw-companion, openclaw-correction, openclaw-verification, vericlaw, openclaw, ai-agent-correction]
 source: Sheygoodbai/vericlaw
@@ -8,7 +8,7 @@ trigger: "OpenClaw companion"
 metadata:
   openclaw:
     emoji: "🪞"
-    homepage: "https://sheygoodbai.github.io/vericlaw/openclaw-companion/"
+    homepage: "https://clawhub.ai/sheygoodbai/vericlaw"
 ---
 
 # OpenClaw Companion for VeriClaw

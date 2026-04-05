@@ -1,14 +1,14 @@
 ---
 name: verification-workflow-vericlaw
-version: 0.1.0
-description: "Verification workflow discovery skill for VeriClaw 爪印. Use when the intent is verification workflow, correction loop, verification before completion, evidence-first intervention, or proof that a correction held."
-tags: [verification-workflow, correction-loop, verification-before-completion, evidence-first-intervention, vericlaw, openclaw]
+version: 0.1.2
+description: "Verification workflow discovery skill for VeriClaw 爪印. Use when the intent is verification workflow, AI agent correction, agent supervision, correction loop, verification before completion, evidence-first intervention, or proof that a correction held."
+tags: [verification-workflow, ai-agent-correction, agent-supervision, correction-loop, verification-before-completion, evidence-first-intervention, vericlaw, openclaw]
 source: Sheygoodbai/vericlaw
 trigger: "verification workflow"
 metadata:
   openclaw:
     emoji: "🪞"
-    homepage: "https://sheygoodbai.github.io/vericlaw/verification-workflow/"
+    homepage: "https://clawhub.ai/sheygoodbai/vericlaw"
 ---
 
 # Verification Workflow for VeriClaw
@@ -16,6 +16,8 @@ metadata:
 Use this skill for:
 
 - `verification workflow`
+- `AI agent correction`
+- `agent supervision`
 - `correction loop`
 - `verification before completion`
 - `evidence-first intervention`

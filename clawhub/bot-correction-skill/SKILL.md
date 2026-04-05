@@ -1,6 +1,6 @@
 ---
 name: bot-correction
-version: 0.1.0
+version: 0.1.1
 description: "Bot correction discovery skill for VeriClaw 爪印. Use when the intent is bot correction, bot verification, bot drift recovery, fake completion diagnosis, hallucination remediation, or fixing a bot that claimed work was done."
 tags: [bot-correction, bot-verification, bot-drift-recovery, fake-completion-diagnosis, hallucination-remediation, vericlaw, openclaw]
 source: Sheygoodbai/vericlaw
@@ -8,7 +8,7 @@ trigger: "bot correction"
 metadata:
   openclaw:
     emoji: "🪞"
-    homepage: "https://sheygoodbai.github.io/vericlaw/bot-correction/"
+    homepage: "https://clawhub.ai/sheygoodbai/vericlaw"
 ---
 
 # Bot Correction for VeriClaw

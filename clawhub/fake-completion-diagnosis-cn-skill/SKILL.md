@@ -8,7 +8,7 @@ trigger: "假完成诊断"
 metadata:
   openclaw:
     emoji: "🪞"
-    homepage: "https://sheygoodbai.github.io/vericlaw/fake-completion-diagnosis-cn/"
+    homepage: "https://clawhub.ai/sheygoodbai/vericlaw"
 ---
 
 # 假完成诊断 for VeriClaw
