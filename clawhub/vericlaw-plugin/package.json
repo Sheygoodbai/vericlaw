@@ -1,7 +1,7 @@
 {
   "name": "vericlaw",
   "displayName": "VeriClaw",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "private": true,
   "description": "Official ClawHub release surface for VeriClaw, routing users to the canonical repository, app download page, GitHub releases, bundled skill, and keyword-triggered correction guidance.",
   "keywords": [
