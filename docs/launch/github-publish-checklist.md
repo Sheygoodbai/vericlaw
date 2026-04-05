@@ -32,6 +32,12 @@ Current positioning:
   [growth-copy-deck.md](growth-copy-deck.md)
 - first-wave forwarding copy is ready in
   [distribution-post-templates.md](distribution-post-templates.md)
+- channel sequencing and launch timing are aligned in
+  [channel-execution-plan.md](channel-execution-plan.md)
+- Product Hunt submission copy is ready in
+  [product-hunt-launch-pack.md](product-hunt-launch-pack.md)
+- founder DMs and warm forwarding asks are ready in
+  [founder-outreach-playbook.md](founder-outreach-playbook.md)
 - legal/IP pack is present at repo root:
   - [LICENSE](../../LICENSE)
   - [NOTICE](../../NOTICE)

@@ -201,6 +201,9 @@ This repository is intentionally written for searches around:
 - [docs/launch/github-publish-checklist.md](docs/launch/github-publish-checklist.md): publishing checklist
 - [docs/launch/growth-copy-deck.md](docs/launch/growth-copy-deck.md): release hero text, pinned repo blurbs, and high-conversion one-liners
 - [docs/launch/distribution-post-templates.md](docs/launch/distribution-post-templates.md): paste-ready first-wave public distribution templates
+- [docs/launch/channel-execution-plan.md](docs/launch/channel-execution-plan.md): 14-day channel plan for GitHub, Show HN, Product Hunt, and direct outreach
+- [docs/launch/product-hunt-launch-pack.md](docs/launch/product-hunt-launch-pack.md): ready-to-submit Product Hunt fields, maker comment, and launch-day operating plan
+- [docs/launch/founder-outreach-playbook.md](docs/launch/founder-outreach-playbook.md): warm DM scripts and tracking plan for the first 30 launch conversations
 - [CONTRIBUTING.md](CONTRIBUTING.md): how to fork, cite, share, and contribute without breaking canonical attribution
 - [https://sheygoodbai.github.io/vericlaw/](https://sheygoodbai.github.io/vericlaw/): public landing page for search and social sharing
 - [docs/design/first-use-ux-iteration.md](docs/design/first-use-ux-iteration.md): first-use UX notes

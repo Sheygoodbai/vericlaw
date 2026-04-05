@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="70" y1="42" x2="1128" y2="604" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08111F"/>
+      <stop offset="0.58" stop-color="#0A1C31"/>
+      <stop offset="1" stop-color="#0A121B"/>
+    </linearGradient>
+    <radialGradient id="cyan" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(914 170) rotate(90) scale(208)">
+      <stop stop-color="#72D6FF" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#72D6FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="mint" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1114 546) rotate(90) scale(182)">
+      <stop stop-color="#7CF1D7" stop-opacity="0.82"/>
+      <stop offset="1" stop-color="#7CF1D7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="beige" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(914 250) rotate(90) scale(168)">
+      <stop stop-color="#F2E7D5" stop-opacity="0.56"/>
+      <stop offset="0.55" stop-color="#B9CBDF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#B9CBDF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="phone-screen" x1="1009" y1="81" x2="1138" y2="418" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#26154A"/>
+      <stop offset="0.64" stop-color="#081620"/>
+      <stop offset="1" stop-color="#08131D"/>
+    </linearGradient>
+    <radialGradient id="phone-glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1064 240) rotate(90) scale(116)">
+      <stop stop-color="#9DBFFF"/>
+      <stop offset="0.42" stop-color="#35587F"/>
+      <stop offset="1" stop-color="#091726"/>
+    </radialGradient>
+    <filter id="blur-xl" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="56"/>
+    </filter>
+    <filter id="shadow" x="-25%" y="-25%" width="170%" height="170%">
+      <feDropShadow dx="0" dy="28" stdDeviation="28" flood-color="#02060D" flood-opacity="0.38"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="914" cy="170" r="160" fill="url(#cyan)" filter="url(#blur-xl)"/>
+  <circle cx="1114" cy="546" r="146" fill="url(#mint)" filter="url(#blur-xl)"/>
+  <circle cx="238" cy="560" r="140" fill="#47C5FF" opacity="0.12" filter="url(#blur-xl)"/>
+
+  <rect x="64" y="66" width="298" height="40" rx="20" fill="#0D1D30" stroke="#4F86B4" stroke-opacity="0.75"/>
+  <text x="83" y="92" fill="#B6E3FF" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif" font-size="16" font-weight="650">Apple-native correction companion</text>
+
+  <text x="64" y="200" fill="#F4F8FF" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif" font-size="88" font-weight="700" letter-spacing="-5.2">VeriClaw 爪印</text>
+  <text x="64" y="262" fill="#BEE7FF" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif" font-size="32" font-weight="650" letter-spacing="-1.3">Evidence / Diagnose / Correct</text>
+
+  <text x="64" y="320" fill="#D1DFF0" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif" font-size="23" letter-spacing="-0.6">
+    <tspan x="64" dy="0">Native supervision for OpenClaw.</tspan>
+    <tspan x="64" dy="34">Catch drift before it compounds.</tspan>
+  </text>
+
+  <text x="64" y="570" fill="#92AAC2" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif" font-size="15" letter-spacing="-0.3">sheygoodbai.github.io/vericlaw</text>
+
+  <rect x="778" y="128" width="292" height="292" rx="64" fill="url(#beige)" filter="url(#blur-xl)"/>
+
+  <g filter="url(#shadow)" transform="rotate(11 1054 237)">
+    <rect x="958" y="46" width="192" height="392" rx="38" fill="#081320" stroke="#3B638B" stroke-opacity="0.7"/>
+    <rect x="966" y="54" width="176" height="376" rx="30" fill="url(#phone-screen)"/>
+    <rect x="1032" y="62" width="44" height="10" rx="5" fill="#081320"/>
+    <circle cx="1054" cy="242" r="92" fill="url(#phone-glow)"/>
+    <circle cx="1054" cy="242" r="44" fill="#DCEEFF" fill-opacity="0.92"/>
+    <circle cx="1054" cy="242" r="66" stroke="#6A94C4" stroke-opacity="0.4"/>
+    <rect x="1109" y="111" width="13" height="13" rx="4" fill="#0E1C2E" stroke="#567EA5" stroke-opacity="0.6"/>
+    <rect x="1109" y="134" width="13" height="13" rx="4" fill="#0E1C2E" stroke="#567EA5" stroke-opacity="0.6"/>
+    <rect x="1109" y="157" width="13" height="13" rx="4" fill="#0E1C2E" stroke="#567EA5" stroke-opacity="0.6"/>
+    <rect x="980" y="74" width="58" height="14" rx="7" fill="#17263C"/>
+    <circle cx="989" cy="81" r="3.2" fill="#6DE5D0"/>
+    <text x="996" y="85" fill="#DCEBFF" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif" font-size="8.5" font-weight="700">Connected</text>
+  </g>
+
+  <image href="./branding/vericlaw-brand-mark.png" x="768" y="132" width="292" height="292" preserveAspectRatio="xMidYMid slice" filter="url(#shadow)"/>
+
+  <rect x="738" y="456" width="356" height="86" rx="26" fill="#0C1A2A" fill-opacity="0.9" stroke="#4C87BE" stroke-opacity="0.36"/>
+  <text x="760" y="490" fill="#7AD8FF" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif" font-size="16" font-weight="650" letter-spacing="-0.3">OpenClaw companion</text>
+  <text x="760" y="519" fill="#DCE8F5" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif" font-size="22" font-weight="650" letter-spacing="-0.8">Native correction surface</text>
+</svg>

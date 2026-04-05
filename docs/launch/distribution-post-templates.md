@@ -99,9 +99,51 @@ Repository: https://github.com/Sheygoodbai/vericlaw
 Landing page: https://sheygoodbai.github.io/vericlaw/
 ```
 
-## Reddit / Hacker News style
+## Product Hunt maker first comment
+
+Use this only when the launch page, screenshots, and maker availability are
+ready.
+Do not ask people for upvotes directly. Ask for feedback, visits, and comments.
+
+Suggested listing fields:
+
+- Tagline:
+  `Correction-first companion for drifting AI agents`
+- Description:
+  Keep this within the current `260` character field.
+  `VeriClaw 爪印 is an Apple-native correction workspace for AI agents. It turns hallucination, fake completion, overreach, and role drift into a usable loop: evidence, diagnosis, intervention, verification, and casebook learning.`
+- Suggested launch tags to check in the current submission flow:
+  - `AI Agents`
+  - `Engineering & Development`
+  - `Productivity` or `AI Workflow Automation`
+
+```text
+Hi Product Hunt, I’m the maker behind VeriClaw 爪印.
+
+I built it around a problem I kept seeing in agent workflows: once a bot drifts, hallucinates, fake-completes, or breaks role discipline, teams often get visibility but not a usable correction loop.
+
+VeriClaw is my attempt to make that loop concrete:
+evidence -> diagnosis -> intervention -> verification -> casebook
+
+Current public surface:
+https://github.com/Sheygoodbai/vericlaw
+
+Landing page:
+https://sheygoodbai.github.io/vericlaw/
+
+I’d especially love feedback on:
+- whether the correction-first story is immediately clear
+- whether the role-drift framing feels useful
+- which real failure mode you would want this to catch first
+```
+
+## Show HN
 
 Use a plainspoken title and avoid marketing adjectives.
+
+Only use `Show HN` when people can meaningfully try, run, or inspect the
+project without unnecessary barriers. If the launch is mostly a landing page or
+copy deck that day, make a regular submission instead.
 
 Suggested titles:
 
@@ -120,6 +162,34 @@ VeriClaw is built around:
 evidence -> diagnosis -> intervention -> verification -> casebook
 
 Repo: https://github.com/Sheygoodbai/vericlaw
+```
+
+Suggested ending line if the repo is runnable or inspectable:
+
+```text
+If you try it or review the repo, I’d love blunt feedback on whether the correction loop is clearer than generic monitoring.
+```
+
+## Regular link submission when `Show HN` is too early
+
+Suggested titles:
+
+- `VeriClaw: correction-first supervision for drifting AI agents`
+- `Open source Apple-native companion for bot drift diagnosis`
+
+Suggested body:
+
+```text
+Sharing VeriClaw 爪印, a GitHub-first public launch for a correction companion around OpenClaw.
+
+The focus is not just monitoring. The loop is:
+evidence -> diagnosis -> intervention -> verification -> casebook
+
+Landing page:
+https://sheygoodbai.github.io/vericlaw/
+
+Repo:
+https://github.com/Sheygoodbai/vericlaw
 ```
 
 ## Forward request template
