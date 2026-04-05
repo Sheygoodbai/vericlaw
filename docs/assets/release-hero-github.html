@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1600, initial-scale=1" />
+    <title>VeriClaw Release Hero</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg-0: #07111d;
+        --bg-1: #0a1a2f;
+        --bg-2: #0b1219;
+        --ink: #f5f8ff;
+        --muted: #d0dced;
+        --soft: #9bb0c8;
+        --line: rgba(90, 151, 214, 0.34);
+        --cyan: #7cd8ff;
+        --pill: rgba(15, 31, 50, 0.84);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        width: 1600px;
+        height: 900px;
+        overflow: hidden;
+        background:
+          radial-gradient(circle at 72% 16%, rgba(114, 216, 255, 0.24), transparent 28%),
+          radial-gradient(circle at 88% 82%, rgba(88, 238, 204, 0.16), transparent 26%),
+          radial-gradient(circle at 22% 84%, rgba(72, 151, 255, 0.12), transparent 28%),
+          linear-gradient(118deg, var(--bg-0), var(--bg-1) 58%, var(--bg-2));
+        font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
+      }
+
+      .frame {
+        position: relative;
+        width: 1600px;
+        height: 900px;
+        overflow: hidden;
+      }
+
+      .copy {
+        position: absolute;
+        left: 88px;
+        top: 82px;
+        width: 720px;
+        color: var(--ink);
+      }
+
+      .eyebrow {
+        display: inline-flex;
+        align-items: center;
+        height: 52px;
+        padding: 0 22px;
+        border-radius: 999px;
+        border: 1px solid rgba(92, 156, 220, 0.56);
+        background: rgba(10, 26, 45, 0.72);
+        color: #bce6ff;
+        font-size: 22px;
+        font-weight: 650;
+        letter-spacing: -0.02em;
+      }
+
+      h1 {
+        margin: 26px 0 0;
+        font-size: 86px;
+        line-height: 0.94;
+        letter-spacing: -0.06em;
+      }
+
+      .subtitle {
+        margin-top: 26px;
+        color: #bfe6ff;
+        font-size: 36px;
+        font-weight: 650;
+        letter-spacing: -0.03em;
+      }
+
+      .body {
+        margin-top: 28px;
+        max-width: 700px;
+        color: var(--muted);
+        font-size: 30px;
+        line-height: 1.38;
+        letter-spacing: -0.028em;
+      }
+
+      .body strong {
+        color: #eef6ff;
+        font-weight: 680;
+      }
+
+      .row {
+        display: flex;
+        gap: 16px;
+        margin-top: 38px;
+      }
+
+      .chip {
+        padding: 18px 24px 20px;
+        min-width: 210px;
+        border-radius: 24px;
+        border: 1px solid var(--line);
+        background: var(--pill);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+      }
+
+      .chip strong {
+        display: block;
+        color: var(--cyan);
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+      }
+
+      .chip span {
+        display: block;
+        margin-top: 6px;
+        color: #e3edf7;
+        font-size: 19px;
+        font-weight: 650;
+        letter-spacing: -0.025em;
+      }
+
+      .footer {
+        margin-top: 46px;
+        color: var(--soft);
+        font-size: 18px;
+        letter-spacing: -0.02em;
+      }
+
+      .stage {
+        position: absolute;
+        right: 58px;
+        top: 40px;
+        width: 720px;
+        height: 820px;
+      }
+
+      .beam {
+        position: absolute;
+        right: 116px;
+        top: 14px;
+        width: 360px;
+        height: 360px;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgba(242, 229, 205, 0.44), rgba(194, 213, 229, 0.14) 54%, transparent 74%);
+        filter: blur(18px);
+      }
+
+      .icon-wrap {
+        position: absolute;
+        right: 168px;
+        top: 120px;
+        width: 360px;
+        height: 360px;
+        border-radius: 86px;
+        box-shadow: 0 44px 90px rgba(2, 8, 18, 0.54);
+      }
+
+      .icon-wrap img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: 86px;
+      }
+
+      .phone {
+        position: absolute;
+        width: 214px;
+        padding: 10px;
+        border-radius: 42px;
+        background: rgba(8, 19, 32, 0.92);
+        border: 1px solid rgba(82, 139, 193, 0.44);
+        box-shadow: 0 30px 70px rgba(4, 9, 18, 0.56);
+      }
+
+      .phone img {
+        display: block;
+        width: 100%;
+        border-radius: 34px;
+      }
+
+      .phone-a {
+        right: 24px;
+        top: 44px;
+        transform: rotate(11deg);
+      }
+
+      .phone-b {
+        right: 0;
+        bottom: 136px;
+        transform: rotate(-8deg);
+      }
+
+      .callout {
+        position: absolute;
+        left: 88px;
+        bottom: 112px;
+        width: 420px;
+        padding: 22px 26px 24px;
+        border-radius: 28px;
+        background: rgba(10, 24, 40, 0.9);
+        border: 1px solid rgba(78, 138, 193, 0.38);
+        box-shadow: 0 28px 56px rgba(3, 8, 16, 0.38);
+      }
+
+      .callout strong {
+        display: block;
+        color: var(--cyan);
+        font-size: 18px;
+        letter-spacing: -0.02em;
+      }
+
+      .callout span {
+        display: block;
+        margin-top: 8px;
+        color: #e1ebf7;
+        font-size: 24px;
+        font-weight: 650;
+        letter-spacing: -0.03em;
+      }
+
+      .grid {
+        position: absolute;
+        inset: auto auto 0 -80px;
+        width: 720px;
+        height: 420px;
+        background-image:
+          linear-gradient(rgba(74, 129, 184, 0.08) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(74, 129, 184, 0.08) 1px, transparent 1px);
+        background-size: 44px 44px;
+        mask-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.9));
+        opacity: 0.4;
+        transform: perspective(700px) rotateX(64deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="frame">
+      <section class="copy">
+        <div class="eyebrow">AI agent correction / LLM supervision</div>
+        <h1>VeriClaw 爪印</h1>
+        <div class="subtitle">Role-drift diagnosis and intervention on Apple-native surfaces.</div>
+        <div class="body">
+          Designed for the moment a bot <strong>drifts</strong>,
+          <strong>hallucinates</strong>, or <strong>fake-completes</strong>.
+          Move from evidence to diagnosis, intervention, verification, and casebook learning.
+        </div>
+        <div class="row">
+          <div class="chip">
+            <strong>Evidence-first</strong>
+            <span>Catch the moment</span>
+          </div>
+          <div class="chip">
+            <strong>Intervention</strong>
+            <span>Choose next action</span>
+          </div>
+          <div class="chip">
+            <strong>Verification</strong>
+            <span>Prove the fix held</span>
+          </div>
+        </div>
+        <div class="footer">GitHub-first public release • Download on GitHub</div>
+      </section>
+
+      <section class="stage">
+        <div class="grid"></div>
+        <div class="beam"></div>
+        <div class="phone phone-a">
+          <img src="./screenshots/02-review-settings.png" alt="" />
+        </div>
+        <div class="icon-wrap">
+          <img src="./branding/vericlaw-brand-mark.png" alt="" />
+        </div>
+        <div class="phone phone-b">
+          <img src="./screenshots/03-role-aware-followup.png" alt="" />
+        </div>
+        <div class="callout">
+          <strong>OpenClaw companion</strong>
+          <span>Correction, not just monitoring.</span>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

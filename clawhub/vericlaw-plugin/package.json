@@ -1,9 +1,9 @@
 {
   "name": "vericlaw",
   "displayName": "VeriClaw",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "private": true,
-  "description": "Official ClawHub release surface for VeriClaw, routing users to the canonical repository, app download page, and GitHub releases.",
+  "description": "Official ClawHub release surface for VeriClaw, routing users to the canonical repository, app download page, GitHub releases, bundled skill, and keyword-triggered correction guidance.",
   "keywords": [
     "vericlaw",
     "bot correction",
@@ -13,6 +13,9 @@
     "hallucination correction",
     "llm supervision",
     "ai agent correction",
+    "fake completion",
+    "role drift",
+    "lazy assistant",
     "work attitude",
     "casebook",
     "apple native",

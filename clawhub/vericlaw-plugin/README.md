@@ -21,6 +21,8 @@ project surface.
 
 - The ClawHub `Download zip` button downloads the tiny listing package for this ClawHub entry.
 - If you want the actual `VeriClaw 爪印.app`, use the public download page or GitHub release above.
+- Installing this plugin also exposes the bundled `vericlaw` skill in OpenClaw.
+- The plugin registers a prompt hook so messages about hallucination, correction, fake completion, drift, verification risk, and bot laziness automatically route toward the VeriClaw correction workflow.
 
 ## Product focus
 

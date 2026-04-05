@@ -21,6 +21,10 @@ real operator voice.
 These variants are optimized for a GitHub release cover image, social card, or
 announcement visual. Keep text short enough to read before scrolling.
 
+Current exported asset:
+
+- [release-hero-github.png](../assets/release-hero-github.png)
+
 ### Variant A: correction-first
 
 - Eyebrow: `Apple-native AI agent correction`
