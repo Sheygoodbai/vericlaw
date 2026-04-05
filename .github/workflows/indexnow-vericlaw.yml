@@ -1,0 +1,73 @@
+name: Submit VeriClaw URLs To IndexNow
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - docs/**
+      - .github/workflows/indexnow-vericlaw.yml
+  workflow_dispatch:
+
+jobs:
+  submit:
+    if: github.repository == 'Sheygoodbai/vericlaw'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build IndexNow payload
+        shell: bash
+        run: |
+          python3 <<'PY'
+          import json
+          import pathlib
+          import xml.etree.ElementTree as ET
+
+          ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+          tree = ET.parse("docs/sitemap.xml")
+          urls = []
+          for loc in tree.findall(".//sm:loc", ns):
+            if loc.text:
+              urls.append(loc.text.strip())
+
+          for extra in [
+            "https://sheygoodbai.github.io/vericlaw/llms.txt",
+            "https://sheygoodbai.github.io/vericlaw/llms-full.txt",
+          ]:
+            if extra not in urls:
+              urls.append(extra)
+
+          key = pathlib.Path("docs/33f8f11439064b0bb9998b8d138413f0.txt").read_text().strip()
+          payload = {
+            "host": "sheygoodbai.github.io",
+            "key": key,
+            "keyLocation": f"https://sheygoodbai.github.io/vericlaw/{key}.txt",
+            "urlList": urls,
+          }
+
+          pathlib.Path("indexnow-payload.json").write_text(
+            json.dumps(payload, separators=(",", ":"), ensure_ascii=False)
+          )
+          PY
+
+          cat indexnow-payload.json
+
+      - name: Submit to IndexNow
+        shell: bash
+        run: |
+          status_code="$(
+            curl -sS \
+              -o indexnow-response.txt \
+              -w "%{http_code}" \
+              -X POST "https://api.indexnow.org/indexnow" \
+              -H "Content-Type: application/json; charset=utf-8" \
+              --data @indexnow-payload.json
+          )"
+
+          cat indexnow-response.txt || true
+
+          if [[ "${status_code}" != "200" && "${status_code}" != "202" ]]; then
+            echo "IndexNow submission failed with HTTP ${status_code}" >&2
+            exit 1
+          fi

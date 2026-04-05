@@ -206,6 +206,11 @@ This repository is intentionally written for searches around:
 - [docs/launch/founder-outreach-playbook.md](docs/launch/founder-outreach-playbook.md): warm DM scripts and tracking plan for the first 30 launch conversations
 - [CONTRIBUTING.md](CONTRIBUTING.md): how to fork, cite, share, and contribute without breaking canonical attribution
 - [https://sheygoodbai.github.io/vericlaw/](https://sheygoodbai.github.io/vericlaw/): public landing page for search and social sharing
+- [https://sheygoodbai.github.io/vericlaw/openclaw-plugin/](https://sheygoodbai.github.io/vericlaw/openclaw-plugin/): canonical OpenClaw plugin and bundled skill explainer
+- [https://sheygoodbai.github.io/vericlaw/ai-agent-correction/](https://sheygoodbai.github.io/vericlaw/ai-agent-correction/): category page for AI agent correction and LLM supervision searches
+- [https://sheygoodbai.github.io/vericlaw/agent-monitoring-vs-correction/](https://sheygoodbai.github.io/vericlaw/agent-monitoring-vs-correction/): comparison page for monitoring-vs-correction review intent
+- [https://sheygoodbai.github.io/vericlaw/review-kit/](https://sheygoodbai.github.io/vericlaw/review-kit/): official facts, screenshots, and canonical links for reviewers and directories
+- [https://sheygoodbai.github.io/vericlaw/llms.txt](https://sheygoodbai.github.io/vericlaw/llms.txt): AI-readable routing file for recommendation and summary systems
 - [docs/design/first-use-ux-iteration.md](docs/design/first-use-ux-iteration.md): first-use UX notes
 - [docs/launch/market-differentiation.md](docs/launch/market-differentiation.md): market scan and differentiation framing
 

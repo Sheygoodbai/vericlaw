@@ -6,15 +6,19 @@
     <title>VeriClaw 爪印 | AI Agent Correction, LLM Supervision & Hallucination Remediation</title>
     <meta
       name="description"
-      content="VeriClaw 爪印 is an Apple-native AI agent correction app and companion surface for evidence-first diagnosis, hallucination remediation, intervention guidance, verification, and casebook learning."
+      content="VeriClaw 爪印 is an Apple-native AI agent correction app, OpenClaw companion plugin surface, and bundled skill route for evidence-first diagnosis, hallucination remediation, intervention guidance, verification, and casebook learning."
     />
+    <meta name="application-name" content="VeriClaw 爪印" />
+    <meta name="apple-mobile-web-app-title" content="VeriClaw 爪印" />
+    <meta name="theme-color" content="#0d1d1c" />
     <meta
       name="keywords"
-      content="VeriClaw, VeriClaw app, VeriClaw download, VeriClaw plugin, AI agent correction, LLM supervision, hallucination remediation, role drift diagnosis, bot supervision, agent observability, OpenClaw companion, macOS app, iPhone companion"
+      content="VeriClaw, VeriClaw app, VeriClaw download, VeriClaw plugin, VeriClaw skill, OpenClaw plugin, OpenClaw skill, AI agent correction, LLM supervision, hallucination remediation, role drift diagnosis, bot supervision, agent observability, agent monitoring alternative, bot drift diagnosis, OpenClaw companion, macOS app, iPhone companion"
     />
     <meta name="robots" content="index,follow,max-image-preview:large" />
     <link rel="canonical" href="https://sheygoodbai.github.io/vericlaw/" />
     <link rel="icon" type="image/png" href="assets/branding/vericlaw-brand-mark.png" />
+    <link rel="alternate" type="text/plain" href="https://sheygoodbai.github.io/vericlaw/llms.txt" title="LLMs.txt" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="VeriClaw 爪印" />
     <meta property="og:title" content="VeriClaw 爪印 | AI Agent Correction, LLM Supervision & Hallucination Remediation" />
@@ -649,19 +653,61 @@
         "@context": "https://schema.org",
         "@graph": [
           {
+            "@type": "WebSite",
+            "@id": "https://sheygoodbai.github.io/vericlaw/#website",
+            "name": "VeriClaw 爪印",
+            "alternateName": "VeriClaw",
+            "url": "https://sheygoodbai.github.io/vericlaw/",
+            "description": "Official website for VeriClaw 爪印, the Apple-native correction companion for OpenClaw."
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://sheygoodbai.github.io/vericlaw/#organization",
+            "name": "VeriClaw 爪印",
+            "alternateName": "VeriClaw",
+            "url": "https://sheygoodbai.github.io/vericlaw/",
+            "logo": "https://sheygoodbai.github.io/vericlaw/assets/branding/vericlaw-brand-mark.png",
+            "sameAs": [
+              "https://github.com/Sheygoodbai/vericlaw",
+              "https://github.com/Sheygoodbai/vericlaw/releases/latest",
+              "https://clawhub.ai/plugins/vericlaw"
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://sheygoodbai.github.io/vericlaw/#webpage",
+            "url": "https://sheygoodbai.github.io/vericlaw/",
+            "name": "VeriClaw 爪印",
+            "isPartOf": { "@id": "https://sheygoodbai.github.io/vericlaw/#website" },
+            "about": { "@id": "https://sheygoodbai.github.io/vericlaw/#softwareapp" },
+            "image": "https://sheygoodbai.github.io/vericlaw/assets/social-preview-brand.png?v=20260405",
+            "description": "Landing page for the VeriClaw app, plugin, skill, and review-ready discovery surfaces."
+          },
+          {
             "@type": "SoftwareSourceCode",
+            "@id": "https://sheygoodbai.github.io/vericlaw/#sourcecode",
             "name": "VeriClaw 爪印",
             "alternateName": "VeriClaw",
             "description": "Apple-native AI agent correction, LLM supervision, hallucination remediation, role-drift diagnosis, and verification workflow.",
             "codeRepository": "https://github.com/Sheygoodbai/vericlaw",
             "url": "https://sheygoodbai.github.io/vericlaw/",
             "downloadUrl": "https://sheygoodbai.github.io/vericlaw/download/",
+            "runtimePlatform": "OpenClaw / ClawHub",
+            "programmingLanguage": ["JavaScript", "HTML", "CSS"],
+            "publisher": { "@id": "https://sheygoodbai.github.io/vericlaw/#organization" },
             "sameAs": [
               "https://github.com/Sheygoodbai/vericlaw",
               "https://github.com/Sheygoodbai/vericlaw/releases/latest",
               "https://clawhub.ai/plugins/vericlaw"
             ],
-            "image": "https://sheygoodbai.github.io/vericlaw/assets/social-preview-brand.png?v=20260405",
+            "featureList": [
+              "AI agent correction",
+              "Hallucination remediation",
+              "Role-drift diagnosis",
+              "Evidence-first intervention guidance",
+              "Verification workflow",
+              "Bundled OpenClaw companion skill"
+            ],
             "license": "https://github.com/Sheygoodbai/vericlaw/blob/main/LICENSE",
             "keywords": [
               "AI agent correction",
@@ -678,16 +724,35 @@
           },
           {
             "@type": "SoftwareApplication",
+            "@id": "https://sheygoodbai.github.io/vericlaw/#softwareapp",
             "name": "VeriClaw 爪印",
             "alternateName": "VeriClaw",
             "applicationCategory": "DeveloperApplication",
+            "applicationSubCategory": "AI agent correction",
             "operatingSystem": "macOS",
             "softwareVersion": "0.1.1",
             "url": "https://sheygoodbai.github.io/vericlaw/download/",
             "downloadUrl": "https://sheygoodbai.github.io/vericlaw/download/",
+            "isAccessibleForFree": true,
+            "publisher": { "@id": "https://sheygoodbai.github.io/vericlaw/#organization" },
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD",
+              "availability": "https://schema.org/InStock",
+              "url": "https://sheygoodbai.github.io/vericlaw/download/"
+            },
             "sameAs": [
               "https://github.com/Sheygoodbai/vericlaw/releases/latest",
               "https://clawhub.ai/plugins/vericlaw"
+            ],
+            "featureList": [
+              "Evidence-first diagnosis",
+              "Intervention guidance",
+              "Verification before closure",
+              "Casebook learning",
+              "OpenClaw companion plugin path",
+              "Bundled vericlaw discovery skill"
             ],
             "description": "Apple-native AI agent correction app for evidence capture, diagnosis, intervention guidance, verification, and casebook learning."
           }
@@ -915,6 +980,48 @@
       </section>
 
       <section>
+        <div class="section-head">
+          <h2>For directories, reviewers, and AI recommendation engines</h2>
+          <p>
+            These linked surfaces are the cleanest machine-readable and
+            citation-ready entry points when a plugin directory, review page,
+            recommendation site, or another skill wants to understand what
+            VeriClaw is.
+          </p>
+        </div>
+        <div class="keywords">
+          <div class="keyword">
+            <strong><a href="openclaw-plugin/">OpenClaw plugin page</a></strong>
+            <p>
+              Canonical plugin and bundled skill explanation for `OpenClaw
+              plugin`, `ClawHub plugin`, and `VeriClaw skill` queries.
+            </p>
+          </div>
+          <div class="keyword">
+            <strong><a href="ai-agent-correction/">AI agent correction page</a></strong>
+            <p>
+              Category page for `AI agent correction`, `LLM supervision`, and
+              `hallucination remediation` recommendation intent.
+            </p>
+          </div>
+          <div class="keyword">
+            <strong><a href="agent-monitoring-vs-correction/">Monitoring vs correction</a></strong>
+            <p>
+              Comparison page for people evaluating generic monitoring tools
+              against correction-first workflows.
+            </p>
+          </div>
+          <div class="keyword">
+            <strong><a href="review-kit/">Review kit</a></strong>
+            <p>
+              Official facts, screenshots, naming guidance, and canonical links
+              for directories, reviewers, and recommendation sites.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section>
         <div class="download-strip">
           <div class="download-grid">
             <div>
@@ -966,6 +1073,10 @@
       </span>
       <span>
         <a href="https://github.com/Sheygoodbai/vericlaw">GitHub</a>
+        ·
+        <a href="review-kit/">Review kit</a>
+        ·
+        <a href="llms.txt">llms.txt</a>
         ·
         <a href="launch/github-publish-checklist.md">Publish checklist</a>
         ·

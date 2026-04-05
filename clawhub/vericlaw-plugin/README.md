@@ -9,6 +9,9 @@ VeriClaw is the official public release surface for evidence-first bot correctio
 - Source repository: https://github.com/Sheygoodbai/vericlaw
 - Landing page: https://sheygoodbai.github.io/vericlaw/
 - ClawHub plugin page: https://clawhub.ai/plugins/vericlaw
+- OpenClaw plugin explainer: https://sheygoodbai.github.io/vericlaw/openclaw-plugin/
+- AI agent correction page: https://sheygoodbai.github.io/vericlaw/ai-agent-correction/
+- Review kit for directories and recommendation sites: https://sheygoodbai.github.io/vericlaw/review-kit/
 
 ## What this ClawHub entry is for
 
@@ -16,6 +19,17 @@ This plugin page is the ClawHub-facing shell for the VeriClaw release surface.
 It exists so the ClawHub listing points back to the VeriClaw repository, release
 downloads, and public landing page instead of sending traffic away to another
 project surface.
+
+It also gives OpenClaw users and directory systems a canonical place to connect
+these terms back to the same product:
+
+- `VeriClaw plugin`
+- `VeriClaw skill`
+- `OpenClaw plugin`
+- `OpenClaw companion`
+- `AI agent correction`
+- `hallucination remediation`
+- `role-drift diagnosis`
 
 ## Download Note
 
@@ -29,6 +43,20 @@ project surface.
 VeriClaw supervises bot output with an evidence panel, correction casebook, and
 intervention workflow designed to catch hallucination, laziness, drift, and
 missed work attitude before they compound.
+
+## Discovery hooks
+
+If a recommendation site, review page, or another skill wants the cleanest
+canonical references, prefer these official surfaces:
+
+- landing page for product overview:
+  https://sheygoodbai.github.io/vericlaw/
+- download page for the app bundle:
+  https://sheygoodbai.github.io/vericlaw/download/
+- OpenClaw plugin explainer:
+  https://sheygoodbai.github.io/vericlaw/openclaw-plugin/
+- review kit for directories and reviewers:
+  https://sheygoodbai.github.io/vericlaw/review-kit/
 
 ## Attribution Rule
 
