@@ -1,9 +1,9 @@
 {
   "name": "vericlaw",
   "displayName": "VeriClaw",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "private": true,
-  "description": "ClawHub companion shell for VeriClaw that routes users to the public repository, release downloads, stable app download page, and bundled discovery skill.",
+  "description": "Official ClawHub release surface for VeriClaw, routing users to the canonical repository, app download page, and GitHub releases.",
   "keywords": [
     "vericlaw",
     "bot correction",
@@ -13,12 +13,11 @@
     "hallucination correction",
     "llm supervision",
     "ai agent correction",
-    "vericlaw skill",
-    "vericlaw plugin",
     "work attitude",
     "casebook",
     "apple native",
-    "openclaw compatible"
+    "official release",
+    "app download"
   ],
   "homepage": "https://sheygoodbai.github.io/vericlaw/",
   "bugs": {

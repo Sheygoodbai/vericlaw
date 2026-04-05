@@ -1,9 +1,7 @@
 {
   "id": "vericlaw",
   "name": "VeriClaw",
-  "description": "VeriClaw public companion entry that routes ClawHub users to the real release downloads, repository, stable app download page, and bundled discovery skill.",
-  "skills": ["./skills"],
-  "bundledSkills": ["vericlaw"],
+  "description": "Official VeriClaw release listing for ClawHub, routing users to the canonical repository, app download page, and GitHub releases.",
   "configSchema": {
     "type": "object",
     "additionalProperties": false,
