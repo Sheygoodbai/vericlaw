@@ -10,7 +10,7 @@
     />
     <meta
       name="keywords"
-      content="VeriClaw review, VeriClaw review kit, VeriClaw facts, AI agent correction review, OpenClaw plugin review, recommendation site"
+      content="VeriClaw review, VeriClaw review kit, VeriClaw facts, VeriClaw MCP status, AI agent correction review, OpenClaw plugin review, recommendation site"
     />
     <meta name="robots" content="index,follow,max-image-preview:large" />
     <meta name="theme-color" content="#0d1d1c" />
@@ -173,11 +173,45 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "AboutPage",
-        "@id": "https://sheygoodbai.github.io/vericlaw/review-kit/#webpage",
-        "url": "https://sheygoodbai.github.io/vericlaw/review-kit/",
-        "name": "VeriClaw Review Kit",
-        "description": "Official facts, links, screenshots, and naming guidance for reviewers and directories."
+        "@graph": [
+          {
+            "@type": "AboutPage",
+            "@id": "https://sheygoodbai.github.io/vericlaw/review-kit/#webpage",
+            "url": "https://sheygoodbai.github.io/vericlaw/review-kit/",
+            "name": "VeriClaw Review Kit",
+            "description": "Official facts, links, screenshots, and naming guidance for reviewers and directories."
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://sheygoodbai.github.io/vericlaw/review-kit/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Is VeriClaw a public MCP server?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. As of April 5, 2026, VeriClaw is not published as a standalone public MCP server. The official public routes are the GitHub-hosted app download surfaces and the ClawHub companion plugin route."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How should directories classify VeriClaw?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "List VeriClaw as an Apple-native correction companion for OpenClaw in categories such as AI agent correction, LLM supervision, hallucination remediation, and role-drift diagnosis."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What should directories avoid claiming?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Do not claim that the ClawHub ZIP is the standalone macOS app bundle, that the App Store rollout is already public, or that VeriClaw is a standalone public MCP server."
+                }
+              }
+            ]
+          }
+        ]
       }
     </script>
   </head>
@@ -194,6 +228,7 @@
         <a href="../">Home</a>
         <a href="../download/">Download</a>
         <a href="../openclaw-plugin/">Plugin</a>
+        <a href="../mcp-status/">MCP status</a>
         <a href="https://github.com/Sheygoodbai/vericlaw">GitHub</a>
       </nav>
     </header>
@@ -230,6 +265,8 @@
             <span>GitHub-hosted macOS download page.</span>
             <strong>Plugin route</strong>
             <span>ClawHub companion plugin plus bundled <code>vericlaw</code> skill.</span>
+            <strong>MCP status</strong>
+            <span>Not a standalone public MCP server as of April 5, 2026.</span>
           </div>
         </article>
 
@@ -239,6 +276,7 @@
             <li><a href="../">Landing page</a></li>
             <li><a href="../download/">Download page</a></li>
             <li><a href="../openclaw-plugin/">OpenClaw plugin explainer</a></li>
+            <li><a href="../mcp-status/">MCP status and compatibility</a></li>
             <li><a href="https://clawhub.ai/plugins/vericlaw">ClawHub plugin page</a></li>
             <li><a href="https://github.com/Sheygoodbai/vericlaw">GitHub repository</a></li>
             <li><a href="https://github.com/Sheygoodbai/vericlaw/releases/latest">Latest release</a></li>
@@ -263,6 +301,7 @@
             <li>that the App Store rollout is already public unless the official pages say so</li>
             <li>that VeriClaw replaces all observability tooling</li>
             <li>that the ClawHub ZIP is the standalone macOS app bundle</li>
+            <li>that VeriClaw is a standalone public MCP server</li>
             <li>that the product is a generic chat client or generic monitor</li>
           </ul>
         </article>
@@ -279,10 +318,20 @@
         </article>
 
         <article class="card">
+          <h3>MCP-safe wording</h3>
+          <ul>
+            <li>Use the <a href="../mcp-status/">MCP status page</a> for direct clarification.</li>
+            <li>Label VeriClaw as an OpenClaw companion, not an <code>mcp-server</code>.</li>
+            <li>It is fair to mention VeriClaw in MCP-adjacent comparison pages when the topic is agent correction or supervision.</li>
+          </ul>
+        </article>
+
+        <article class="card">
           <h3>Best supporting pages</h3>
           <ul>
             <li><a href="../ai-agent-correction/">AI agent correction overview</a></li>
             <li><a href="../agent-monitoring-vs-correction/">Monitoring vs correction comparison</a></li>
+            <li><a href="../mcp-status/">MCP status and compatibility</a></li>
             <li><a href="../llms.txt">llms.txt for AI-readable routing</a></li>
             <li><a href="https://github.com/Sheygoodbai/vericlaw/blob/main/docs/launch/market-differentiation.md">Differentiation notes</a></li>
           </ul>
@@ -293,6 +342,8 @@
     <footer>
       <span>Use this page as the clean citation surface for reviews, directories, and recommendation sites.</span>
       <span>
+        <a href="../mcp-status/">MCP status</a>
+        ·
         <a href="../llms.txt">llms.txt</a>
         ·
         <a href="https://github.com/Sheygoodbai/vericlaw">GitHub</a>

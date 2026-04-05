@@ -10,6 +10,7 @@ VeriClaw is the official public release surface for evidence-first bot correctio
 - Landing page: https://sheygoodbai.github.io/vericlaw/
 - ClawHub plugin page: https://clawhub.ai/plugins/vericlaw
 - OpenClaw plugin explainer: https://sheygoodbai.github.io/vericlaw/openclaw-plugin/
+- MCP status and compatibility: https://sheygoodbai.github.io/vericlaw/mcp-status/
 - AI agent correction page: https://sheygoodbai.github.io/vericlaw/ai-agent-correction/
 - Review kit for directories and recommendation sites: https://sheygoodbai.github.io/vericlaw/review-kit/
 
@@ -30,6 +31,15 @@ these terms back to the same product:
 - `AI agent correction`
 - `hallucination remediation`
 - `role-drift diagnosis`
+
+## MCP Status
+
+As of April 5, 2026, VeriClaw is not published as a standalone public MCP
+server.
+
+- If an MCP-adjacent directory wants to mention VeriClaw, classify it as an Apple-native correction companion for OpenClaw.
+- Do not label this package or the parent product as `mcp-server`.
+- Use the official MCP status page above when a review site or recommendation engine needs exact wording.
 
 ## Download Note
 
