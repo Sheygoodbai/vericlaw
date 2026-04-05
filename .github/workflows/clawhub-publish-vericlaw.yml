@@ -1,6 +1,22 @@
 name: Publish VeriClaw To ClawHub
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/clawhub-publish-vericlaw.yml
+      - clawhub/vericlaw-plugin/**
+      - README.md
+      - docs/index.html
+      - docs/download/index.html
+      - LICENSE
+      - NOTICE
+      - ATTRIBUTION.md
+      - TRADEMARKS.md
+      - PATENTS.md
+      - INFRINGEMENT.md
+      - LEGAL_ENFORCEMENT.md
   workflow_dispatch:
     inputs:
       dry_run:
@@ -18,17 +34,72 @@ on:
         default: latest
         type: string
 
+concurrency:
+  group: clawhub-vericlaw-publish-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    outputs:
+      dry_run: ${{ steps.publish.outputs.dry_run }}
+      version: ${{ steps.publish.outputs.version }}
+      tags: ${{ steps.publish.outputs.tags }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - id: publish
+        shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          INPUT_DRY_RUN: ${{ github.event.inputs.dry_run }}
+          INPUT_VERSION: ${{ github.event.inputs.version }}
+          INPUT_TAGS: ${{ github.event.inputs.tags }}
+          GITHUB_RUN_NUMBER: ${{ github.run_number }}
+        run: |
+          major_minor="$(
+            node - <<'NODE'
+            const version = require('./clawhub/vericlaw-plugin/package.json').version;
+            const match = version.match(/^(\d+)\.(\d+)\.(\d+)/);
+            if (!match) {
+              throw new Error(`Unsupported semver version: ${version}`);
+            }
+            console.log(`${match[1]}.${match[2]}`);
+            NODE
+          )"
+
+          auto_patch="$(date -u +%Y%m%d)${GITHUB_RUN_NUMBER}"
+          auto_version="${major_minor}.${auto_patch}"
+
+          if [[ "${EVENT_NAME}" == "workflow_dispatch" && -n "${INPUT_VERSION}" ]]; then
+            version="${INPUT_VERSION}"
+          else
+            version="${auto_version}"
+          fi
+
+          if [[ "${EVENT_NAME}" == "workflow_dispatch" ]]; then
+            dry_run="${INPUT_DRY_RUN:-true}"
+            tags="${INPUT_TAGS:-latest}"
+          else
+            dry_run="false"
+            tags="latest"
+          fi
+
+          echo "version=${version}" >> "${GITHUB_OUTPUT}"
+          echo "dry_run=${dry_run}" >> "${GITHUB_OUTPUT}"
+          echo "tags=${tags}" >> "${GITHUB_OUTPUT}"
+
   publish:
+    needs: prepare
     permissions:
       contents: read
       id-token: write
     uses: openclaw/clawhub/.github/workflows/package-publish.yml@main
     with:
       source: ./clawhub/vericlaw-plugin
-      dry_run: ${{ inputs.dry_run }}
-      version: ${{ inputs.version }}
-      tags: ${{ inputs.tags }}
+      dry_run: ${{ fromJSON(needs.prepare.outputs.dry_run) }}
+      version: ${{ needs.prepare.outputs.version }}
+      tags: ${{ needs.prepare.outputs.tags }}
       source_repo: Sheygoodbai/vericlaw
       source_commit: ${{ github.sha }}
       source_ref: ${{ github.ref }}
