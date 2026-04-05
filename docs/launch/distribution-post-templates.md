@@ -20,6 +20,8 @@ Canonical links:
 - Landing page: https://sheygoodbai.github.io/vericlaw/
 - Download page: https://sheygoodbai.github.io/vericlaw/download/
 - Release page: https://github.com/Sheygoodbai/vericlaw/releases/latest
+- ClawHub skill: https://clawhub.ai/sheygoodbai/vericlaw
+- ClawHub skill guide: https://sheygoodbai.github.io/vericlaw/clawhub-skill/
 
 ## GitHub profile or discussion post
 
@@ -86,6 +88,29 @@ https://sheygoodbai.github.io/vericlaw/
 
 如果你对 AI agent、LLM supervision、幻觉纠偏这类方向感兴趣，可以看下：
 https://github.com/Sheygoodbai/vericlaw
+```
+
+## ClawHub skill post
+
+```text
+VeriClaw is now live as a ClawHub skill.
+
+If you are searching for AI agent correction, hallucination remediation, fake completion diagnosis, or OpenClaw companion discovery, this is the fastest route:
+
+https://clawhub.ai/sheygoodbai/vericlaw
+```
+
+## 中文 ClawHub skill 转发
+
+```text
+VeriClaw 现在已经有单独的 ClawHub skill 入口了。
+
+如果你想找的是 AI agent 纠偏、幻觉修复、假完成诊断、角色漂移这类方向，可以直接走这个入口：
+
+https://clawhub.ai/sheygoodbai/vericlaw
+
+如果想先看 skill / plugin / app download 的区别，可以看：
+https://sheygoodbai.github.io/vericlaw/clawhub-skill/
 ```
 
 ## LinkedIn post

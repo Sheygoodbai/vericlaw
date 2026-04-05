@@ -24,6 +24,7 @@ announcement visual. Keep text short enough to read before scrolling.
 Current exported asset:
 
 - [release-hero-github.png](../assets/release-hero-github.png)
+- [clawhub-skill-share-card.svg](../assets/clawhub-skill-share-card.svg)
 
 ### Variant A: correction-first
 

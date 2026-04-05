@@ -1,0 +1,60 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">VeriClaw ClawHub skill share card</title>
+  <desc id="desc">Share card for the VeriClaw ClawHub skill with install-first messaging.</desc>
+  <defs>
+    <linearGradient id="bg" x1="98" y1="72" x2="1090" y2="582" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08111F"/>
+      <stop offset="0.56" stop-color="#0C1A2B"/>
+      <stop offset="1" stop-color="#071018"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(964 154) rotate(135) scale(264 252)">
+      <stop stop-color="#7AD8FF" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#7AD8FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(202 494) rotate(35) scale(268 240)">
+      <stop stop-color="#FFBB7D" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#FFBB7D" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7AD8FF"/>
+      <stop offset="1" stop-color="#55B7FF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" rx="32" fill="url(#bg)"/>
+  <rect width="1200" height="630" rx="32" fill="url(#glowA)"/>
+  <rect width="1200" height="630" rx="32" fill="url(#glowB)"/>
+
+  <rect x="72" y="66" width="170" height="40" rx="20" fill="rgba(122,216,255,0.12)" stroke="rgba(122,216,255,0.32)"/>
+  <text x="105" y="92" fill="#7AD8FF" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="1.8">CLAWHUB SKILL</text>
+
+  <text x="72" y="196" fill="#F4F8FF" font-family="Georgia, Times New Roman, serif" font-size="92" font-weight="700">VeriClaw</text>
+  <text x="72" y="252" fill="#E8F1FA" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="500">AI agent correction for drifting bots</text>
+  <text x="72" y="304" fill="#B8C9DC" font-family="Inter, Arial, sans-serif" font-size="26">Hallucination remediation, fake completion diagnosis,</text>
+  <text x="72" y="340" fill="#B8C9DC" font-family="Inter, Arial, sans-serif" font-size="26">role drift diagnosis, and OpenClaw companion discovery.</text>
+
+  <g>
+    <rect x="72" y="416" width="360" height="60" rx="30" fill="url(#accent)"/>
+    <text x="122" y="454" fill="#04111C" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800">clawhub install vericlaw</text>
+  </g>
+
+  <g>
+    <rect x="72" y="506" width="278" height="46" rx="23" fill="rgba(255,255,255,0.05)" stroke="rgba(122,216,255,0.18)"/>
+    <text x="102" y="536" fill="#E8F1FA" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="600">clawhub.ai/sheygoodbai/vericlaw</text>
+  </g>
+
+  <g opacity="0.96">
+    <rect x="784" y="112" width="324" height="406" rx="34" fill="rgba(9,19,34,0.7)" stroke="rgba(122,216,255,0.18)"/>
+    <rect x="816" y="156" width="104" height="28" rx="14" fill="rgba(122,216,255,0.12)"/>
+    <text x="842" y="175" fill="#7AD8FF" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.2">DISCOVERY</text>
+    <text x="816" y="230" fill="#F4F8FF" font-family="Georgia, Times New Roman, serif" font-size="42" font-weight="700">Skill first</text>
+    <text x="816" y="280" fill="#B8C9DC" font-family="Inter, Arial, sans-serif" font-size="21">Find VeriClaw from the</text>
+    <text x="816" y="308" fill="#B8C9DC" font-family="Inter, Arial, sans-serif" font-size="21">ClawHub skills homepage.</text>
+
+    <rect x="816" y="346" width="246" height="58" rx="20" fill="rgba(255,255,255,0.05)" stroke="rgba(122,216,255,0.14)"/>
+    <text x="842" y="381" fill="#F4F8FF" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Then route to plugin</text>
+
+    <rect x="816" y="426" width="208" height="22" rx="11" fill="rgba(255,255,255,0.05)"/>
+    <rect x="816" y="462" width="168" height="22" rx="11" fill="rgba(255,255,255,0.05)"/>
+  </g>
+</svg>

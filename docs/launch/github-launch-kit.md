@@ -182,6 +182,8 @@ Suggested GitHub screenshot or media caption style:
 
 ## Handy links
 
+- ClawHub skill growth kit:
+  [clawhub-skill-growth-kit.md](clawhub-skill-growth-kit.md)
 - Market scan and differentiation:
   [market-differentiation.md](market-differentiation.md)
 - First-use UX acceptance notes:
