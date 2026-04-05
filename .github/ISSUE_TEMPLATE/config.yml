@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: VeriClaw Discussions
+    url: https://github.com/Sheygoodbai/vericlaw/discussions
+    about: Ask questions, share case studies, or discuss operator workflows.
+  - name: Stable download
+    url: https://sheygoodbai.github.io/vericlaw/download/
+    about: Download the current public release and checksums.
+  - name: VeriClaw landing page
+    url: https://sheygoodbai.github.io/vericlaw/
+    about: Share the canonical product page when forwarding VeriClaw.

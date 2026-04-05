@@ -1,0 +1,43 @@
+name: Share or citation
+description: Tell us where VeriClaw was shared, cited, forked, reviewed, or discussed.
+title: "[Share] "
+labels:
+  - share
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This template helps us track where VeriClaw is being quoted, mirrored, discussed, or adopted.
+  - type: input
+    id: link
+    attributes:
+      label: Public link
+      description: Paste the article, post, video, repo, fork, or discussion URL.
+      placeholder: https://...
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Type
+      options:
+        - Article or blog post
+        - Social post or thread
+        - Fork or derivative repo
+        - Video or stream
+        - Internal usage story
+        - Other citation
+    validations:
+      required: true
+  - type: textarea
+    id: note
+    attributes:
+      label: Why it matters
+      description: What did they cite, build, or say about VeriClaw?
+      placeholder: Short summary of the mention or reuse.
+  - type: checkboxes
+    id: attribution
+    attributes:
+      label: Attribution check
+      options:
+        - label: The share includes a source link back to VeriClaw or its landing/download page.

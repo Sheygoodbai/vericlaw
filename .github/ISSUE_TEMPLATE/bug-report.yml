@@ -1,0 +1,51 @@
+name: Bug report
+description: Report a broken flow, bad link, packaging issue, or app regression in VeriClaw.
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem in VeriClaw. Clear reports help us fix the public experience faster.
+  - type: input
+    id: area
+    attributes:
+      label: Affected area
+      description: Which surface is broken?
+      placeholder: GitHub release / landing page / download page / ClawHub / app
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or release tag
+      placeholder: v0.1.1
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      placeholder: Describe the bug clearly and briefly.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Click ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: macOS version, browser, device, gateway context, or related setup

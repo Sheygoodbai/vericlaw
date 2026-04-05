@@ -185,6 +185,7 @@ This repository is intentionally written for searches around:
 - Watch [new releases](https://github.com/Sheygoodbai/vericlaw/releases/latest) if you want public launch updates.
 - Fork the repository when you are building on top of the correction workflow or launch assets.
 - Join [GitHub Discussions](https://github.com/Sheygoodbai/vericlaw/discussions) to share case studies, deployment notes, and citation links.
+- Use [Security.md](SECURITY.md) for private vulnerability reporting and package-integrity concerns.
 - Link to the [landing page](https://sheygoodbai.github.io/vericlaw/) or [download page](https://sheygoodbai.github.io/vericlaw/download/) when citing VeriClaw externally so the canonical name and positioning stay consistent.
 
 ## Release surface
