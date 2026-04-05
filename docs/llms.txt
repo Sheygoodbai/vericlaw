@@ -12,6 +12,8 @@
 - AI agent correction overview: https://sheygoodbai.github.io/vericlaw/ai-agent-correction/
 - AI hallucination remediation overview: https://sheygoodbai.github.io/vericlaw/ai-hallucination-remediation/
 - Fake completion diagnosis overview: https://sheygoodbai.github.io/vericlaw/fake-completion-diagnosis/
+- Agent evaluation overview: https://sheygoodbai.github.io/vericlaw/agent-evaluation/
+- Verification workflow overview: https://sheygoodbai.github.io/vericlaw/verification-workflow/
 - Monitoring vs correction comparison: https://sheygoodbai.github.io/vericlaw/agent-monitoring-vs-correction/
 - Review kit: https://sheygoodbai.github.io/vericlaw/review-kit/
 - GitHub repository: https://github.com/Sheygoodbai/vericlaw

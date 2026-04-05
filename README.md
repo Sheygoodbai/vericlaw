@@ -232,6 +232,8 @@ This repository is intentionally written for searches around:
 - [https://sheygoodbai.github.io/vericlaw/ai-agent-correction/](https://sheygoodbai.github.io/vericlaw/ai-agent-correction/): category page for AI agent correction and LLM supervision searches
 - [https://sheygoodbai.github.io/vericlaw/ai-hallucination-remediation/](https://sheygoodbai.github.io/vericlaw/ai-hallucination-remediation/): category page for AI hallucination, AI幻觉纠偏, and AI纠偏 searches
 - [https://sheygoodbai.github.io/vericlaw/fake-completion-diagnosis/](https://sheygoodbai.github.io/vericlaw/fake-completion-diagnosis/): category page for fake completion diagnosis, AI假完成, and agent evaluation searches
+- [https://sheygoodbai.github.io/vericlaw/agent-evaluation/](https://sheygoodbai.github.io/vericlaw/agent-evaluation/): category page for agent evaluation, drift verification, and correction-hold searches
+- [https://sheygoodbai.github.io/vericlaw/verification-workflow/](https://sheygoodbai.github.io/vericlaw/verification-workflow/): category page for verification workflow, correction loops, and verification-before-completion searches
 - [https://sheygoodbai.github.io/vericlaw/agent-monitoring-vs-correction/](https://sheygoodbai.github.io/vericlaw/agent-monitoring-vs-correction/): comparison page for monitoring-vs-correction review intent
 - [https://sheygoodbai.github.io/vericlaw/review-kit/](https://sheygoodbai.github.io/vericlaw/review-kit/): official facts, screenshots, and canonical links for reviewers and directories
 - [https://sheygoodbai.github.io/vericlaw/llms.txt](https://sheygoodbai.github.io/vericlaw/llms.txt): AI-readable routing file for recommendation and summary systems
