@@ -118,7 +118,8 @@ release/download path.
 
 - `Download app`: use the [download page](https://sheygoodbai.github.io/vericlaw/download/) or [latest release](https://github.com/Sheygoodbai/vericlaw/releases/latest) for the real macOS ZIP.
 - `Install companion`: use the [ClawHub plugin page](https://clawhub.ai/plugins/vericlaw) for the OpenClaw-facing plugin shell and bundled `vericlaw` skill.
-- `Install skill directly`: use the [ClawHub skill page](https://clawhub.ai/sheygoodbai/vericlaw) or run `clawhub install vericlaw` if you want the standalone discovery skill entry.
+- `Install skill directly`: use the [ClawHub skill page](https://clawhub.ai/sheygoodbai/vericlaw), run `clawhub install vericlaw`, or use `openclaw skills install vericlaw` if you want the standalone discovery skill entry.
+- `Install from OpenClaw`: use `openclaw plugins install clawhub:vericlaw` for the companion plugin route.
 - `Understand the skill route`: use the [ClawHub skill guide](https://sheygoodbai.github.io/vericlaw/clawhub-skill/) if you want the cleanest explanation of skill vs plugin vs app download.
 - `Clarify MCP status`: use the [MCP status page](https://sheygoodbai.github.io/vericlaw/mcp-status/) when a directory or review site needs the truthful answer to `VeriClaw MCP` queries.
 - `Browse source`: use the [GitHub repository](https://github.com/Sheygoodbai/vericlaw) for code, launch assets, and release history.

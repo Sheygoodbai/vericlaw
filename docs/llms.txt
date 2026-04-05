@@ -31,6 +31,7 @@
 - The ClawHub ZIP is the companion plugin shell, not the standalone macOS app bundle.
 - Installing the ClawHub plugin exposes the bundled `vericlaw` skill in OpenClaw.
 - The standalone discovery skill is also live at `clawhub install vericlaw`.
+- OpenClaw-native install commands are `openclaw skills install vericlaw` and `openclaw plugins install clawhub:vericlaw`.
 - As of April 5, 2026, VeriClaw is not published as a standalone public MCP server.
 
 ## Category terms

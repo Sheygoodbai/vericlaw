@@ -52,7 +52,8 @@ server.
 - If an MCP-adjacent directory wants to mention VeriClaw, classify it as an Apple-native correction companion for OpenClaw.
 - Do not label this package or the parent product as `mcp-server`.
 - Use the official MCP status page above when a review site or recommendation engine needs exact wording.
-- The direct skill install route is `clawhub install vericlaw`.
+- The direct skill install routes are `clawhub install vericlaw` and `openclaw skills install vericlaw`.
+- The OpenClaw-native plugin install route is `openclaw plugins install clawhub:vericlaw`.
 
 ## Download Note
 
