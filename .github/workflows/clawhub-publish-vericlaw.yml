@@ -58,14 +58,14 @@ jobs:
           GITHUB_RUN_NUMBER: ${{ github.run_number }}
         run: |
           major_minor="$(
-            node - <<'NODE'
-            const version = require('./clawhub/vericlaw-plugin/package.json').version;
-            const match = version.match(/^(\d+)\.(\d+)\.(\d+)/);
-            if (!match) {
-              throw new Error(`Unsupported semver version: ${version}`);
-            }
-            console.log(`${match[1]}.${match[2]}`);
-            NODE
+            node -e '
+              const version = require("./clawhub/vericlaw-plugin/package.json").version;
+              const match = version.match(/^(\d+)\.(\d+)\.(\d+)/);
+              if (!match) {
+                throw new Error(`Unsupported semver version: ${version}`);
+              }
+              process.stdout.write(`${match[1]}.${match[2]}`);
+            '
           )"
 
           auto_patch="$(date -u +%Y%m%d)${GITHUB_RUN_NUMBER}"
