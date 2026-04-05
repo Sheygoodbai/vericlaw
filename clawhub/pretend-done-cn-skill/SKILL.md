@@ -1,6 +1,6 @@
 ---
 name: pretend-done-cn
-version: 0.1.0
+version: 0.1.1
 description: "装作做完了 discovery skill for VeriClaw 爪印. Use when the intent is 装作做完了, AI装作自己做完了, 未做却说做了, or fake completion diagnosis after a model acts done before the evidence is real."
 tags: ["装作做完了", ai装作自己做完了, "未做却说做了", fake-completion-diagnosis, vericlaw, openclaw]
 source: Sheygoodbai/vericlaw

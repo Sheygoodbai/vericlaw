@@ -1,6 +1,6 @@
 ---
 name: ai-work-hallucination
-version: 0.1.0
+version: 0.1.1
 description: "AI工作幻觉 discovery skill for VeriClaw 爪印. Use when the intent is AI工作幻觉, 工作幻觉, AI以为自己工作了, or fake completion diagnosis after a bot claims progress without evidence."
 tags: [ai工作幻觉, 工作幻觉, ai以为自己工作了, fake-completion-diagnosis, vericlaw, openclaw]
 source: Sheygoodbai/vericlaw
