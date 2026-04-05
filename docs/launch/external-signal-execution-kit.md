@@ -276,5 +276,6 @@ Submit these before the rest:
 - [directory-submission](../directory-submission/index.html)
 - [review-kit](../review-kit/index.html)
 - [recommendation-snippets](../recommendation-snippets/index.html)
+- [external-targets-2026-04-06.md](external-targets-2026-04-06.md)
 - [founder-outreach-playbook.md](founder-outreach-playbook.md)
 - [distribution-post-templates.md](distribution-post-templates.md)
