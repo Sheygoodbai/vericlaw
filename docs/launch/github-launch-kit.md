@@ -19,6 +19,9 @@ Use it when writing:
 - short launch blurbs
 - FAQ replies
 - screenshot captions and launch-safe positioning
+- release hero art copy
+- pinned repo blurbs
+- first-wave distribution posts
 
 Current release posture:
 
@@ -183,3 +186,7 @@ Suggested GitHub screenshot or media caption style:
   [market-differentiation.md](market-differentiation.md)
 - First-use UX acceptance notes:
   [first-use-ux-iteration.md](../design/first-use-ux-iteration.md)
+- Growth copy deck:
+  [growth-copy-deck.md](growth-copy-deck.md)
+- Distribution post templates:
+  [distribution-post-templates.md](distribution-post-templates.md)

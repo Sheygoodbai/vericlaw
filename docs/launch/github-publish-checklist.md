@@ -28,6 +28,10 @@ Current positioning:
   [github-release-announcement.md](github-release-announcement.md)
 - copy deck is aligned in
   [github-launch-kit.md](github-launch-kit.md)
+- release art text is aligned in
+  [growth-copy-deck.md](growth-copy-deck.md)
+- first-wave forwarding copy is ready in
+  [distribution-post-templates.md](distribution-post-templates.md)
 - legal/IP pack is present at repo root:
   - [LICENSE](../../LICENSE)
   - [NOTICE](../../NOTICE)
@@ -57,6 +61,7 @@ Current positioning:
 5. If no native binary asset is public yet, route downloads to the release page or source ZIP without implying a native installer exists.
 6. Recheck the top-level README after push on the live GitHub page.
 7. If Apple is still pending, explicitly state `GitHub-first` in any release note, discussion, or pinned update.
+8. Post at least one real distribution message from the first-wave templates instead of waiting for organic discovery alone.
 
 ## Scope caution
 

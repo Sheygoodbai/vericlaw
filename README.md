@@ -199,6 +199,8 @@ This repository is intentionally written for searches around:
 - [docs/launch/github-launch-kit.md](docs/launch/github-launch-kit.md): reusable copy deck for repository, release, and launch posts
 - [docs/launch/github-release-announcement.md](docs/launch/github-release-announcement.md): release body draft
 - [docs/launch/github-publish-checklist.md](docs/launch/github-publish-checklist.md): publishing checklist
+- [docs/launch/growth-copy-deck.md](docs/launch/growth-copy-deck.md): release hero text, pinned repo blurbs, and high-conversion one-liners
+- [docs/launch/distribution-post-templates.md](docs/launch/distribution-post-templates.md): paste-ready first-wave public distribution templates
 - [CONTRIBUTING.md](CONTRIBUTING.md): how to fork, cite, share, and contribute without breaking canonical attribution
 - [https://sheygoodbai.github.io/vericlaw/](https://sheygoodbai.github.io/vericlaw/): public landing page for search and social sharing
 - [docs/design/first-use-ux-iteration.md](docs/design/first-use-ux-iteration.md): first-use UX notes
