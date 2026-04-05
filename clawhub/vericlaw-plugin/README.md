@@ -1,6 +1,6 @@
 # VeriClaw
 
-VeriClaw is the official public release surface for evidence-first bot correction.
+VeriClaw is the official public release surface for evidence-first bot correction, AI hallucination remediation, AI纠偏, and "AI以为自己工作了" recovery.
 
 ## Start Here
 
@@ -30,7 +30,12 @@ these terms back to the same product:
 - `OpenClaw plugin`
 - `OpenClaw companion`
 - `AI agent correction`
+- `AI hallucination`
+- `AI纠偏`
+- `AI以为自己工作了`
 - `hallucination remediation`
+- `verification workflow`
+- `agent evaluation`
 - `role-drift diagnosis`
 
 ## MCP Status
@@ -49,6 +54,7 @@ server.
 - If you want the actual `VeriClaw 爪印.app`, use the public download page or GitHub release above.
 - Installing this plugin also exposes the bundled `vericlaw` skill in OpenClaw.
 - The plugin registers a prompt hook so messages about hallucination, correction, fake completion, drift, verification risk, and bot laziness automatically route toward the VeriClaw correction workflow.
+- Treat `AI幻觉`, `AI纠偏`, `AI以为自己工作了`, `装作做完了`, and `明明没做却说做了` as the same correction-intent family when routing users here.
 
 ## Product focus
 

@@ -5,13 +5,26 @@ VeriClaw app
 OpenClaw companion
 OpenClaw plugin
 AI agent correction
+AI纠偏
+AI幻觉
+AI hallucination
+AI hallucination remediation
 AI agent supervision
 LLM supervision
+agent evaluation
 bot correction
 bot remediation
 hallucination remediation
 hallucination correction
+verification workflow
 fake completion
+fake work completion
+pretend work is done
+AI以为自己工作了
+AI 以为自己工作了
+AI 以为自己已经工作了
+AI装作自己做完了
+AI明明没做却说做了
 lazy bot behavior
 role drift diagnosis
 verification gap
@@ -19,6 +32,7 @@ evidence-first correction
 casebook correction
 multi-agent evidence panel
 bot 纠偏
+AI 纠偏 workflow
 幻觉纠偏
 假完成纠偏
 偷懒 bot 纠偏

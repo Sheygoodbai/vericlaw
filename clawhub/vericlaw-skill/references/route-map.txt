@@ -13,9 +13,13 @@ https://github.com/Sheygoodbai/vericlaw
 VeriClaw 爪印 is positioned as:
 - Apple-native correction companion for OpenClaw
 - AI agent correction
+- AI hallucination remediation
+- AI纠偏
+- AI以为自己工作了之后的纠偏与核验
 - hallucination remediation
 - bot纠偏
 - fake completion diagnosis
+- agent evaluation for fake completion and drift
 - lazy execution remediation
 - role drift diagnosis
 - verification gap closure

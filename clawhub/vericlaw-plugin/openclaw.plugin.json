@@ -1,7 +1,7 @@
 {
   "id": "vericlaw",
   "name": "VeriClaw",
-  "description": "Official VeriClaw release listing for ClawHub and OpenClaw discovery, routing users to the canonical repository, landing page, app download page, GitHub releases, bundled skill, review kit, and keyword-triggered correction guidance.",
+  "description": "Official VeriClaw release listing for ClawHub and OpenClaw discovery, routing users to the canonical repository, landing page, app download page, GitHub releases, bundled skill, review kit, and keyword-triggered correction guidance for AI hallucination, AI纠偏, fake completion, and verification workflow recovery.",
   "skills": ["./skills"],
   "bundledSkills": ["vericlaw"],
   "configSchema": {
