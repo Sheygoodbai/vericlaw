@@ -26,11 +26,11 @@
 </p>
 
 <p align="center">
-  <strong>Apple-native correction companion for OpenClaw</strong>
+  <strong>Apple-native AI agent correction</strong>
 </p>
 
 <p align="center">
-  AI agent correction, LLM supervision, hallucination remediation, and role-drift diagnosis for OpenClaw on macOS and iPhone companion surfaces.
+  AI agent correction, LLM supervision, hallucination remediation, and role-drift diagnosis across macOS, iPhone, and OpenClaw companion surfaces.
 </p>
 
 <p align="center">
@@ -115,6 +115,13 @@ release/download path.
 - `Browse source`: use the [GitHub repository](https://github.com/Sheygoodbai/vericlaw) for code, launch assets, and release history.
 - `Share correctly`: cite the project as `VeriClaw 爪印` and prefer the canonical landing page, download page, release page, or repository links above.
 
+## Cite and forward VeriClaw
+
+- Use GitHub's `Cite this repository` panel or [CITATION.cff](CITATION.cff) when referencing VeriClaw in posts, decks, reports, newsletters, or mirrors.
+- Copy-paste summary: `VeriClaw 爪印 is an Apple-native AI agent correction app for evidence-first diagnosis, intervention, verification, and casebook learning.`
+- Canonical links: [landing page](https://sheygoodbai.github.io/vericlaw/), [download page](https://sheygoodbai.github.io/vericlaw/download/), [latest release](https://github.com/Sheygoodbai/vericlaw/releases/latest), and [GitHub repository](https://github.com/Sheygoodbai/vericlaw).
+- Reposts and redistributions are welcome with attribution and a direct source link back to VeriClaw.
+
 ## Product glimpse
 
 <table>
@@ -177,6 +184,7 @@ This repository is intentionally written for searches around:
 - Star the [GitHub repository](https://github.com/Sheygoodbai/vericlaw) if the project is useful to you.
 - Watch [new releases](https://github.com/Sheygoodbai/vericlaw/releases/latest) if you want public launch updates.
 - Fork the repository when you are building on top of the correction workflow or launch assets.
+- Join [GitHub Discussions](https://github.com/Sheygoodbai/vericlaw/discussions) to share case studies, deployment notes, and citation links.
 - Link to the [landing page](https://sheygoodbai.github.io/vericlaw/) or [download page](https://sheygoodbai.github.io/vericlaw/download/) when citing VeriClaw externally so the canonical name and positioning stay consistent.
 
 ## Release surface
@@ -190,6 +198,7 @@ This repository is intentionally written for searches around:
 - [docs/launch/github-launch-kit.md](docs/launch/github-launch-kit.md): reusable copy deck for repository, release, and launch posts
 - [docs/launch/github-release-announcement.md](docs/launch/github-release-announcement.md): release body draft
 - [docs/launch/github-publish-checklist.md](docs/launch/github-publish-checklist.md): publishing checklist
+- [CONTRIBUTING.md](CONTRIBUTING.md): how to fork, cite, share, and contribute without breaking canonical attribution
 - [https://sheygoodbai.github.io/vericlaw/](https://sheygoodbai.github.io/vericlaw/): public landing page for search and social sharing
 - [docs/design/first-use-ux-iteration.md](docs/design/first-use-ux-iteration.md): first-use UX notes
 - [docs/launch/market-differentiation.md](docs/launch/market-differentiation.md): market scan and differentiation framing
