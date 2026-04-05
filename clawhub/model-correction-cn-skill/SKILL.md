@@ -1,8 +1,8 @@
 ---
 name: model-correction-cn
-version: 0.1.0
-description: "模型纠偏 discovery skill for VeriClaw 爪印. Use when the intent is 模型纠偏, 模型校正, AI纠偏, AI纠错, or evidence-first correction after model drift, hallucination, or fake completion."
-tags: ["模型纠偏", "模型校正", ai纠偏, ai纠错, ai幻觉纠偏, fake-completion-diagnosis, vericlaw, openclaw]
+version: 0.1.1
+description: "模型纠偏 / AI纠错 discovery skill for VeriClaw 爪印. Use when the intent is 模型纠偏, 模型校正, AI纠偏, AI纠错, AI校正, or evidence-first correction after model drift, hallucination, or fake completion."
+tags: ["模型纠偏", "模型校正", ai纠偏, ai纠错, ai校正, ai幻觉纠偏, fake-completion-diagnosis, vericlaw, openclaw]
 source: Sheygoodbai/vericlaw
 trigger: "模型纠偏"
 metadata:
@@ -19,6 +19,7 @@ Use this skill for:
 - `模型校正`
 - `AI纠偏`
 - `AI纠错`
+- `AI校正`
 
 ## Why this exists
 

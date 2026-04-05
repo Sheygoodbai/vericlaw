@@ -1,7 +1,7 @@
 ---
 name: llm-supervision-vericlaw
-version: 0.1.3
-description: "Agent supervision discovery skill for VeriClaw 爪印. Use when the intent is agent supervision, AI supervision, AI监督, LLM supervision, AI agent correction, correction-first supervision, or verifying whether an AI agent actually followed through."
+version: 0.1.4
+description: "AI监督 / Agent supervision discovery skill for VeriClaw 爪印. Use when the intent is agent supervision, AI supervision, AI监督, LLM supervision, AI agent correction, correction-first supervision, or verifying whether an AI agent actually followed through."
 tags: [agent-supervision, ai-supervision, "AI监督", llm-supervision, ai-agent-correction, correction-first-supervision, evidence-first-recovery, vericlaw, openclaw]
 source: Sheygoodbai/vericlaw
 trigger: "agent supervision"
