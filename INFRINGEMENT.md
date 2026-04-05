@@ -13,7 +13,7 @@ When possible, include:
 1. your contact information
 2. the material at issue
 3. the exact file path, URL, or release asset
-4. why you believe the material is infringing or misleading
+4. why you believe the material is infringing, commercially unauthorized, or misleading
 5. the requested action
 
 ## Process expectations
@@ -29,6 +29,6 @@ When possible, include:
 - [LICENSE](LICENSE)
 - [NOTICE](NOTICE)
 - [ATTRIBUTION.md](ATTRIBUTION.md)
+- [LICENSES/OPENCLAW-MIT.txt](LICENSES/OPENCLAW-MIT.txt)
 - [TRADEMARKS.md](TRADEMARKS.md)
 - [PATENTS.md](PATENTS.md)
-

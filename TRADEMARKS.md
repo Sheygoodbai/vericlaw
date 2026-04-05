@@ -11,8 +11,9 @@ respective upstream project and maintainers.
 
 - truthful statements such as `companion for OpenClaw`
 - linking to the upstream OpenClaw project
-- redistributing unmodified copies of this repository while preserving the
-  required legal materials
+- linking to the canonical VeriClaw repository, landing page, or release pages
+- brief factual quotations or screenshots with attribution that do not imply
+  endorsement
 
 ## Not allowed
 
@@ -20,15 +21,19 @@ respective upstream project and maintainers.
   canonical OpenClaw repository
 - using `VeriClaw` branding in a way that falsely implies endorsement by the
   upstream OpenClaw organization
-- removing attribution/origin context from substantial redistributed copies
+- using `VeriClaw` branding for public modified builds, mirrors, repacks, or
+  commercial services without written permission
+- removing attribution/origin context from permitted copies
 
 ## Modified builds
 
-If you redistribute a modified version of this repository:
+Public modified versions, repacks, or competing services require prior written
+permission.
+
+If written permission is granted:
 
 - keep the required legal materials
 - keep origin attribution
 - avoid branding that falsely implies official upstream endorsement
 
 For complaints or permissions, see [INFRINGEMENT.md](INFRINGEMENT.md).
-

@@ -11,9 +11,6 @@
   <a href="https://github.com/Sheygoodbai/vericlaw/stargazers">
     <img alt="GitHub stars" src="https://img.shields.io/github/stars/Sheygoodbai/vericlaw?color=0d1d1c" />
   </a>
-  <a href="https://github.com/Sheygoodbai/vericlaw/network/members">
-    <img alt="GitHub forks" src="https://img.shields.io/github/forks/Sheygoodbai/vericlaw?color=c2410c" />
-  </a>
   <a href="https://sheygoodbai.github.io/vericlaw/">
     <img alt="Landing page" src="https://img.shields.io/badge/landing%20page-live-c2410c" />
   </a>
@@ -24,7 +21,7 @@
     <img alt="ClawHub skill install" src="https://img.shields.io/badge/ClawHub-skill%20install-c2410c" />
   </a>
   <a href="LICENSE">
-    <img alt="MIT License" src="https://img.shields.io/badge/license-MIT-111827" />
+    <img alt="Source-available license" src="https://img.shields.io/badge/license-source--available-111827" />
   </a>
 </p>
 
@@ -66,7 +63,7 @@
   <a href="SUPPORT.md"><strong>Support</strong></a>
 </p>
 
-> Redistribution is allowed with attribution. Keep [LICENSE](LICENSE), [NOTICE](NOTICE), and [ATTRIBUTION.md](ATTRIBUTION.md) with substantial copies, preserve clear source references, and follow [TRADEMARKS.md](TRADEMARKS.md) for brand use.
+> Source is visible for review, citation, and internal evaluation. Commercial use, public modified redistribution, resale/hosting, and brand use require written permission. See [LICENSE](LICENSE).
 
 ## Why it exists
 
@@ -104,13 +101,13 @@ what went wrong, what should happen next, and whether the correction actually he
 - Use the [download page](https://sheygoodbai.github.io/vericlaw/download/) for the most stable public entry to the current release asset, checksums, and source archive.
 - Use the [ClawHub plugin page](https://clawhub.ai/plugins/vericlaw) if you want the OpenClaw companion entry; installing it also exposes the bundled `vericlaw` discovery skill in the Skills surface.
 - Open the [latest release](https://github.com/Sheygoodbai/vericlaw/releases/latest) for the current public launch snapshot.
-- Download the public source package as a [ZIP archive](https://github.com/Sheygoodbai/vericlaw/archive/refs/heads/main.zip) or clone the repository directly:
+- Download the public source package as a [ZIP archive](https://github.com/Sheygoodbai/vericlaw/archive/refs/heads/main.zip) or clone the repository directly for review, citation, and internal evaluation:
 
 ```bash
 git clone https://github.com/Sheygoodbai/vericlaw.git
 ```
 
-- Reuse the launch copy, screenshots, and legal redistribution pack when forwarding the project internally or externally.
+- Use the canonical launch copy, screenshots, and source-availability guidance when forwarding the project internally or sending reviewers to the right source.
 
 Current public download posture is GitHub-first: source distribution, launch materials,
 screenshots, and release notes are public now. The ClawHub surface is the
@@ -138,10 +135,10 @@ MCP server.
 
 ## Cite and forward VeriClaw
 
-- Use GitHub's `Cite this repository` panel or [CITATION.cff](CITATION.cff) when referencing VeriClaw in posts, decks, reports, newsletters, or mirrors.
+- Use GitHub's `Cite this repository` panel or [CITATION.cff](CITATION.cff) when referencing VeriClaw in posts, decks, reports, newsletters, or reviews.
 - Copy-paste summary: `VeriClaw 爪印 is an Apple-native AI agent correction app for evidence-first diagnosis, intervention, verification, and casebook learning.`
 - Canonical links: [landing page](https://sheygoodbai.github.io/vericlaw/), [download page](https://sheygoodbai.github.io/vericlaw/download/), [latest release](https://github.com/Sheygoodbai/vericlaw/releases/latest), and [GitHub repository](https://github.com/Sheygoodbai/vericlaw).
-- Reposts and redistributions are welcome with attribution and a direct source link back to VeriClaw.
+- Share canonical links, factual reviews, and brief quoted excerpts with attribution. Do not publish modified mirrors, repacks, or commercialized variants without written permission.
 
 ## Product glimpse
 
@@ -177,7 +174,7 @@ MCP server.
 - Teams evaluating `AI agent supervision`, `LLM correction`, and `hallucination remediation` workflows
 - Builders looking for `role-drift diagnosis`, `evidence-first incident review`, and `verification loops`
 - Operators who want an `Apple-native` companion surface around OpenClaw instead of a generic web-only dashboard
-- Partners, press, or early users who need a shareable launch kit, screenshots, and redistribution guidance
+- Partners, press, or early users who need a shareable launch kit, screenshots, and source-access guidance
 
 ## What makes it different
 
@@ -206,9 +203,9 @@ This repository is intentionally written for searches around:
 
 - Star the [GitHub repository](https://github.com/Sheygoodbai/vericlaw) if the project is useful to you.
 - Watch [new releases](https://github.com/Sheygoodbai/vericlaw/releases/latest) if you want public launch updates.
-- Fork the repository when you are building on top of the correction workflow or launch assets.
 - Join [GitHub Discussions](https://github.com/Sheygoodbai/vericlaw/discussions) to share case studies, deployment notes, and citation links.
 - Use [Security.md](SECURITY.md) for private vulnerability reporting and package-integrity concerns.
+- If you want to adapt, redistribute, or commercialize more than brief quoted excerpts, ask for written permission first.
 - Link to the [landing page](https://sheygoodbai.github.io/vericlaw/) or [download page](https://sheygoodbai.github.io/vericlaw/download/) when citing VeriClaw externally so the canonical name and positioning stay consistent.
 
 ## Release surface
@@ -227,7 +224,7 @@ This repository is intentionally written for searches around:
 - [docs/launch/channel-execution-plan.md](docs/launch/channel-execution-plan.md): 14-day channel plan for GitHub, Show HN, Product Hunt, and direct outreach
 - [docs/launch/product-hunt-launch-pack.md](docs/launch/product-hunt-launch-pack.md): ready-to-submit Product Hunt fields, maker comment, and launch-day operating plan
 - [docs/launch/founder-outreach-playbook.md](docs/launch/founder-outreach-playbook.md): warm DM scripts and tracking plan for the first 30 launch conversations
-- [CONTRIBUTING.md](CONTRIBUTING.md): how to fork, cite, share, and contribute without breaking canonical attribution
+- [CONTRIBUTING.md](CONTRIBUTING.md): how to cite, report issues, and propose changes under the source-available policy
 - [https://sheygoodbai.github.io/vericlaw/](https://sheygoodbai.github.io/vericlaw/): public landing page for search and social sharing
 - [https://sheygoodbai.github.io/vericlaw/openclaw-plugin/](https://sheygoodbai.github.io/vericlaw/openclaw-plugin/): canonical OpenClaw plugin and bundled skill explainer
 - [https://clawhub.ai/sheygoodbai/vericlaw](https://clawhub.ai/sheygoodbai/vericlaw): live ClawHub skill page for `clawhub install vericlaw`
@@ -239,10 +236,14 @@ This repository is intentionally written for searches around:
 - [docs/design/first-use-ux-iteration.md](docs/design/first-use-ux-iteration.md): first-use UX notes
 - [docs/launch/market-differentiation.md](docs/launch/market-differentiation.md): market scan and differentiation framing
 
-## Copyright, redistribution, and enforcement
+## Copyright, source use, and enforcement
 
-- Redistribution is allowed when attribution and legal materials stay intact.
-- Preserve [LICENSE](LICENSE), [NOTICE](NOTICE), and [ATTRIBUTION.md](ATTRIBUTION.md) with substantial redistributed copies.
+- This repository is `source-available`, not open source.
+- You may view, clone, and privately evaluate the source under [LICENSE](LICENSE).
+- Commercial use, public redistribution, hosted reuse, and publication of modified versions require prior written permission.
+- GitHub may still permit public viewing and on-platform forks for this public repository, but that platform behavior does not grant broader rights beyond the applicable licenses.
+- Preserve [LICENSE](LICENSE), [NOTICE](NOTICE), [ATTRIBUTION.md](ATTRIBUTION.md), and applicable third-party notices in permitted copies.
+- Some materials are derived from OpenClaw and remain subject to the applicable upstream notice preserved in [LICENSES/OPENCLAW-MIT.txt](LICENSES/OPENCLAW-MIT.txt).
 - Keep clear source references, including the upstream OpenClaw reference where relevant.
 - Brand rights are separate from copyright rights. See [TRADEMARKS.md](TRADEMARKS.md).
 - Patent posture, takedown path, and enforcement contacts live in [PATENTS.md](PATENTS.md), [INFRINGEMENT.md](INFRINGEMENT.md), and [LEGAL_ENFORCEMENT.md](LEGAL_ENFORCEMENT.md).

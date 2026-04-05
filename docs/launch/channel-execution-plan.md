@@ -16,7 +16,7 @@ This file turns the existing launch copy into an execution sequence for
 `VeriClaw 爪印`.
 
 Use it when the goal is not just to publish the repository, but to create real
-traffic, replies, stars, forks, downloads, and external citations.
+traffic, replies, stars, downloads, issue reports, and external citations.
 
 ## Primary outcome
 
@@ -24,7 +24,7 @@ For the current GitHub-first launch, the most important outcome is not raw
 impressions. It is getting the project in front of the right first operators:
 
 - AI agent builders who already understand bot drift pain
-- open-source developers who can star, fork, cite, and test the workflow
+- technical builders who can star, cite, and test the workflow
 - operator-minded users who can describe real failure cases
 - Apple-native tool fans who care about the product surface, not only the model
 
@@ -38,9 +38,9 @@ Optimize the launch around this sequence:
 2. `Open the repo or landing page`
    - the visitor sees screenshots, proof points, and the public launch surface
 3. `Take a strong action`
-   - star, fork, download, open the release, or join GitHub Discussions
+   - star, download, open the release, or join GitHub Discussions
 4. `Create reusable proof`
-   - reply, cite, issue, screenshot, fork, or share a correction use case
+   - reply, cite, issue, screenshot, or share a correction use case
 
 ## KPIs that matter
 
@@ -51,7 +51,6 @@ Track:
 - landing page visits
 - latest release visits
 - GitHub stars
-- forks
 - release downloads
 - GitHub Discussions started
 - issues opened with real product feedback
@@ -167,7 +166,7 @@ Rule:
 
 - quote real feedback
 - publish one small improvement or release note
-- repost one screenshot, citation, or fork
+- repost one screenshot, citation, or review
 - ask a satisfied early reader for a short public comment you can link to
 
 ## Channel-specific rules
@@ -226,7 +225,7 @@ This is the highest-signal early channel.
 Send direct messages to:
 
 - operator friends
-- open-source maintainers in adjacent tooling
+- maintainers in adjacent tooling
 - Apple-native builders
 - anyone who already talked with you about agent reliability
 
@@ -251,7 +250,7 @@ CTA:
 
 - open the repo
 - inspect the workflow
-- star or fork if the loop feels useful
+- star or cite if the loop feels useful
 
 ### Operator or reliability-minded users
 

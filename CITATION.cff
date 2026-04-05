@@ -1,12 +1,11 @@
 cff-version: 1.2.0
-message: "If you use, evaluate, quote, or redistribute VeriClaw, please cite the project and link back to the canonical repository or landing page."
+message: "If you use, evaluate, or quote VeriClaw, please cite the project and link back to the canonical repository or landing page."
 title: "VeriClaw 爪印"
 type: software
 authors:
   - name: "Sheygoodbai"
 version: "0.1.1"
 date-released: 2026-04-04
-license: "MIT"
 url: "https://github.com/Sheygoodbai/vericlaw"
 repository-code: "https://github.com/Sheygoodbai/vericlaw"
 repository-artifact: "https://github.com/Sheygoodbai/vericlaw/releases/latest"

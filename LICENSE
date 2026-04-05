@@ -1,23 +1,82 @@
-MIT License
+VeriClaw Source-Available License 1.0
 
-Copyright (c) 2025 Peter Steinberger
 Copyright (c) 2026 Sheygoodbai
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+By exercising any right granted below, you agree to this license.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. Scope
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+This license applies to the VeriClaw-specific materials in this repository that
+Sheygoodbai has the right to license ("Licensed Materials").
 
+This license does not replace, narrow, or revoke rights that may apply to:
+
+- third-party or upstream materials distributed under separate notices or
+  licenses
+- earlier copies that were already made available under different terms
+
+See [NOTICE](NOTICE), [ATTRIBUTION.md](ATTRIBUTION.md), and
+[LICENSES/OPENCLAW-MIT.txt](LICENSES/OPENCLAW-MIT.txt).
+
+2. Permitted uses
+
+You may:
+
+- view, clone, download, and reproduce the Licensed Materials for personal use,
+  internal evaluation, security review, academic study, news reporting, and
+  other non-commercial review
+- run the Licensed Materials locally for internal, non-production,
+  non-commercial testing
+- make private local modifications solely for internal evaluation of VeriClaw
+- quote brief excerpts or screenshots for commentary, review, or citation,
+  provided you preserve attribution and do not imply endorsement
+
+3. Conditions
+
+You must:
+
+- preserve this LICENSE, [NOTICE](NOTICE), [ATTRIBUTION.md](ATTRIBUTION.md),
+  and other applicable notices in any permitted copy
+- keep source, origin, and attribution references intact
+- comply with [TRADEMARKS.md](TRADEMARKS.md)
+- comply with all third-party license obligations for third-party materials
+
+4. Prohibited uses without prior written permission
+
+You may not:
+
+- use the Licensed Materials for any commercial purpose
+- publish, distribute, sublicense, sell, rent, lease, or otherwise make the
+  Licensed Materials or substantial portions of them available to third parties,
+  except as expressly permitted in Section 2
+- publish or distribute modified or derivative versions of the Licensed
+  Materials
+- offer the Licensed Materials as a hosted service, managed service, plugin
+  catalog entry, template pack, or competing product
+- remove or obscure legal notices, attribution, or origin references
+- use the `VeriClaw` or `VeriClaw 爪印` names, logos, or brand elements except
+  as allowed by [TRADEMARKS.md](TRADEMARKS.md)
+
+5. No trademark or patent license
+
+This license grants no trademark rights.
+
+No separate express or implied patent license, non-assert pledge, or covenant
+not to sue is granted, except as required by applicable law.
+
+6. Termination
+
+This license terminates automatically if you breach it. On termination, you
+must stop using the Licensed Materials other than rights, if any, that survive
+under separate third-party licenses or applicable law.
+
+7. Disclaimer and limitation of liability
+
+THE LICENSED MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.
+
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR
+OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE LICENSED MATERIALS
+OR THE USE OR OTHER DEALINGS IN THE LICENSED MATERIALS.

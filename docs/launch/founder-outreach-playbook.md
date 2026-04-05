@@ -17,7 +17,7 @@ This file is for the first `15` to `30` direct conversations after launch.
 Use it when you want:
 
 - better feedback than broad social posts usually produce
-- early stars, forks, citations, and issue reports from relevant people
+- early stars, citations, and issue reports from relevant people
 - warmer forwarding loops into adjacent communities
 
 ## Outreach rule
@@ -51,7 +51,7 @@ Goal:
 - clarity feedback
 - first stars, issue reports, and shares
 
-### Group 2: adjacent open-source maintainers
+### Group 2: adjacent tool maintainers
 
 Prioritize maintainers of:
 
@@ -90,7 +90,7 @@ Use the landing page when:
 Use the GitHub repo when:
 
 - the person is technical and will judge the project by artifacts
-- they are likely to star, fork, cite, or inspect
+- they are likely to star, cite, or inspect
 
 Use the release page when:
 

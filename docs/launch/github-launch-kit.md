@@ -138,8 +138,8 @@ Use these when you want stronger click-through into the release or repository:
 
 - `Open the GitHub-first launch pack for VeriClaw 爪印`
 - `Download the source package and forward the launch kit`
-- `Share the release page, screenshots, and redistribution guidance`
-- `Star or fork the repo to track the public launch surface`
+- `Share the release page, screenshots, and source-availability guidance`
+- `Star or watch the repo to track the public launch surface`
 
 ## FAQ copy
 
@@ -167,9 +167,9 @@ Use these when you want stronger click-through into the release or repository:
 
 - `Not yet. The current public launch surface is GitHub first while the Apple companion continues through final hardening and submission steps.`
 
-`Can people redistribute the repo?`
+`Can people inspect the source freely?`
 
-- `Yes, but redistribution should preserve license, notices, attribution, and source reference expectations. Branding rights are separate and governed by the repository trademark policy.`
+- `They can inspect the public source for evaluation, citation, and internal review. Commercial use, public modified redistribution, and brand use require permission.`
 
 ## Screenshot caption direction
 

@@ -75,16 +75,20 @@ questions clearly:
 - watchOS remains outside the current release gate
 - source distribution, screenshots, and launch materials are public now
 
-## Legal and redistribution
+## Source access and permissions
 
-Redistribution should preserve license, notice, attribution, and source
-reference expectations.
+The repository is source-available for inspection, citation, and internal
+evaluation.
+
+Commercial use, public modified redistribution, and brand use require
+permission.
 
 See:
 
 - LICENSE
 - NOTICE
 - ATTRIBUTION.md
+- LICENSES/OPENCLAW-MIT.txt
 - TRADEMARKS.md
 - PATENTS.md
 - INFRINGEMENT.md

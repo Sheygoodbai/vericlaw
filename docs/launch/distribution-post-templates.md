@@ -11,7 +11,8 @@ title: "Distribution Post Templates"
 
 Use these as the first honest distribution layer for `VeriClaw 爪印`.
 
-The goal is to increase real clicks, stars, forks, downloads, and citations.
+The goal is to increase real clicks, stars, downloads, issue reports, and
+citations.
 Do not fake user identity, fabricate testimonials, or seed deceptive posts.
 
 Canonical links:
@@ -255,5 +256,5 @@ Second wave:
 Third wave:
 
 - quote or screenshot actual feedback
-- repost one fork, issue, or external citation
+- repost one issue, review, or external citation
 - ship a small update and link back to the original release

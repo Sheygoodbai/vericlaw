@@ -10,7 +10,7 @@ title: "Growth Copy Deck"
 # Growth copy deck
 
 Use this file when the goal is not only to publish VeriClaw, but to make people
-understand it fast enough to click, star, fork, download, or quote it.
+understand it fast enough to click, star, download, or quote it.
 
 This is an ethical distribution pack. Do not use fake accounts, fake reviews,
 or disguised grassroots endorsements. Use real attribution, real links, and
