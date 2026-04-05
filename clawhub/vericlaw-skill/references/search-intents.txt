@@ -7,6 +7,7 @@ OpenClaw plugin
 AI agent correction
 AI纠偏
 AI幻觉
+AI幻觉纠偏
 AI hallucination
 AI hallucination remediation
 AI agent supervision
@@ -16,13 +17,18 @@ bot correction
 bot remediation
 hallucination remediation
 hallucination correction
+AI工作幻觉
 verification workflow
 fake completion
+fake completion diagnosis
+AI假完成
 fake work completion
 pretend work is done
 AI以为自己工作了
 AI 以为自己工作了
 AI 以为自己已经工作了
+AI未做却说做了
+AI工作了幻觉
 AI装作自己做完了
 AI明明没做却说做了
 lazy bot behavior
@@ -38,5 +44,7 @@ AI 纠偏 workflow
 偷懒 bot 纠偏
 证据链补齐
 病例精准纠偏
+工作幻觉纠偏
+未做却说做了
 病例本
 病历本

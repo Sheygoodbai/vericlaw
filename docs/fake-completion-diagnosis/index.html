@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fake Completion Diagnosis & Agent Evaluation | VeriClaw 爪印</title>
+    <meta
+      name="description"
+      content="Official VeriClaw 爪印 category page for fake completion diagnosis, AI假完成, AI以为自己工作了, AI未做却说做了, agent evaluation, and verification workflow recovery."
+    />
+    <meta
+      name="keywords"
+      content="fake completion diagnosis, AI假完成, AI以为自己工作了, AI未做却说做了, AI装作自己做完了, agent evaluation, verification workflow, VeriClaw"
+    />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta name="theme-color" content="#0d1d1c" />
+    <link rel="canonical" href="https://sheygoodbai.github.io/vericlaw/fake-completion-diagnosis/" />
+    <link rel="icon" type="image/png" href="../assets/branding/vericlaw-brand-mark.png" />
+    <link rel="alternate" type="text/plain" href="https://sheygoodbai.github.io/vericlaw/llms.txt" title="LLMs.txt" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="VeriClaw 爪印" />
+    <meta property="og:title" content="Fake Completion Diagnosis & Agent Evaluation | VeriClaw 爪印" />
+    <meta
+      property="og:description"
+      content="A focused VeriClaw page for fake completion diagnosis, AI假完成, agent evaluation, and verification workflow recovery."
+    />
+    <meta property="og:url" content="https://sheygoodbai.github.io/vericlaw/fake-completion-diagnosis/" />
+    <meta
+      property="og:image"
+      content="https://sheygoodbai.github.io/vericlaw/assets/social-preview-brand.png?v=20260405"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Fake Completion Diagnosis & Agent Evaluation | VeriClaw 爪印" />
+    <meta
+      name="twitter:description"
+      content="Use VeriClaw when the issue is fake completion, AI以为自己工作了, or verification before calling work done."
+    />
+    <meta
+      name="twitter:image"
+      content="https://sheygoodbai.github.io/vericlaw/assets/social-preview-brand.png?v=20260405"
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Fake Completion Diagnosis | VeriClaw 爪印",
+        "url": "https://sheygoodbai.github.io/vericlaw/fake-completion-diagnosis/",
+        "description": "Official VeriClaw page for fake completion diagnosis and agent evaluation intent.",
+        "about": {
+          "@type": "SoftwareApplication",
+          "name": "VeriClaw 爪印",
+          "applicationCategory": "DeveloperApplication",
+          "applicationSubCategory": "Fake completion diagnosis",
+          "operatingSystem": "macOS, iOS, Web",
+          "url": "https://sheygoodbai.github.io/vericlaw/",
+          "downloadUrl": "https://sheygoodbai.github.io/vericlaw/download/",
+          "softwareHelp": "https://clawhub.ai/plugins/vericlaw",
+          "codeRepository": "https://github.com/Sheygoodbai/vericlaw"
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg: #f5efe8;
+        --surface: rgba(255, 249, 243, 0.9);
+        --ink: #141413;
+        --muted: #5e625e;
+        --line: rgba(20, 20, 19, 0.12);
+        --accent: #0f766e;
+        --warm: #c2410c;
+        --hero: #14161e;
+        --hero-muted: rgba(244, 239, 230, 0.82);
+        --content: min(1120px, calc(100vw - 40px));
+      }
+
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background:
+          radial-gradient(circle at top right, rgba(194, 65, 12, 0.1), transparent 26%),
+          radial-gradient(circle at top left, rgba(15, 118, 110, 0.09), transparent 26%),
+          var(--bg);
+        color: var(--ink);
+        font-family: "Space Grotesk", sans-serif;
+      }
+
+      a { color: inherit; }
+      .topbar, main, footer { width: var(--content); margin: 0 auto; }
+      .topbar {
+        padding: 26px 0 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 18px;
+      }
+      .brand, .nav {
+        display: inline-flex;
+        align-items: center;
+        gap: 14px;
+      }
+      .brand { text-decoration: none; }
+      .brand img {
+        width: 44px;
+        height: 44px;
+        border-radius: 14px;
+      }
+      .brand strong, .brand span { display: block; }
+      .brand strong {
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        font-size: 0.88rem;
+      }
+      .brand span, .nav a {
+        color: var(--muted);
+        font-size: 0.92rem;
+        text-decoration: none;
+      }
+      .nav { flex-wrap: wrap; justify-content: flex-end; }
+
+      .hero {
+        margin-top: 28px;
+        background: linear-gradient(135deg, var(--hero), #3e251c 58%, #3a3021);
+        color: #f7f3ea;
+        border-radius: 28px;
+        padding: 44px;
+        display: grid;
+        grid-template-columns: minmax(0, 1.45fr) minmax(260px, 0.9fr);
+        gap: 28px;
+      }
+      .eyebrow {
+        display: inline-flex;
+        padding: 8px 14px;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.1);
+        color: var(--hero-muted);
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        font-size: 0.76rem;
+      }
+      h1, h2, h3 {
+        font-family: "Source Serif 4", serif;
+        margin: 0;
+      }
+      h1 {
+        margin-top: 18px;
+        font-size: clamp(2.5rem, 5vw, 4.4rem);
+        line-height: 0.95;
+      }
+      .hero p, .lead, li, footer, .card p {
+        line-height: 1.7;
+      }
+      .hero p {
+        color: var(--hero-muted);
+        font-size: 1.03rem;
+        max-width: 62ch;
+      }
+      .actions, .pills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+      .actions { margin-top: 24px; }
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 46px;
+        padding: 0 18px;
+        border-radius: 999px;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      .button-primary { background: #f4efe6; color: #181713; }
+      .button-secondary { border: 1px solid rgba(244, 239, 230, 0.26); color: #f7f3ea; }
+      .button-warm { background: var(--warm); color: #fff7f0; }
+      .aside {
+        padding: 22px;
+        border-radius: 24px;
+        background: rgba(255, 255, 255, 0.08);
+      }
+      .aside strong {
+        display: block;
+        margin-bottom: 10px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        font-size: 0.82rem;
+        color: var(--hero-muted);
+      }
+      .aside ul {
+        margin: 0;
+        padding-left: 18px;
+        color: var(--hero-muted);
+      }
+
+      main { padding: 40px 0 78px; }
+      section + section { margin-top: 28px; }
+      .section-head { margin-bottom: 18px; }
+      .section-head h2 { font-size: clamp(2rem, 4vw, 3rem); }
+      .lead { color: var(--muted); max-width: 70ch; }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+        gap: 18px;
+      }
+      .card {
+        padding: 24px;
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        background: var(--surface);
+        backdrop-filter: blur(14px);
+      }
+      .card h3 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+      }
+      .card p, .card li { color: var(--muted); }
+      .pill {
+        display: inline-flex;
+        padding: 10px 14px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: rgba(255, 255, 255, 0.72);
+      }
+      footer {
+        padding: 0 0 48px;
+        color: var(--muted);
+        font-size: 0.94rem;
+      }
+
+      @media (max-width: 860px) {
+        .hero { grid-template-columns: 1fr; padding: 32px 24px; }
+        .topbar { flex-direction: column; align-items: flex-start; }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="../">
+        <img src="../assets/branding/vericlaw-brand-mark.png" alt="VeriClaw brand mark" />
+        <span>
+          <strong>VeriClaw 爪印</strong>
+          <span>Fake completion diagnosis</span>
+        </span>
+      </a>
+      <nav class="nav">
+        <a href="../download/">Download</a>
+        <a href="../clawhub-skill/">Skill</a>
+        <a href="../openclaw-plugin/">Plugin</a>
+        <a href="../review-kit/">Review kit</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <span class="eyebrow">Problem-specific category page</span>
+          <h1>Fake completion diagnosis for the moment the AI thinks it already worked.</h1>
+          <p>
+            Use this page when the search intent is <em>fake completion
+            diagnosis</em>, <em>AI假完成</em>, <em>AI以为自己工作了</em>,
+            <em>AI未做却说做了</em>, or <em>agent evaluation</em>.
+          </p>
+          <p>
+            VeriClaw 爪印 treats these cases as correction problems: gather
+            evidence, test whether the work was actually done, prescribe the
+            next intervention, and verify before anyone marks the task closed.
+          </p>
+          <div class="actions">
+            <a class="button button-primary" href="../">Open landing page</a>
+            <a class="button button-secondary" href="../clawhub-skill/">Open ClawHub skill guide</a>
+            <a class="button button-warm" href="../download/">Download app</a>
+          </div>
+        </div>
+        <aside class="aside">
+          <strong>High-signal anchors</strong>
+          <ul>
+            <li>fake completion diagnosis</li>
+            <li>AI假完成</li>
+            <li>AI以为自己工作了</li>
+            <li>AI未做却说做了</li>
+            <li>agent evaluation / verification workflow</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>What these queries usually mean</h2>
+          <p class="lead">
+            The operator is not asking whether the model can answer in theory.
+            They are asking whether the task was really completed and whether
+            the claimed output can be verified.
+          </p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <h3>Fake completion</h3>
+            <p>
+              The system signals progress or closure without the underlying work
+              actually being done.
+            </p>
+          </article>
+          <article class="card">
+            <h3>AI以为自己工作了</h3>
+            <p>
+              The model behaves as though it already completed the assignment,
+              but evidence review shows skipped or imagined execution.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Agent evaluation</h3>
+            <p>
+              The right question is whether the intervention held and whether
+              the model can still be trusted on the next step.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Best public routes</h2>
+          <p class="lead">
+            Choose the page that matches the task: discovery, install route,
+            review-safe facts, or direct app download.
+          </p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <h3>Discovery route</h3>
+            <p>
+              Use the <a href="../clawhub-skill/">ClawHub skill guide</a> when
+              the goal is fast discovery through `clawhub install vericlaw`.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Companion route</h3>
+            <p>
+              Use the <a href="../openclaw-plugin/">OpenClaw plugin explainer</a>
+              for the official companion install path.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Reviewer route</h3>
+            <p>
+              Use the <a href="../review-kit/">review kit</a> when a directory,
+              skill roundup, or recommendation site needs canonical wording.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Preferred category wording</h2>
+        </div>
+        <div class="pills">
+          <span class="pill">fake completion diagnosis</span>
+          <span class="pill">AI假完成</span>
+          <span class="pill">AI以为自己工作了</span>
+          <span class="pill">agent evaluation</span>
+          <span class="pill">verification workflow</span>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      VeriClaw 爪印 is the Apple-native correction companion for OpenClaw. Use
+      canonical pages rather than mirrors when citing or reviewing the product.
+    </footer>
+  </body>
+</html>

@@ -230,6 +230,8 @@ This repository is intentionally written for searches around:
 - [https://clawhub.ai/sheygoodbai/vericlaw](https://clawhub.ai/sheygoodbai/vericlaw): live ClawHub skill page for `clawhub install vericlaw`
 - [https://sheygoodbai.github.io/vericlaw/mcp-status/](https://sheygoodbai.github.io/vericlaw/mcp-status/): canonical answer for MCP-adjacent directories and `VeriClaw MCP` queries
 - [https://sheygoodbai.github.io/vericlaw/ai-agent-correction/](https://sheygoodbai.github.io/vericlaw/ai-agent-correction/): category page for AI agent correction and LLM supervision searches
+- [https://sheygoodbai.github.io/vericlaw/ai-hallucination-remediation/](https://sheygoodbai.github.io/vericlaw/ai-hallucination-remediation/): category page for AI hallucination, AI幻觉纠偏, and AI纠偏 searches
+- [https://sheygoodbai.github.io/vericlaw/fake-completion-diagnosis/](https://sheygoodbai.github.io/vericlaw/fake-completion-diagnosis/): category page for fake completion diagnosis, AI假完成, and agent evaluation searches
 - [https://sheygoodbai.github.io/vericlaw/agent-monitoring-vs-correction/](https://sheygoodbai.github.io/vericlaw/agent-monitoring-vs-correction/): comparison page for monitoring-vs-correction review intent
 - [https://sheygoodbai.github.io/vericlaw/review-kit/](https://sheygoodbai.github.io/vericlaw/review-kit/): official facts, screenshots, and canonical links for reviewers and directories
 - [https://sheygoodbai.github.io/vericlaw/llms.txt](https://sheygoodbai.github.io/vericlaw/llms.txt): AI-readable routing file for recommendation and summary systems

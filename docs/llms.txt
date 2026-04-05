@@ -10,6 +10,8 @@
 - ClawHub skill page: https://clawhub.ai/sheygoodbai/vericlaw
 - MCP status and compatibility: https://sheygoodbai.github.io/vericlaw/mcp-status/
 - AI agent correction overview: https://sheygoodbai.github.io/vericlaw/ai-agent-correction/
+- AI hallucination remediation overview: https://sheygoodbai.github.io/vericlaw/ai-hallucination-remediation/
+- Fake completion diagnosis overview: https://sheygoodbai.github.io/vericlaw/fake-completion-diagnosis/
 - Monitoring vs correction comparison: https://sheygoodbai.github.io/vericlaw/agent-monitoring-vs-correction/
 - Review kit: https://sheygoodbai.github.io/vericlaw/review-kit/
 - GitHub repository: https://github.com/Sheygoodbai/vericlaw
@@ -30,8 +32,18 @@
 
 - AI agent correction
 - LLM supervision
+- AI hallucination remediation
+- AI幻觉
+- AI幻觉纠偏
+- AI纠偏
+- AI假完成
+- AI工作幻觉
+- AI以为自己工作了
 - Hallucination remediation
 - Role-drift diagnosis
+- Fake completion diagnosis
+- Agent evaluation
+- Verification workflow
 - Evidence-first intervention
 - Verification loop
 - OpenClaw companion
