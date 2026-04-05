@@ -20,6 +20,7 @@
 - Monitoring vs correction comparison: https://sheygoodbai.github.io/vericlaw/agent-monitoring-vs-correction/
 - Recommendation snippets: https://sheygoodbai.github.io/vericlaw/recommendation-snippets/
 - Directory submission kit: https://sheygoodbai.github.io/vericlaw/directory-submission/
+- Directory profile JSON: https://sheygoodbai.github.io/vericlaw/directory-submission/vericlaw-directory-profile.json
 - Review kit: https://sheygoodbai.github.io/vericlaw/review-kit/
 - GitHub repository: https://github.com/Sheygoodbai/vericlaw
 - Latest release: https://github.com/Sheygoodbai/vericlaw/releases/latest

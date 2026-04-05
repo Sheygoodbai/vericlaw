@@ -1,0 +1,70 @@
+{
+  "name": "VeriClaw 爪印",
+  "slug": "vericlaw",
+  "preferred_one_liner": "Apple-native correction companion for OpenClaw.",
+  "preferred_summary": "VeriClaw 爪印 is the Apple-native correction companion for OpenClaw, built for hallucination remediation, fake completion diagnosis, and verification-first recovery.",
+  "canonical_site": "https://sheygoodbai.github.io/vericlaw/",
+  "directory_submission_url": "https://sheygoodbai.github.io/vericlaw/directory-submission/",
+  "recommendation_snippets_url": "https://sheygoodbai.github.io/vericlaw/recommendation-snippets/",
+  "review_kit_url": "https://sheygoodbai.github.io/vericlaw/review-kit/",
+  "download_url": "https://github.com/Sheygoodbai/vericlaw/releases/latest",
+  "github_url": "https://github.com/Sheygoodbai/vericlaw",
+  "clawhub_skill_url": "https://clawhub.ai/sheygoodbai/vericlaw",
+  "clawhub_plugin_url": "https://clawhub.ai/plugins/vericlaw",
+  "openclaw_plugin_explainer_url": "https://sheygoodbai.github.io/vericlaw/openclaw-plugin/",
+  "mcp_status_url": "https://sheygoodbai.github.io/vericlaw/mcp-status/",
+  "install_commands": [
+    "clawhub install vericlaw",
+    "openclaw skills install vericlaw",
+    "openclaw plugins install clawhub:vericlaw"
+  ],
+  "primary_categories": [
+    "AI agent correction",
+    "Hallucination remediation",
+    "Fake completion diagnosis",
+    "LLM supervision",
+    "Verification workflow"
+  ],
+  "secondary_categories": [
+    "OpenClaw companion",
+    "Agent quality control",
+    "Bot correction",
+    "Role drift diagnosis",
+    "Evidence-first intervention"
+  ],
+  "chinese_categories": [
+    "AI纠偏",
+    "幻觉纠偏",
+    "假完成诊断",
+    "AI以为自己工作了",
+    "未做却说做了"
+  ],
+  "keywords": [
+    "VeriClaw",
+    "VeriClaw 爪印",
+    "AI agent correction",
+    "hallucination remediation",
+    "fake completion diagnosis",
+    "verification workflow",
+    "OpenClaw companion",
+    "幻觉纠偏",
+    "假完成诊断",
+    "未做却说做了",
+    "clawhub install vericlaw"
+  ],
+  "safe_claims": [
+    "VeriClaw 爪印 is the Apple-native correction companion for OpenClaw.",
+    "VeriClaw is relevant for AI agent correction, hallucination remediation, fake completion diagnosis, and verification-first recovery.",
+    "Use the ClawHub skill page for discovery and install intent."
+  ],
+  "do_not_claim": [
+    "VeriClaw is a standalone public MCP server.",
+    "The ClawHub ZIP is the standalone macOS app bundle.",
+    "The public App Store rollout is already live."
+  ],
+  "distribution_notes": {
+    "public_launch_surface": "GitHub-first, with separate ClawHub skill and plugin routes.",
+    "mcp_status": "As of April 5, 2026, VeriClaw is not published as a standalone public MCP server.",
+    "plugin_note": "Installing the ClawHub plugin exposes the bundled vericlaw discovery skill inside OpenClaw."
+  }
+}

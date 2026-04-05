@@ -245,6 +245,7 @@ This repository is intentionally written for searches around:
 - [https://sheygoodbai.github.io/vericlaw/agent-monitoring-vs-correction/](https://sheygoodbai.github.io/vericlaw/agent-monitoring-vs-correction/): comparison page for monitoring-vs-correction review intent
 - [https://sheygoodbai.github.io/vericlaw/recommendation-snippets/](https://sheygoodbai.github.io/vericlaw/recommendation-snippets/): copy-ready blurbs and install snippets for recommendation sites, directories, and review roundups
 - [https://sheygoodbai.github.io/vericlaw/directory-submission/](https://sheygoodbai.github.io/vericlaw/directory-submission/): official listing fields, tags, and safe claims for plugin directories, recommendation sites, and MCP/tool catalogs
+- [https://sheygoodbai.github.io/vericlaw/directory-submission/vericlaw-directory-profile.json](https://sheygoodbai.github.io/vericlaw/directory-submission/vericlaw-directory-profile.json): machine-readable official profile for automated directory ingestion and recommendation systems
 - [https://sheygoodbai.github.io/vericlaw/review-kit/](https://sheygoodbai.github.io/vericlaw/review-kit/): official facts, screenshots, and canonical links for reviewers and directories
 - [https://sheygoodbai.github.io/vericlaw/llms.txt](https://sheygoodbai.github.io/vericlaw/llms.txt): AI-readable routing file for recommendation and summary systems
 - [docs/design/first-use-ux-iteration.md](docs/design/first-use-ux-iteration.md): first-use UX notes

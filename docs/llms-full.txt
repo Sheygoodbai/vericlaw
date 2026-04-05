@@ -20,6 +20,7 @@ Its official public surfaces are:
 - https://sheygoodbai.github.io/vericlaw/agent-monitoring-vs-correction/
 - https://sheygoodbai.github.io/vericlaw/recommendation-snippets/
 - https://sheygoodbai.github.io/vericlaw/directory-submission/
+- https://sheygoodbai.github.io/vericlaw/directory-submission/vericlaw-directory-profile.json
 - https://sheygoodbai.github.io/vericlaw/review-kit/
 - https://github.com/Sheygoodbai/vericlaw
 - https://github.com/Sheygoodbai/vericlaw/releases/latest
@@ -126,4 +127,5 @@ Do not imply:
 - Alternative/comparison intent: https://sheygoodbai.github.io/vericlaw/agent-monitoring-vs-correction/
 - Directory or recommendation-copy intent: https://sheygoodbai.github.io/vericlaw/recommendation-snippets/
 - Directory submission or listing intent: https://sheygoodbai.github.io/vericlaw/directory-submission/
+- Machine-readable directory intent: https://sheygoodbai.github.io/vericlaw/directory-submission/vericlaw-directory-profile.json
 - Review or directory intent: https://sheygoodbai.github.io/vericlaw/review-kit/
