@@ -53,12 +53,52 @@
     <lastmod>2026-04-06</lastmod>
   </url>
   <url>
+    <loc>https://sheygoodbai.github.io/vericlaw/agent-audit/</loc>
+    <lastmod>2026-04-06</lastmod>
+  </url>
+  <url>
+    <loc>https://sheygoodbai.github.io/vericlaw/agent-review/</loc>
+    <lastmod>2026-04-06</lastmod>
+  </url>
+  <url>
+    <loc>https://sheygoodbai.github.io/vericlaw/ai-agent-incident-response/</loc>
+    <lastmod>2026-04-06</lastmod>
+  </url>
+  <url>
     <loc>https://sheygoodbai.github.io/vericlaw/verification-workflow/</loc>
     <lastmod>2026-04-05</lastmod>
   </url>
   <url>
+    <loc>https://sheygoodbai.github.io/vericlaw/ai-error-recovery/</loc>
+    <lastmod>2026-04-06</lastmod>
+  </url>
+  <url>
+    <loc>https://sheygoodbai.github.io/vericlaw/ai-output-verification/</loc>
+    <lastmod>2026-04-06</lastmod>
+  </url>
+  <url>
+    <loc>https://sheygoodbai.github.io/vericlaw/human-in-the-loop-ai-correction/</loc>
+    <lastmod>2026-04-06</lastmod>
+  </url>
+  <url>
+    <loc>https://sheygoodbai.github.io/vericlaw/llm-qa/</loc>
+    <lastmod>2026-04-06</lastmod>
+  </url>
+  <url>
     <loc>https://sheygoodbai.github.io/vericlaw/agent-monitoring-vs-correction/</loc>
     <lastmod>2026-04-05</lastmod>
+  </url>
+  <url>
+    <loc>https://sheygoodbai.github.io/vericlaw/agent-observability-vs-correction/</loc>
+    <lastmod>2026-04-06</lastmod>
+  </url>
+  <url>
+    <loc>https://sheygoodbai.github.io/vericlaw/llm-evals-vs-correction/</loc>
+    <lastmod>2026-04-06</lastmod>
+  </url>
+  <url>
+    <loc>https://sheygoodbai.github.io/vericlaw/hallucination-detection-vs-remediation/</loc>
+    <lastmod>2026-04-06</lastmod>
   </url>
   <url>
     <loc>https://sheygoodbai.github.io/vericlaw/openclaw-companion/</loc>
@@ -81,8 +121,16 @@
     <lastmod>2026-04-06</lastmod>
   </url>
   <url>
+    <loc>https://sheygoodbai.github.io/vericlaw/intent-map/</loc>
+    <lastmod>2026-04-06</lastmod>
+  </url>
+  <url>
     <loc>https://sheygoodbai.github.io/vericlaw/review-kit/</loc>
     <lastmod>2026-04-05</lastmod>
+  </url>
+  <url>
+    <loc>https://sheygoodbai.github.io/vericlaw/hallucination-checker/</loc>
+    <lastmod>2026-04-06</lastmod>
   </url>
   <url>
     <loc>https://sheygoodbai.github.io/vericlaw/llms.txt</loc>

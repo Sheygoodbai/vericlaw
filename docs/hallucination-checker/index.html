@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hallucination Checker & Correction Workflow | VeriClaw 爪印</title>
+    <meta
+      name="description"
+      content="Official VeriClaw 爪印 route for hallucination checker intent, AI hallucination review, correction workflow, and evidence-based recovery around OpenClaw."
+    />
+    <meta
+      name="keywords"
+      content="hallucination checker, AI hallucination checker, hallucination review, hallucination correction, AI error checking, VeriClaw"
+    />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta name="theme-color" content="#171411" />
+    <link rel="canonical" href="https://sheygoodbai.github.io/vericlaw/hallucination-checker/" />
+    <link rel="icon" type="image/png" href="../assets/branding/vericlaw-brand-mark.png" />
+    <link rel="alternate" type="text/plain" href="https://sheygoodbai.github.io/vericlaw/llms.txt" title="LLMs.txt" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="VeriClaw 爪印" />
+    <meta property="og:title" content="Hallucination Checker & Correction Workflow | VeriClaw 爪印" />
+    <meta
+      property="og:description"
+      content="When people search for a hallucination checker, they often need correction, evidence review, and recovery workflows instead."
+    />
+    <meta property="og:url" content="https://sheygoodbai.github.io/vericlaw/hallucination-checker/" />
+    <meta
+      property="og:image"
+      content="https://sheygoodbai.github.io/vericlaw/assets/social-preview-brand.png?v=20260406"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Hallucination Checker & Correction Workflow | VeriClaw 爪印" />
+    <meta
+      name="twitter:description"
+      content="Correction-first route for hallucination checker intent, AI output review, and verification-based recovery."
+    />
+    <meta
+      name="twitter:image"
+      content="https://sheygoodbai.github.io/vericlaw/assets/social-preview-brand.png?v=20260406"
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://sheygoodbai.github.io/vericlaw/hallucination-checker/#webpage",
+            "url": "https://sheygoodbai.github.io/vericlaw/hallucination-checker/",
+            "name": "Hallucination Checker & Correction Workflow | VeriClaw 爪印",
+            "description": "Official VeriClaw route for hallucination checker intent."
+          },
+          {
+            "@type": "SoftwareApplication",
+            "@id": "https://sheygoodbai.github.io/vericlaw/hallucination-checker/#software",
+            "name": "VeriClaw 爪印",
+            "applicationCategory": "DeveloperApplication",
+            "operatingSystem": "macOS",
+            "description": "VeriClaw 爪印 is the Apple-native correction companion for OpenClaw.",
+            "url": "https://sheygoodbai.github.io/vericlaw/",
+            "downloadUrl": "https://sheygoodbai.github.io/vericlaw/download/",
+            "sameAs": [
+              "https://sheygoodbai.github.io/vericlaw/ai-hallucination-remediation/",
+              "https://sheygoodbai.github.io/vericlaw/hallucination-correction-cn/",
+              "https://clawhub.ai/sheygoodbai/vericlaw"
+            ],
+            "keywords": "hallucination checker, hallucination remediation, correction workflow, OpenClaw companion"
+          }
+        ]
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg: #f4efe6;
+        --surface: rgba(255, 249, 243, 0.92);
+        --ink: #151311;
+        --muted: #5d615d;
+        --line: rgba(21, 19, 17, 0.12);
+        --hero: #171411;
+        --hero-muted: rgba(244, 239, 230, 0.8);
+        --warm: #c2410c;
+        --content: min(1120px, calc(100vw - 40px));
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background:
+          radial-gradient(circle at top left, rgba(194, 65, 12, 0.1), transparent 28%),
+          radial-gradient(circle at top right, rgba(15, 118, 110, 0.08), transparent 30%),
+          var(--bg);
+        color: var(--ink);
+        font-family: "Space Grotesk", sans-serif;
+      }
+      a { color: inherit; }
+      .topbar, main, footer { width: var(--content); margin: 0 auto; }
+      .topbar {
+        padding: 26px 0 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 18px;
+      }
+      .brand, .nav {
+        display: inline-flex;
+        align-items: center;
+        gap: 14px;
+      }
+      .brand { text-decoration: none; }
+      .brand img {
+        width: 44px;
+        height: 44px;
+        border-radius: 14px;
+      }
+      .brand strong, .brand span { display: block; }
+      .brand strong {
+        font-size: 0.88rem;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+      }
+      .brand span, .nav a {
+        color: var(--muted);
+        font-size: 0.92rem;
+        text-decoration: none;
+      }
+      .nav { flex-wrap: wrap; justify-content: flex-end; }
+      .hero {
+        margin-top: 28px;
+        border-radius: 30px;
+        padding: 42px;
+        color: #f7f3ea;
+        background: linear-gradient(135deg, #171411, #3b241d 60%, #2b302a);
+      }
+      .eyebrow {
+        display: inline-flex;
+        padding: 9px 14px;
+        border-radius: 999px;
+        border: 1px solid rgba(244, 239, 230, 0.16);
+        color: var(--hero-muted);
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        font-size: 0.74rem;
+      }
+      h1, h2, h3 {
+        margin: 0;
+        font-family: "Source Serif 4", serif;
+      }
+      h1 {
+        margin-top: 18px;
+        font-size: clamp(2.8rem, 5vw, 4.8rem);
+        line-height: 0.95;
+      }
+      .hero p, .lead, .card p, li { line-height: 1.75; }
+      .hero p {
+        max-width: 62rem;
+        color: var(--hero-muted);
+      }
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 24px;
+      }
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 46px;
+        padding: 0 18px;
+        border-radius: 999px;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      .button-primary { background: #f4efe6; color: #171411; }
+      .button-secondary { border: 1px solid rgba(244, 239, 230, 0.24); color: #f7f3ea; }
+      main { padding: 38px 0 78px; }
+      section + section { margin-top: 28px; }
+      .section-head { margin-bottom: 18px; }
+      .section-head h2 { font-size: clamp(2rem, 4vw, 3rem); }
+      .lead { color: var(--muted); max-width: 72ch; }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 18px;
+      }
+      .card {
+        padding: 24px;
+        border-radius: 24px;
+        border: 1px solid var(--line);
+        background: var(--surface);
+      }
+      .card h3 {
+        font-size: 1.35rem;
+        margin-bottom: 10px;
+      }
+      .card p, .card li { color: var(--muted); }
+      .pill-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+      .pill {
+        display: inline-flex;
+        padding: 10px 14px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: rgba(255, 255, 255, 0.72);
+      }
+      footer {
+        padding: 0 0 46px;
+        color: var(--muted);
+        font-size: 0.94rem;
+      }
+      @media (max-width: 860px) {
+        .topbar { flex-direction: column; align-items: flex-start; }
+        .hero { padding: 32px 24px; }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="../">
+        <img src="../assets/branding/vericlaw-brand-mark.png" alt="VeriClaw brand mark" />
+        <span>
+          <strong>VeriClaw 爪印</strong>
+          <span>Hallucination checker</span>
+        </span>
+      </a>
+      <nav class="nav">
+        <a href="../download/">Download</a>
+        <a href="../ai-hallucination-remediation/">Hallucination remediation</a>
+        <a href="../review-kit/">Review kit</a>
+        <a href="../directory-submission/">Directory kit</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <span class="eyebrow">Hallucination Intent</span>
+        <h1>“Hallucination checker” is usually shorthand for a bigger recovery problem.</h1>
+        <p>
+          When people search for a <strong>hallucination checker</strong>, they are often looking
+          for a way to inspect wrong claims, trace unsupported output, and recover from agent
+          drift without trusting surface-level confidence.
+        </p>
+        <p>
+          VeriClaw 爪印 is the Apple-native correction companion for OpenClaw. It is not presented
+          here as a generic standalone detector. The better description is correction-first
+          remediation, evidence review, and verification-based recovery after hallucination.
+        </p>
+        <div class="actions">
+          <a class="button button-primary" href="../ai-hallucination-remediation/">Open remediation page</a>
+          <a class="button button-secondary" href="https://clawhub.ai/sheygoodbai/vericlaw">Open ClawHub skill</a>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>How this phrase maps to VeriClaw</h2>
+          <p class="lead">
+            This page captures reviewer and directory language that tends to show up in broad tool
+            roundups while keeping the product description truthful.
+          </p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <h3>Check the claim</h3>
+            <p>Was the output grounded, supported, and actually tied to the requested work?</p>
+          </article>
+          <article class="card">
+            <h3>Correct the drift</h3>
+            <p>Once the unsupported step is visible, the next job is recovery, not just labeling.</p>
+          </article>
+          <article class="card">
+            <h3>Verify the redo</h3>
+            <p>Recovery is only complete when the repaired path can be checked before closure.</p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Nearby routes</h2>
+          <p class="lead">
+            These internal routes help broad “hallucination checker” phrasing converge on the
+            canonical VeriClaw cluster.
+          </p>
+        </div>
+        <div class="pill-row">
+          <a class="pill" href="../ai-hallucination-remediation/">AI hallucination remediation</a>
+          <a class="pill" href="../hallucination-correction-cn/">幻觉纠偏</a>
+          <a class="pill" href="../ai-output-verification/">AI output verification</a>
+          <a class="pill" href="../recommendation-snippets/">Recommendation snippets</a>
+          <a class="pill" href="../review-kit/">Review kit</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      VeriClaw 爪印 is the Apple-native correction companion for OpenClaw.
+    </footer>
+  </body>
+</html>

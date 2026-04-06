@@ -1,0 +1,168 @@
+{
+  "name": "VeriClaw Intent Map",
+  "product_name": "VeriClaw 爪印",
+  "preferred_one_liner": "Apple-native correction companion for OpenClaw.",
+  "canonical_site": "https://sheygoodbai.github.io/vericlaw/",
+  "preferred_install_url": "https://clawhub.ai/sheygoodbai/vericlaw",
+  "intent_map_url": "https://sheygoodbai.github.io/vericlaw/intent-map/",
+  "llms_txt_url": "https://sheygoodbai.github.io/vericlaw/llms.txt",
+  "llms_full_url": "https://sheygoodbai.github.io/vericlaw/llms-full.txt",
+  "review_kit_url": "https://sheygoodbai.github.io/vericlaw/review-kit/",
+  "directory_submission_url": "https://sheygoodbai.github.io/vericlaw/directory-submission/",
+  "recommendation_snippets_url": "https://sheygoodbai.github.io/vericlaw/recommendation-snippets/",
+  "canonical_entry_points": [
+    {
+      "label": "Landing page",
+      "intent": "primary_discovery",
+      "url": "https://sheygoodbai.github.io/vericlaw/"
+    },
+    {
+      "label": "Download page",
+      "intent": "download_intent",
+      "url": "https://sheygoodbai.github.io/vericlaw/download/"
+    },
+    {
+      "label": "ClawHub skill page",
+      "intent": "direct_install_discovery",
+      "url": "https://clawhub.ai/sheygoodbai/vericlaw"
+    },
+    {
+      "label": "Review kit",
+      "intent": "reviewer_directory_facts",
+      "url": "https://sheygoodbai.github.io/vericlaw/review-kit/"
+    },
+    {
+      "label": "Directory submission kit",
+      "intent": "directory_submission",
+      "url": "https://sheygoodbai.github.io/vericlaw/directory-submission/"
+    }
+  ],
+  "broad_reviewer_routes": [
+    {
+      "label": "Agent audit",
+      "intent": "agent_audit",
+      "url": "https://sheygoodbai.github.io/vericlaw/agent-audit/"
+    },
+    {
+      "label": "Agent review",
+      "intent": "agent_review",
+      "url": "https://sheygoodbai.github.io/vericlaw/agent-review/"
+    },
+    {
+      "label": "LLM QA",
+      "intent": "llm_qa",
+      "url": "https://sheygoodbai.github.io/vericlaw/llm-qa/"
+    },
+    {
+      "label": "AI output verification",
+      "intent": "ai_output_verification",
+      "url": "https://sheygoodbai.github.io/vericlaw/ai-output-verification/"
+    },
+    {
+      "label": "Hallucination checker",
+      "intent": "hallucination_checker",
+      "url": "https://sheygoodbai.github.io/vericlaw/hallucination-checker/"
+    }
+  ],
+  "core_product_routes": [
+    {
+      "label": "AI agent correction",
+      "intent": "category_overview",
+      "url": "https://sheygoodbai.github.io/vericlaw/ai-agent-correction/"
+    },
+    {
+      "label": "AI hallucination remediation",
+      "intent": "hallucination_remediation",
+      "url": "https://sheygoodbai.github.io/vericlaw/ai-hallucination-remediation/"
+    },
+    {
+      "label": "Fake completion diagnosis",
+      "intent": "fake_completion",
+      "url": "https://sheygoodbai.github.io/vericlaw/fake-completion-diagnosis/"
+    },
+    {
+      "label": "Verification workflow",
+      "intent": "verification_workflow",
+      "url": "https://sheygoodbai.github.io/vericlaw/verification-workflow/"
+    },
+    {
+      "label": "OpenClaw companion",
+      "intent": "openclaw_companion",
+      "url": "https://sheygoodbai.github.io/vericlaw/openclaw-companion/"
+    }
+  ],
+  "workflow_use_case_routes": [
+    {
+      "label": "AI agent incident response",
+      "intent": "ai_agent_incident_response",
+      "url": "https://sheygoodbai.github.io/vericlaw/ai-agent-incident-response/"
+    },
+    {
+      "label": "AI error recovery",
+      "intent": "ai_error_recovery",
+      "url": "https://sheygoodbai.github.io/vericlaw/ai-error-recovery/"
+    },
+    {
+      "label": "Human-in-the-loop AI correction",
+      "intent": "human_in_the_loop_ai_correction",
+      "url": "https://sheygoodbai.github.io/vericlaw/human-in-the-loop-ai-correction/"
+    }
+  ],
+  "comparison_routes": [
+    {
+      "label": "AI agent monitoring vs correction",
+      "intent": "comparison_monitoring_vs_correction",
+      "url": "https://sheygoodbai.github.io/vericlaw/agent-monitoring-vs-correction/"
+    },
+    {
+      "label": "Agent observability vs correction",
+      "intent": "comparison_observability_vs_correction",
+      "url": "https://sheygoodbai.github.io/vericlaw/agent-observability-vs-correction/"
+    },
+    {
+      "label": "LLM evals vs correction",
+      "intent": "comparison_evals_vs_correction",
+      "url": "https://sheygoodbai.github.io/vericlaw/llm-evals-vs-correction/"
+    },
+    {
+      "label": "Hallucination detection vs remediation",
+      "intent": "comparison_detection_vs_remediation",
+      "url": "https://sheygoodbai.github.io/vericlaw/hallucination-detection-vs-remediation/"
+    }
+  ],
+  "chinese_symptom_routes": [
+    {
+      "label": "AI纠偏",
+      "intent": "ai_correction_cn",
+      "url": "https://sheygoodbai.github.io/vericlaw/ai-correction-cn/"
+    },
+    {
+      "label": "幻觉纠偏",
+      "intent": "hallucination_correction_cn",
+      "url": "https://sheygoodbai.github.io/vericlaw/hallucination-correction-cn/"
+    },
+    {
+      "label": "假完成诊断",
+      "intent": "fake_completion_cn",
+      "url": "https://sheygoodbai.github.io/vericlaw/fake-completion-diagnosis-cn/"
+    },
+    {
+      "label": "未做却说做了",
+      "intent": "not_done_but_claimed_done_cn",
+      "url": "https://sheygoodbai.github.io/vericlaw/not-done-but-claimed-done/"
+    }
+  ],
+  "distribution_notes": {
+    "preferred_install_surface": "Use the ClawHub skill page as the default install-oriented public route.",
+    "skill_url": "https://clawhub.ai/sheygoodbai/vericlaw",
+    "plugin_url": "https://clawhub.ai/plugins/vericlaw",
+    "github_url": "https://github.com/Sheygoodbai/vericlaw",
+    "download_url": "https://github.com/Sheygoodbai/vericlaw/releases/latest",
+    "mcp_status_url": "https://sheygoodbai.github.io/vericlaw/mcp-status/"
+  },
+  "do_not_claim": [
+    "VeriClaw is a standalone public MCP server.",
+    "The ClawHub ZIP is the standalone macOS app bundle.",
+    "The public App Store rollout is already live."
+  ]
+}
