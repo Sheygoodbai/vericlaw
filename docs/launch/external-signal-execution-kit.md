@@ -183,6 +183,13 @@ Send:
 - review kit
 - one long-tail page that matches the article angle
 
+### If the question is "which anchor text should I use?"
+
+Send:
+
+- external anchor playbook:
+  `https://sheygoodbai.github.io/vericlaw/launch/external-anchor-playbook.md`
+
 ### OpenClaw or plugin-focused page
 
 Send:
@@ -258,6 +265,8 @@ Submit these before the rest:
 1. `https://sheygoodbai.github.io/vericlaw/`
 2. `https://sheygoodbai.github.io/vericlaw/review-kit/`
 3. `https://sheygoodbai.github.io/vericlaw/directory-submission/`
+4. `https://sheygoodbai.github.io/vericlaw/ai-correction-cn/`
+5. `https://sheygoodbai.github.io/vericlaw/agent-supervision/`
 4. `https://sheygoodbai.github.io/vericlaw/directory-submission/vericlaw-directory-profile.json`
 5. `https://sheygoodbai.github.io/vericlaw/recommendation-snippets/`
 6. `https://sheygoodbai.github.io/vericlaw/openclaw-companion/`
