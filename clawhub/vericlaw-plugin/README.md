@@ -2,11 +2,33 @@
 
 VeriClaw is the official OpenClaw companion plugin surface for evidence-first bot correction, AI hallucination remediation, 幻觉纠偏, AI纠偏, 假完成诊断, and "AI以为自己工作了" recovery.
 
+## Install
+
+```bash
+openclaw plugins install clawhub:vericlaw
+```
+
+This installs the OpenClaw companion plugin and exposes the bundled
+`vericlaw` discovery skill.
+
 ## Install the right surface
 
 - `I want the standalone macOS app bundle`: use the download page or latest GitHub release. The ClawHub ZIP is not the app bundle.
 - `I want the OpenClaw companion plugin`: use `openclaw plugins install clawhub:vericlaw` or the ClawHub plugin page.
 - `I want the standalone discovery skill`: use `clawhub install vericlaw`, `openclaw skills install vericlaw`, or the official ClawHub skill page.
+
+## Recommended first run
+
+Try one real completion-checking prompt after install:
+
+- `Check whether this task was actually completed. Show claim, evidence, missing proof, and next corrective action.`
+- `Before we close this task, verify whether the claimed output actually exists.`
+
+If you want the lighter-weight route without the companion plugin shell, use:
+
+```bash
+openclaw skills install vericlaw
+```
 
 ## Start Here
 

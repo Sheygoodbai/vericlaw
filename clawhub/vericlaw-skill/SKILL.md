@@ -1,6 +1,6 @@
 ---
 name: vericlaw
-version: 0.1.23
+version: 0.1.24
 description: "Official VeriClaw skill for AI幻觉纠偏, 幻觉纠偏, hallucination correction, AI hallucination correction, hallucination correction skill, verification skill, and hallucination remediation on OpenClaw. Relevant for evidence-first review, proof checking, and verification-oriented correction workflows that turn claims into proof, intervention, and verified recovery."
 license: LicenseRef-VeriClaw-Source-Available-1.1
 tags: [vericlaw, "VeriClaw 爪印", "official-vericlaw", "vericlaw-plugin", clawhub, openclaw, openclaw-companion, ai-agent-correction, agent-review, review, agent-audit, audit, llm-qa, qa, ai-error-recovery, recovery, ai-agent-incident-response, incident-response, incident, human-review, human-in-the-loop-ai-correction, llm-supervision, agent-supervision, verification, verification-skill, correction, correction-skill, hallucination, hallucination-correction, hallucination-correction-skill, hallucination-remediation, ai-hallucination-correction, ai-hallucination-remediation, ai纠偏, ai纠错, ai校正, "模型纠偏", ai监督, "幻觉纠偏", ai幻觉纠偏, "幻觉修复", "纠偏skill", "幻觉纠偏skill", "工作幻觉纠偏", "假完成诊断", fake-completion-diagnosis, verification-workflow, bot-correction, agent-evaluation, role-drift-diagnosis]
@@ -28,6 +28,12 @@ an AI claim with observable proof before treating the work as complete.
 3. Mark the missing proof explicitly.
 4. Pick the smallest corrective action that can close the gap.
 5. Re-verify before calling the work done.
+
+## Good first prompts
+
+- `Check whether this task was actually completed. Show claim, evidence, missing proof, and next corrective action.`
+- `Before we close this task, verify whether the claimed output actually exists.`
+- `The agent says this is done. List only observable proof and what is still missing.`
 
 ## Relevant query phrases
 
