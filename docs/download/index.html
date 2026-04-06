@@ -472,10 +472,18 @@
               },
               {
                 "@type": "Question",
+                "name": "Which VeriClaw install route should I use?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Use the GitHub download page or latest release for the standalone VeriClaw macOS app bundle. Use openclaw plugins install clawhub:vericlaw for the OpenClaw companion plugin. Use clawhub install vericlaw or openclaw skills install vericlaw for the standalone discovery skill."
+                }
+              },
+              {
+                "@type": "Question",
                 "name": "Where do I get the VeriClaw skill?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Install the VeriClaw companion plugin from ClawHub and OpenClaw will expose the bundled vericlaw skill in the Skills surface."
+                  "text": "Use the official ClawHub skill page or install vericlaw directly with clawhub install vericlaw or openclaw skills install vericlaw. Installing the companion plugin from ClawHub also exposes the bundled vericlaw skill in the Skills surface."
                 }
               }
             ]
@@ -509,16 +517,17 @@
         <div class="hero-grid">
           <div>
             <span class="eyebrow">GitHub-hosted direct download</span>
-            <h1>Download VeriClaw without the ClawHub bottleneck.</h1>
+            <h1>Choose the right VeriClaw install route first.</h1>
             <p>
-              This page links straight to the current GitHub release assets for
-              VeriClaw 爪印, so public users have a stable download entry even
-              when registry-side anonymous download limits are noisy.
+              Real users and third-party directories keep mixing up the
+              standalone app, the OpenClaw companion plugin, and the discovery
+              skill. This page exists to separate those routes cleanly.
             </p>
             <p>
-              If you are already inside OpenClaw, do not start with the ZIP.
-              Use the ClawHub skill or companion plugin route so the action
-              becomes a real install on the canonical VeriClaw surface.
+              Use the GitHub-hosted release asset if you want the actual
+              `VeriClaw 爪印.app`. If you are already inside OpenClaw, use the
+              official skill or companion plugin route instead of treating the
+              ClawHub ZIP as the app download.
             </p>
             <p>
               If the official ClawHub skill turns out to be useful on a real
@@ -530,15 +539,15 @@
             <div class="hero-actions">
               <a
                 class="button button-primary"
-                href="https://clawhub.ai/sheygoodbai/vericlaw"
-              >
-                Install via ClawHub skill
-              </a>
-              <a
-                class="button button-secondary"
                 href="https://github.com/Sheygoodbai/vericlaw/releases/download/v0.1.1/VeriClaw-v0.1.1-macOS-arm64.zip"
               >
                 Download macOS app
+              </a>
+              <a
+                class="button button-secondary"
+                href="https://clawhub.ai/sheygoodbai/vericlaw"
+              >
+                Install via ClawHub skill
               </a>
               <a
                 class="button button-secondary"
@@ -588,6 +597,54 @@
       </section>
 
       <section class="section">
+        <div class="grid">
+          <article class="card">
+            <h3>I want the macOS app bundle</h3>
+            <p>
+              Use the GitHub-hosted release asset if you want the real
+              `VeriClaw 爪印.app`. This is the right route when you need the
+              standalone app ZIP, checksums, or release notes.
+            </p>
+            <div class="hero-actions" style="margin-top: 18px;">
+              <a
+                class="button button-primary"
+                href="https://github.com/Sheygoodbai/vericlaw/releases/download/v0.1.1/VeriClaw-v0.1.1-macOS-arm64.zip"
+              >
+                Download app ZIP
+              </a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>I want the OpenClaw companion plugin</h3>
+            <p>
+              Use the ClawHub plugin page or
+              <code>openclaw plugins install clawhub:vericlaw</code> when the
+              goal is the companion shell plus the bundled `vericlaw` skill.
+            </p>
+            <div class="hero-actions" style="margin-top: 18px;">
+              <a class="button button-secondary" href="https://clawhub.ai/plugins/vericlaw">
+                Open ClawHub plugin
+              </a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>I want the standalone discovery skill</h3>
+            <p>
+              Use the official ClawHub skill page, run
+              <code>clawhub install vericlaw</code>, or use
+              <code>openclaw skills install vericlaw</code> if you want the
+              direct skill install surface.
+            </p>
+            <div class="hero-actions" style="margin-top: 18px;">
+              <a class="button button-secondary" href="https://clawhub.ai/sheygoodbai/vericlaw">
+                Open ClawHub skill
+              </a>
+            </div>
+          </article>
+        </div>
+
         <div class="card">
           <h2>Direct app download</h2>
           <p>

@@ -114,6 +114,12 @@ screenshots, and release notes are public now. The ClawHub surface is the
 companion plugin + skill entry, while the macOS app bundle lives on the GitHub
 release/download path.
 
+## Install the right thing
+
+- `VeriClaw 爪印.app`: use the [download page](https://sheygoodbai.github.io/vericlaw/download/) or [latest release](https://github.com/Sheygoodbai/vericlaw/releases/latest). This is the real macOS app bundle path.
+- `OpenClaw companion plugin`: use the [ClawHub plugin page](https://clawhub.ai/plugins/vericlaw) or run `openclaw plugins install clawhub:vericlaw`.
+- `Standalone discovery skill`: use the [ClawHub skill page](https://clawhub.ai/sheygoodbai/vericlaw), run `clawhub install vericlaw`, or use `openclaw skills install vericlaw`.
+
 ## Distribution surfaces
 
 - `Download app`: use the [download page](https://sheygoodbai.github.io/vericlaw/download/) or [latest release](https://github.com/Sheygoodbai/vericlaw/releases/latest) for the real macOS ZIP.
@@ -139,7 +145,7 @@ MCP server.
 - Use GitHub's `Cite this repository` panel or [CITATION.cff](CITATION.cff) when referencing VeriClaw in posts, decks, reports, newsletters, or reviews.
 - Copy-paste summary: `VeriClaw 爪印 is an Apple-native AI agent correction app for evidence-first diagnosis, intervention, verification, and casebook learning.`
 - Canonical links: [landing page](https://sheygoodbai.github.io/vericlaw/), [download page](https://sheygoodbai.github.io/vericlaw/download/), [latest release](https://github.com/Sheygoodbai/vericlaw/releases/latest), and [GitHub repository](https://github.com/Sheygoodbai/vericlaw).
-- Share canonical links, factual reviews, and brief quoted excerpts with attribution. Do not publish modified mirrors, repacks, or commercialized variants without written permission.
+- Share canonical links, factual reviews, brief quoted excerpts, or exact unmodified non-commercial copies with attribution and notices intact. Do not publish modified mirrors, repacks, or commercial variants without written permission.
 
 ## Product glimpse
 
@@ -210,7 +216,7 @@ This repository is intentionally written for searches around:
 - Watch [new releases](https://github.com/Sheygoodbai/vericlaw/releases/latest) if you want public launch updates.
 - Join [GitHub Discussions](https://github.com/Sheygoodbai/vericlaw/discussions) to share case studies, deployment notes, and citation links.
 - Use [Security.md](SECURITY.md) for private vulnerability reporting and package-integrity concerns.
-- If you want to adapt, redistribute, or commercialize more than brief quoted excerpts, ask for written permission first.
+- If you want to adapt VeriClaw, publish a modified copy, or commercialize it, ask for written permission first.
 - Link to the [landing page](https://sheygoodbai.github.io/vericlaw/) or [download page](https://sheygoodbai.github.io/vericlaw/download/) when citing VeriClaw externally so the canonical name and positioning stay consistent.
 
 ## Release surface
@@ -230,6 +236,7 @@ This repository is intentionally written for searches around:
 - [docs/launch/product-hunt-launch-pack.md](docs/launch/product-hunt-launch-pack.md): ready-to-submit Product Hunt fields, maker comment, and launch-day operating plan
 - [docs/launch/founder-outreach-playbook.md](docs/launch/founder-outreach-playbook.md): warm DM scripts and tracking plan for the first 30 launch conversations
 - [CONTRIBUTING.md](CONTRIBUTING.md): how to cite, report issues, and propose changes under the source-available policy
+- [LICENSE-SUMMARY.md](LICENSE-SUMMARY.md): plain-language summary of what can be forwarded, and what still needs permission
 - [https://sheygoodbai.github.io/vericlaw/](https://sheygoodbai.github.io/vericlaw/): public landing page for search and social sharing
 - [https://sheygoodbai.github.io/vericlaw/openclaw-plugin/](https://sheygoodbai.github.io/vericlaw/openclaw-plugin/): canonical OpenClaw plugin and bundled skill explainer
 - [https://clawhub.ai/sheygoodbai/vericlaw](https://clawhub.ai/sheygoodbai/vericlaw): live ClawHub skill page for `clawhub install vericlaw`
@@ -257,8 +264,9 @@ This repository is intentionally written for searches around:
 ## Copyright, source use, and enforcement
 
 - This repository is `source-available`, not open source.
-- You may view, clone, and privately evaluate the source under [LICENSE](LICENSE).
-- Commercial use, public redistribution, hosted reuse, and publication of modified versions require prior written permission.
+- You may view, clone, privately evaluate, and non-commercially forward exact unmodified copies under [LICENSE](LICENSE).
+- Commercial use, hosted reuse, and publication or redistribution of modified versions require prior written permission.
+- See [LICENSE-SUMMARY.md](LICENSE-SUMMARY.md) for the short human-readable version.
 - GitHub may still permit public viewing and on-platform forks for this public repository, but that platform behavior does not grant broader rights beyond the applicable licenses.
 - Preserve [LICENSE](LICENSE), [NOTICE](NOTICE), [ATTRIBUTION.md](ATTRIBUTION.md), and applicable third-party notices in permitted copies.
 - Some materials are derived from OpenClaw and remain subject to the applicable upstream notice preserved in [LICENSES/OPENCLAW-MIT.txt](LICENSES/OPENCLAW-MIT.txt).
