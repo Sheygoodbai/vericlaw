@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Agent Supervision & AI Supervision | VeriClaw 爪印</title>
+    <meta name="description" content="Official VeriClaw page for agent supervision, AI supervision, AI监督, correction-first supervision, and evidence-first review after AI agent drift." />
+    <meta name="keywords" content="agent supervision, AI supervision, AI监督, correction-first supervision, agent review, AI agent correction, evidence-first verification, VeriClaw" />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta name="theme-color" content="#10161d" />
+    <link rel="canonical" href="https://sheygoodbai.github.io/vericlaw/agent-supervision/" />
+    <link rel="icon" type="image/png" href="../assets/branding/vericlaw-brand-mark.png" />
+    <link rel="alternate" type="text/plain" href="https://sheygoodbai.github.io/vericlaw/llms.txt" title="LLMs.txt" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="VeriClaw 爪印" />
+    <meta property="og:title" content="Agent Supervision & AI Supervision | VeriClaw 爪印" />
+    <meta property="og:description" content="Correction-first framing for teams searching for agent supervision, AI supervision, and evidence-first review." />
+    <meta property="og:url" content="https://sheygoodbai.github.io/vericlaw/agent-supervision/" />
+    <meta property="og:image" content="https://sheygoodbai.github.io/vericlaw/assets/social-preview-brand.png?v=20260406" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Agent Supervision & AI Supervision | VeriClaw 爪印" />
+    <meta name="twitter:description" content="VeriClaw through the lens of agent supervision, AI监督, and correction-first review." />
+    <meta name="twitter:image" content="https://sheygoodbai.github.io/vericlaw/assets/social-preview-brand.png?v=20260406" />
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"WebPage","name":"Agent Supervision & AI Supervision | VeriClaw 爪印","url":"https://sheygoodbai.github.io/vericlaw/agent-supervision/","description":"Official VeriClaw page for supervision-oriented discovery intent."}
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet" />
+    <style>
+      :root { --bg: #f3ede3; --surface: rgba(255,250,242,.9); --ink: #141414; --muted: #60645f; --line: rgba(20,20,20,.12); --hero: #10161d; --content: min(1120px, calc(100vw - 40px)); }
+      * { box-sizing: border-box; }
+      body { margin: 0; background: radial-gradient(circle at top left, rgba(194,65,12,.08), transparent 28%), radial-gradient(circle at top right, rgba(15,118,110,.08), transparent 30%), var(--bg); color: var(--ink); font-family: "Space Grotesk", sans-serif; }
+      a { color: inherit; }
+      .topbar, main, footer { width: var(--content); margin: 0 auto; }
+      .topbar { padding: 26px 0 0; display: flex; align-items: center; justify-content: space-between; gap: 18px; }
+      .brand, .nav { display: inline-flex; align-items: center; gap: 14px; }
+      .brand { text-decoration: none; }
+      .brand img { width: 44px; height: 44px; border-radius: 14px; }
+      .brand strong, .brand span { display: block; }
+      .brand strong { letter-spacing: .16em; text-transform: uppercase; font-size: .88rem; }
+      .brand span, .nav a { color: var(--muted); font-size: .92rem; text-decoration: none; }
+      .nav { flex-wrap: wrap; }
+      .hero { margin-top: 24px; border-radius: 30px; padding: 40px; color: #f7f3ea; background: linear-gradient(135deg, rgba(15,118,110,.2), transparent 46%), linear-gradient(180deg, rgba(194,65,12,.12), transparent 52%), var(--hero); }
+      .eyebrow { display: inline-block; padding: 9px 14px; border-radius: 999px; border: 1px solid rgba(244,239,230,.16); color: rgba(244,239,230,.82); letter-spacing: .1em; text-transform: uppercase; font-size: .75rem; }
+      h1, h2, h3 { margin: 0; font-family: "Source Serif 4", serif; }
+      h1 { margin-top: 18px; font-size: clamp(2.8rem, 6vw, 5rem); line-height: .95; }
+      .hero p, .lead, .card p, li { line-height: 1.75; }
+      .hero p { color: rgba(244,239,230,.82); max-width: 54rem; }
+      .hero p + p { margin-top: 14px; }
+      .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 24px; }
+      .button { display: inline-flex; align-items: center; justify-content: center; min-height: 46px; padding: 0 18px; border-radius: 999px; text-decoration: none; font-weight: 600; }
+      .button-primary { background: #f4efe6; color: #121312; }
+      .button-secondary { border: 1px solid rgba(244,239,230,.22); color: #f7f3ea; }
+      main { padding: 36px 0 78px; }
+      section + section { margin-top: 28px; }
+      .section-head { margin-bottom: 18px; }
+      .section-head h2 { font-size: clamp(2rem, 4vw, 3rem); }
+      .lead { color: var(--muted); max-width: 72ch; }
+      .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; }
+      .card { padding: 24px; border: 1px solid var(--line); border-radius: 24px; background: var(--surface); }
+      .card h3 { font-size: 1.4rem; margin-bottom: 10px; }
+      .card p, .card li { color: var(--muted); }
+      footer { padding: 0 0 46px; color: var(--muted); font-size: .94rem; }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="../"><img src="../assets/branding/vericlaw-brand-mark.png" alt="VeriClaw brand mark" /><span><strong>VeriClaw 爪印</strong><span>Agent supervision</span></span></a>
+      <nav class="nav" aria-label="Primary">
+        <a href="../agent-quality-control/">Agent quality control</a>
+        <a href="../ai-agent-correction/">AI agent correction</a>
+        <a href="../verification-workflow/">Verification workflow</a>
+        <a href="../review-kit/">Review kit</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <span class="eyebrow">Agent Supervision</span>
+        <h1>Supervision that leads to correction, not passive monitoring.</h1>
+        <p>This page exists for search terms like <strong>agent supervision</strong>, <strong>AI supervision</strong>, and <strong>AI监督</strong>.</p>
+        <p>VeriClaw 爪印 fits this intent when a team wants evidence, diagnosis, intervention, and verification after an AI agent drifts, overreaches, or says the work is done before the proof is real.</p>
+        <div class="actions">
+          <a class="button button-primary" href="https://clawhub.ai/sheygoodbai/vericlaw">Open ClawHub skill</a>
+          <a class="button button-secondary" href="../agent-quality-control/">Open agent quality control</a>
+        </div>
+      </section>
+      <section>
+        <div class="section-head"><h2>What people usually mean by this</h2><p class="lead">Most supervision searches are really about whether the model stayed aligned, whether the evidence is real, and whether the correction actually held.</p></div>
+        <div class="grid">
+          <article class="card"><h3>Evidence-first review</h3><p>Check what was truly executed before trusting the agent's own summary.</p></article>
+          <article class="card"><h3>Correction-first response</h3><p>Move from observation to intervention when a model drifts or closes early.</p></article>
+          <article class="card"><h3>Verification before closure</h3><p>Close the loop only after the fix is tested and the evidence still holds.</p></article>
+        </div>
+      </section>
+      <section>
+        <div class="section-head"><h2>Related routes</h2></div>
+        <div class="grid">
+          <article class="card"><h3><a href="../agent-quality-control/">Agent quality control</a></h3><p>Long-tail route for quality-control and verification-first review intent.</p></article>
+          <article class="card"><h3><a href="../ai-agent-correction/">AI agent correction</a></h3><p>Main category route for umbrella English discovery around correction.</p></article>
+          <article class="card"><h3><a href="../ai-correction-cn/">AI纠偏</a></h3><p>Chinese umbrella route for AI纠偏, AI纠错, 模型纠偏, and nearby terms.</p></article>
+        </div>
+      </section>
+    </main>
+    <footer>Official page for `agent supervision`, `AI supervision`, and `AI监督` intent.</footer>
+  </body>
+</html>

@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI纠偏 | VeriClaw 爪印</title>
+    <meta
+      name="description"
+      content="Official VeriClaw 爪印 Chinese route page for AI纠偏, AI纠错, AI校正, 模型纠偏, AI监督, 幻觉纠偏, and correction-first verification after AI drift."
+    />
+    <meta
+      name="keywords"
+      content="AI纠偏, AI纠错, AI校正, 模型纠偏, AI监督, AI幻觉纠偏, 幻觉纠偏, 幻觉修复, AI工作幻觉, clawhub install vericlaw, VeriClaw"
+    />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta name="theme-color" content="#0d1d1c" />
+    <link rel="canonical" href="https://sheygoodbai.github.io/vericlaw/ai-correction-cn/" />
+    <link rel="icon" type="image/png" href="../assets/branding/vericlaw-brand-mark.png" />
+    <link rel="alternate" type="text/plain" href="https://sheygoodbai.github.io/vericlaw/llms.txt" title="LLMs.txt" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="VeriClaw 爪印" />
+    <meta property="og:title" content="AI纠偏 | VeriClaw 爪印" />
+    <meta
+      property="og:description"
+      content="Use VeriClaw when the search intent is AI纠偏, AI纠错, AI校正, 模型纠偏, AI监督, or correction-first verification."
+    />
+    <meta property="og:url" content="https://sheygoodbai.github.io/vericlaw/ai-correction-cn/" />
+    <meta
+      property="og:image"
+      content="https://sheygoodbai.github.io/vericlaw/assets/social-preview-brand.png?v=20260406"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="AI纠偏 | VeriClaw 爪印" />
+    <meta
+      name="twitter:description"
+      content="A direct Chinese route into VeriClaw for AI纠偏, AI纠错, AI校正, 模型纠偏, and AI监督."
+    />
+    <meta
+      name="twitter:image"
+      content="https://sheygoodbai.github.io/vericlaw/assets/social-preview-brand.png?v=20260406"
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "AI纠偏 | VeriClaw 爪印",
+        "url": "https://sheygoodbai.github.io/vericlaw/ai-correction-cn/",
+        "description": "Official VeriClaw Chinese route page for AI纠偏 and nearby correction intent."
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root { --bg: #f4efe6; --surface: rgba(255,250,242,.88); --ink: #121312; --muted: #5d635f; --line: rgba(18,19,18,.12); --warm: #c2410c; --hero: #0d1d1c; --hero-muted: rgba(244,239,230,.82); --content: min(1120px, calc(100vw - 40px)); }
+      * { box-sizing: border-box; }
+      body { margin: 0; background: radial-gradient(circle at top left, rgba(194,65,12,.08), transparent 28%), radial-gradient(circle at top right, rgba(15,118,110,.1), transparent 30%), var(--bg); color: var(--ink); font-family: "Space Grotesk", sans-serif; }
+      a { color: inherit; }
+      .topbar, main, footer { width: var(--content); margin: 0 auto; }
+      .topbar { padding: 26px 0 0; display: flex; justify-content: space-between; align-items: center; gap: 18px; }
+      .brand, .nav { display: inline-flex; align-items: center; gap: 14px; }
+      .brand { text-decoration: none; }
+      .brand img { width: 44px; height: 44px; border-radius: 14px; }
+      .brand strong, .brand span { display: block; }
+      .brand strong { letter-spacing: .16em; text-transform: uppercase; font-size: .88rem; }
+      .brand span, .nav a { color: var(--muted); font-size: .92rem; text-decoration: none; }
+      .nav { flex-wrap: wrap; justify-content: flex-end; }
+      .hero { margin-top: 28px; background: linear-gradient(135deg, var(--hero), #123631 58%, #123340); color: #f7f3ea; border-radius: 28px; padding: 44px; display: grid; grid-template-columns: minmax(0,1.45fr) minmax(260px,.9fr); gap: 28px; }
+      .eyebrow { display: inline-flex; padding: 8px 14px; border-radius: 999px; background: rgba(255,255,255,.1); color: var(--hero-muted); letter-spacing: .08em; text-transform: uppercase; font-size: .76rem; }
+      h1, h2, h3 { font-family: "Source Serif 4", serif; margin: 0; }
+      h1 { margin-top: 18px; font-size: clamp(2.5rem, 5vw, 4.4rem); line-height: .95; }
+      .hero p, .lead, li, footer, .card p { line-height: 1.7; }
+      .hero p { color: var(--hero-muted); font-size: 1.03rem; max-width: 62ch; }
+      .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 24px; }
+      .button { display: inline-flex; align-items: center; justify-content: center; min-height: 46px; padding: 0 18px; border-radius: 999px; text-decoration: none; font-weight: 600; }
+      .button-primary { background: #f4efe6; color: #0d1d1c; }
+      .button-secondary { border: 1px solid rgba(244,239,230,.26); color: #f7f3ea; }
+      .button-warm { background: var(--warm); color: #fff7f0; }
+      .aside { padding: 22px; border-radius: 24px; background: rgba(255,255,255,.08); }
+      .aside strong { display: block; margin-bottom: 10px; letter-spacing: .08em; text-transform: uppercase; font-size: .82rem; color: var(--hero-muted); }
+      .aside ul { margin: 0; padding-left: 18px; color: var(--hero-muted); }
+      main { padding: 40px 0 78px; }
+      section + section { margin-top: 28px; }
+      .section-head { margin-bottom: 18px; }
+      .section-head h2 { font-size: clamp(2rem, 4vw, 3rem); }
+      .lead { color: var(--muted); max-width: 70ch; }
+      .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 18px; }
+      .card { padding: 24px; border: 1px solid var(--line); border-radius: 24px; background: var(--surface); }
+      .card h3 { font-size: 1.5rem; margin-bottom: 10px; }
+      .card p, .card li { color: var(--muted); }
+      footer { padding: 0 0 46px; color: var(--muted); font-size: .94rem; }
+      @media (max-width: 860px) { .topbar { flex-direction: column; align-items: flex-start; } .hero { grid-template-columns: 1fr; padding: 28px; } }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="../">
+        <img src="../assets/branding/vericlaw-brand-mark.png" alt="VeriClaw brand mark" />
+        <span><strong>VeriClaw 爪印</strong><span>AI纠偏</span></span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="../ai-agent-correction/">AI agent correction</a>
+        <a href="../hallucination-correction-cn/">幻觉纠偏</a>
+        <a href="../download/">Download</a>
+        <a href="../review-kit/">Review kit</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div>
+          <span class="eyebrow">AI纠偏</span>
+          <h1>给 AI 纠偏，而不是继续听它自证正确。</h1>
+          <p>这页是给 `AI纠偏`、`AI纠错`、`AI校正`、`模型纠偏`、`AI监督` 这类中文搜索准备的官方入口页。</p>
+          <p>VeriClaw 爪印适合在模型出现幻觉、越权、假完成、工作幻觉、未做却说做了时，把问题拉回到证据、诊断、干预和验证。</p>
+          <div class="actions">
+            <a class="button button-primary" href="https://clawhub.ai/sheygoodbai/vericlaw">打开 ClawHub skill</a>
+            <a class="button button-secondary" href="../download/">下载 VeriClaw</a>
+            <a class="button button-warm" href="../hallucination-correction-cn/">查看 幻觉纠偏 页面</a>
+          </div>
+        </div>
+        <aside class="aside">
+          <strong>相近搜索词</strong>
+          <ul>
+            <li>AI纠错</li>
+            <li>AI校正</li>
+            <li>模型纠偏</li>
+            <li>AI监督</li>
+            <li>AI幻觉纠偏</li>
+            <li>幻觉修复</li>
+          </ul>
+        </aside>
+      </section>
+      <section>
+        <div class="section-head">
+          <h2>这类词实际在找什么</h2>
+          <p class="lead">很多中文搜索并不是在找“观测平台”或“AI 助手目录”，而是在找一个能把跑偏的 AI 拉回来的修正流程。</p>
+        </div>
+        <div class="grid">
+          <article class="card"><h3>先看证据</h3><p>先确认模型到底做了什么，而不是先接受它的自我汇报。</p></article>
+          <article class="card"><h3>再做诊断</h3><p>区分是幻觉、越权、假完成，还是工作已经偏离了最初角色。</p></article>
+          <article class="card"><h3>最后验证</h3><p>只有修正动作被验证通过，才算真正结束，而不是“它说做完了”。</p></article>
+        </div>
+      </section>
+      <section>
+        <div class="section-head"><h2>从这里继续走</h2></div>
+        <div class="grid">
+          <article class="card"><h3><a href="../hallucination-correction-cn/">幻觉纠偏</a></h3><p>适合 `AI幻觉纠偏`、`幻觉修复`、`工作幻觉` 这类更具体的中文故障词。</p></article>
+          <article class="card"><h3><a href="../fake-completion-diagnosis-cn/">假完成诊断</a></h3><p>适合 `AI假完成`、`AI以为自己工作了`、`未做却说做了` 这类搜索。</p></article>
+          <article class="card"><h3><a href="../agent-supervision/">Agent Supervision</a></h3><p>适合 `agent supervision`、`AI supervision`、`AI监督` 这类监督型英文或混合词。</p></article>
+        </div>
+      </section>
+    </main>
+    <footer>用于 `AI纠偏` 的官方落地页，推荐把安装和主入口统一指向 <a href="https://clawhub.ai/sheygoodbai/vericlaw">VeriClaw ClawHub skill</a> 或 <a href="../download/">下载页</a>。</footer>
+  </body>
+</html>

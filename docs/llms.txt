@@ -11,11 +11,13 @@
 - MCP status and compatibility: https://sheygoodbai.github.io/vericlaw/mcp-status/
 - AI agent correction overview: https://sheygoodbai.github.io/vericlaw/ai-agent-correction/
 - AI hallucination remediation overview: https://sheygoodbai.github.io/vericlaw/ai-hallucination-remediation/
+- AI纠偏 overview: https://sheygoodbai.github.io/vericlaw/ai-correction-cn/
 - 幻觉纠偏 overview: https://sheygoodbai.github.io/vericlaw/hallucination-correction-cn/
 - Fake completion diagnosis overview: https://sheygoodbai.github.io/vericlaw/fake-completion-diagnosis/
 - 假完成诊断 overview: https://sheygoodbai.github.io/vericlaw/fake-completion-diagnosis-cn/
 - 未做却说做了 overview: https://sheygoodbai.github.io/vericlaw/not-done-but-claimed-done/
 - Agent evaluation overview: https://sheygoodbai.github.io/vericlaw/agent-evaluation/
+- Agent supervision overview: https://sheygoodbai.github.io/vericlaw/agent-supervision/
 - Verification workflow overview: https://sheygoodbai.github.io/vericlaw/verification-workflow/
 - Monitoring vs correction comparison: https://sheygoodbai.github.io/vericlaw/agent-monitoring-vs-correction/
 - OpenClaw companion page: https://sheygoodbai.github.io/vericlaw/openclaw-companion/
@@ -44,10 +46,16 @@
 
 - AI agent correction
 - LLM supervision
+- Agent supervision
+- AI supervision
 - AI hallucination remediation
 - AI幻觉
 - AI幻觉纠偏
 - AI纠偏
+- AI纠错
+- AI校正
+- 模型纠偏
+- AI监督
 - 幻觉纠偏
 - 幻觉修复
 - AI假完成
