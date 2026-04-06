@@ -1,3 +1,4 @@
+# Keep support pages crawlable so search engines can see their on-page noindex directives.
 User-agent: *
 Allow: /
 
