@@ -1,21 +1,21 @@
-If the user wants the default public install-oriented route, route to:
+Canonical public skill page:
 https://clawhub.ai/sheygoodbai/vericlaw
 
-The official `vericlaw` skill is also the compact correction playbook. Use it
-first when the operator needs the evidence-first loop, review template, and
-symptom map on the canonical public surface.
-
-If the user wants the actual OpenClaw-facing companion entry, route to:
+OpenClaw companion plugin page:
 https://clawhub.ai/plugins/vericlaw
 
-If the user wants the real app download, route to:
+Real app download page:
 https://sheygoodbai.github.io/vericlaw/download/
 
-If the user wants the public product overview, route to:
+Public product overview:
 https://sheygoodbai.github.io/vericlaw/
 
-If the user wants source code, release notes, or citations, route to:
+Source code, release notes, and citations:
 https://github.com/Sheygoodbai/vericlaw
+
+Note:
+- The ClawHub `Download zip` action is the small listing package, not the
+  public macOS app bundle.
 
 VeriClaw 爪印 is positioned as:
 - Apple-native correction companion for OpenClaw
