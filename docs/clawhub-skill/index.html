@@ -42,19 +42,89 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "WebPage",
-        "name": "VeriClaw Skill on ClawHub",
-        "url": "https://sheygoodbai.github.io/vericlaw/clawhub-skill/",
-        "description": "Official install and routing guide for the VeriClaw skill on ClawHub.",
-        "about": {
-          "@type": "SoftwareApplication",
-          "name": "VeriClaw 爪印",
-          "applicationCategory": "DeveloperApplication",
-          "operatingSystem": "macOS, iOS, Web",
-          "downloadUrl": "https://clawhub.ai/sheygoodbai/vericlaw",
-          "softwareHelp": "https://clawhub.ai/plugins/vericlaw",
-          "codeRepository": "https://github.com/Sheygoodbai/vericlaw"
-        }
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://sheygoodbai.github.io/vericlaw/clawhub-skill/#webpage",
+            "name": "VeriClaw Skill on ClawHub",
+            "url": "https://sheygoodbai.github.io/vericlaw/clawhub-skill/",
+            "description": "Official install and routing guide for the VeriClaw skill on ClawHub.",
+            "about": {
+              "@id": "https://sheygoodbai.github.io/vericlaw/clawhub-skill/#software"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://sheygoodbai.github.io/vericlaw/clawhub-skill/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "VeriClaw",
+                "item": "https://sheygoodbai.github.io/vericlaw/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "ClawHub skill",
+                "item": "https://sheygoodbai.github.io/vericlaw/clawhub-skill/"
+              }
+            ]
+          },
+          {
+            "@type": "SoftwareApplication",
+            "@id": "https://sheygoodbai.github.io/vericlaw/clawhub-skill/#software",
+            "name": "VeriClaw 爪印",
+            "applicationCategory": "DeveloperApplication",
+            "operatingSystem": "macOS, iOS, Web",
+            "downloadUrl": "https://clawhub.ai/sheygoodbai/vericlaw",
+            "softwareHelp": "https://clawhub.ai/plugins/vericlaw",
+            "codeRepository": "https://github.com/Sheygoodbai/vericlaw",
+            "sameAs": [
+              "https://clawhub.ai/sheygoodbai/vericlaw",
+              "https://clawhub.ai/plugins/vericlaw",
+              "https://github.com/Sheygoodbai/vericlaw"
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://sheygoodbai.github.io/vericlaw/clawhub-skill/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Is this the real app download?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. The ClawHub skill is the discovery route. Use the download page or the latest GitHub release for the app bundle."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is the difference between the skill and the plugin?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The skill is the lightweight discovery entry. The plugin page is the OpenClaw-facing companion install surface. Native commands are openclaw skills install vericlaw and openclaw plugins install clawhub:vericlaw."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How should directories and reviewers describe VeriClaw?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Use: VeriClaw is an Apple-native correction companion for OpenClaw. Prefer terms like AI agent correction, hallucination remediation, fake completion diagnosis, 幻觉纠偏, 假完成诊断, lazy execution remediation, and role drift diagnosis."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do I help the official ClawHub page rise?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Install from the official VeriClaw skill page first. If the skill is genuinely useful, leave the star or a short factual comment on that same page so the public trust signal stays concentrated on the canonical listing."
+                }
+              }
+            ]
+          }
+        ]
       }
     </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -413,6 +483,47 @@
               <a href="../fake-completion-diagnosis-cn/">假完成诊断</a>, or
               <a href="../not-done-but-claimed-done/">未做却说做了</a> when the
               query is phrased in compact Chinese rather than category English.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Make the first install stick</h2>
+        <p class="lead">
+          Real growth comes from first-use wins, not empty installs. Start with
+          one concrete claim check, then keep any star or short comment on the
+          official ClawHub skill page that actually helped.
+        </p>
+        <div class="grid">
+          <article class="card">
+            <h3>Claim audit prompt</h3>
+            <p>
+              <code>Check whether this task was actually completed. Show claim,
+              evidence, missing proof, and next corrective action.</code>
+            </p>
+          </article>
+          <article class="card">
+            <h3>Done-gate prompt</h3>
+            <p>
+              <code>Before we close this task, verify whether the claimed output
+              actually exists.</code>
+            </p>
+          </article>
+          <article class="card">
+            <h3>Missing-proof prompt</h3>
+            <p>
+              <code>The agent says this is done. List only observable proof and
+              what is still missing.</code>
+            </p>
+          </article>
+          <article class="card">
+            <h3>Useful public comment</h3>
+            <p>
+              If VeriClaw genuinely helped, mention the concrete task it
+              caught, the missing evidence it exposed, and what changed after
+              correction. Short, factual comments tend to help future installers
+              trust the official page faster.
             </p>
           </article>
         </div>
