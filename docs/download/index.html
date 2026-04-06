@@ -516,12 +516,26 @@
               when registry-side anonymous download limits are noisy.
             </p>
             <p>
-              If you need the OpenClaw companion plugin and bundled skill
-              instead of the standalone app ZIP, use the ClawHub plugin page.
+              If you are already inside OpenClaw, do not start with the ZIP.
+              Use the ClawHub skill or companion plugin route so the action
+              becomes a real install on the canonical VeriClaw surface.
+            </p>
+            <p>
+              If the official ClawHub skill turns out to be useful on a real
+              workflow, go back to that same
+              <a href="https://clawhub.ai/sheygoodbai/vericlaw">official skill page</a>
+              and leave the star or short comment there so the public signal
+              stays concentrated on the canonical listing.
             </p>
             <div class="hero-actions">
               <a
                 class="button button-primary"
+                href="https://clawhub.ai/sheygoodbai/vericlaw"
+              >
+                Install via ClawHub skill
+              </a>
+              <a
+                class="button button-secondary"
                 href="https://github.com/Sheygoodbai/vericlaw/releases/download/v0.1.1/VeriClaw-v0.1.1-macOS-arm64.zip"
               >
                 Download macOS app
@@ -531,12 +545,6 @@
                 href="https://clawhub.ai/plugins/vericlaw"
               >
                 Install companion plugin
-              </a>
-              <a
-                class="button button-secondary"
-                href="../clawhub-skill/"
-              >
-                Open install commands
               </a>
               <a
                 class="button button-secondary"
@@ -561,8 +569,9 @@
               Release published April 5, 2026. Apple Silicon / arm64 build.
             </span>
             <span>
-              The companion plugin and bundled <code>vericlaw</code> skill are
-              live on ClawHub.
+              Want the counted OpenClaw route? Use
+              <code>clawhub install vericlaw</code> or open the ClawHub skill
+              page before you download the standalone app ZIP.
             </span>
             <span>
               OpenClaw-native commands:
@@ -583,7 +592,9 @@
           <h2>Direct app download</h2>
           <p>
             Use the GitHub release asset if you want the fastest path from
-            public page to installed app.
+            public page to installed app. If your real goal is an OpenClaw
+            install, use the skill or plugin route above instead of treating
+            the ZIP as the primary conversion path.
           </p>
           <div class="download-meta">
             <span class="pill">v0.1.1</span>
@@ -610,6 +621,23 @@
         </div>
 
         <div class="grid">
+          <article class="card">
+            <h3>Already inside OpenClaw?</h3>
+            <p>
+              Use the official skill route first when the goal is a real
+              OpenClaw install. This is the cleanest public path for
+              <code>clawhub install vericlaw</code> and
+              <code>openclaw skills install vericlaw</code>. If it helps, leave
+              the star or short comment on that same skill page rather than on
+              a mirror.
+            </p>
+            <div class="hero-actions" style="margin-top: 18px;">
+              <a class="button button-primary" href="https://clawhub.ai/sheygoodbai/vericlaw">
+                Open ClawHub skill
+              </a>
+            </div>
+          </article>
+
           <article class="card">
             <h3>Release notes</h3>
             <p>
@@ -670,11 +698,12 @@
             <h3>Repository</h3>
             <p>
               Browse code, launch assets, legal materials, and documentation on
-              GitHub.
+              GitHub, or star the repo if you want release visibility before
+              you install.
             </p>
             <div class="hero-actions" style="margin-top: 18px;">
               <a class="button button-secondary" href="https://github.com/Sheygoodbai/vericlaw">
-                Open GitHub repo
+                View or star on GitHub
               </a>
             </div>
           </article>
@@ -689,6 +718,7 @@
           </p>
           <ul>
             <li>direct GitHub-hosted app asset for the current stable release</li>
+            <li>clear handoff back to the skill or plugin route for OpenClaw installs</li>
             <li>separate ClawHub companion plugin path for OpenClaw installs</li>
             <li>tagged source archive for code-first users</li>
             <li>release notes and checksums in the same place</li>

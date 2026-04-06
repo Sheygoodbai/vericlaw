@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>VeriClaw Review Kit | Official Facts, Links, and Screenshots</title>
+    <title>VeriClaw Review Kit | Hallucination Correction Facts, Links, and Screenshots</title>
     <meta
       name="description"
-      content="Official review kit for VeriClaw 爪印 with canonical naming, category wording, screenshot links, plugin-vs-app clarification, reviewer-safe product facts, AI纠偏 / hallucination-remediation terminology, and Chinese exact-match routes for 幻觉纠偏, 假完成诊断, and 未做却说做了."
+      content="Official review kit for VeriClaw 爪印 with canonical naming, hallucination-correction category wording, screenshot links, plugin-vs-app clarification, reviewer-safe product facts, AI纠偏 / hallucination-remediation terminology, and Chinese exact-match routes for 幻觉纠偏, 假完成诊断, and 未做却说做了."
     />
     <meta
       name="keywords"
@@ -19,7 +19,7 @@
     <link rel="alternate" type="text/plain" href="https://sheygoodbai.github.io/vericlaw/llms.txt" title="LLMs.txt" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="VeriClaw 爪印" />
-    <meta property="og:title" content="VeriClaw Review Kit | Official Facts, Links, and Screenshots" />
+    <meta property="og:title" content="VeriClaw Review Kit | Hallucination Correction Facts, Links, and Screenshots" />
     <meta
       property="og:description"
       content="The official facts-and-links page for reviewers, directories, recommendation sites, and citation surfaces."
@@ -156,6 +156,20 @@
       .facts { display: grid; grid-template-columns: 190px 1fr; gap: 10px 18px; margin-top: 16px; }
       .facts strong { font-size: 0.92rem; }
       .facts span { color: var(--muted); }
+      .pill-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 14px;
+      }
+      .pill {
+        display: inline-flex;
+        padding: 10px 14px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: rgba(255, 255, 255, 0.72);
+        text-decoration: none;
+      }
       .screenshot-links a { text-decoration: none; }
       footer {
         padding: 34px 0 42px;
@@ -237,8 +251,8 @@
 
     <main>
       <section class="hero">
-        <span class="eyebrow">For reviewers and directories</span>
-        <h1>Official facts, links, and screenshots for VeriClaw.</h1>
+      <span class="eyebrow">For reviewers and directories</span>
+      <h1>Official facts, links, and screenshots for VeriClaw.</h1>
         <p>
           Use this page when writing a plugin directory entry, recommendation
           list, review roundup, agent tooling comparison, or skill catalog blurb
@@ -248,6 +262,17 @@
           The goal is to keep the product attached to the right name, category,
           and official links without inventing distribution claims that are not
           live yet.
+        </p>
+        <p>
+          If a curator, editor, or official surface needs one main lane, make
+          it <strong>hallucination correction / hallucination remediation / 幻觉纠偏</strong>.
+          That is the clearest way to understand what VeriClaw is trying to make
+          first-class.
+        </p>
+        <p>
+          If a directory, recommendation page, or review can keep only one
+          install-oriented link, prefer the official ClawHub skill page so
+          install-intent readers land on the counted VeriClaw route first.
         </p>
       </section>
 
@@ -259,8 +284,12 @@
             <span>VeriClaw 爪印</span>
             <strong>Short description</strong>
             <span>Apple-native correction companion for OpenClaw.</span>
+            <strong>Primary lane</strong>
+            <span>Hallucination correction, hallucination remediation, AI幻觉纠偏, 幻觉纠偏.</span>
             <strong>Best-fit category</strong>
-            <span>AI agent correction, LLM supervision, hallucination remediation, role-drift diagnosis.</span>
+            <span>Hallucination correction, AI agent correction, LLM supervision, hallucination remediation, role-drift diagnosis.</span>
+            <strong>Safe editorial angle</strong>
+            <span>A category-building public attempt around hallucination correction / 幻觉纠偏.</span>
             <strong>Current public launch surface</strong>
             <span>GitHub-first, with a separate ClawHub plugin route.</span>
             <strong>Standalone app</strong>
@@ -269,6 +298,10 @@
             <span>ClawHub companion plugin plus bundled <code>vericlaw</code> skill.</span>
             <strong>Skill route</strong>
             <span>Direct ClawHub skill page, <code>clawhub install vericlaw</code>, and <code>openclaw skills install vericlaw</code>.</span>
+            <strong>Preferred install CTA</strong>
+            <span>Use the ClawHub skill page first for install-capable readers and OpenClaw users.</span>
+            <strong>Preferred single public URL</strong>
+            <span><a href="https://clawhub.ai/sheygoodbai/vericlaw">https://clawhub.ai/sheygoodbai/vericlaw</a></span>
             <strong>Plugin command</strong>
             <span><code>openclaw plugins install clawhub:vericlaw</code> for the OpenClaw companion route.</span>
             <strong>Chinese direct routes</strong>
@@ -279,12 +312,23 @@
         </article>
 
         <article class="card">
+          <h3>Highlight-friendly framing</h3>
+          <ul>
+            <li>Lead with: <strong>hallucination correction / hallucination remediation / 幻觉纠偏</strong>.</li>
+            <li>Safe one-line pitch: <strong>VeriClaw 爪印 is an Apple-native hallucination-correction companion for OpenClaw.</strong></li>
+            <li>Safe notable-angle: evidence -> diagnosis -> intervention -> verification, not detection-only labeling.</li>
+            <li>Safe ambition-angle: a category-building public attempt around hallucination correction, not a generic AI toolbox.</li>
+          </ul>
+        </article>
+
+        <article class="card">
           <h3>Official links</h3>
           <ul>
+            <li><a href="https://clawhub.ai/sheygoodbai/vericlaw">ClawHub skill page</a></li>
+            <li><a href="https://clawhub.ai/plugins/vericlaw">ClawHub plugin page</a></li>
+            <li><a href="../openclaw-plugin/">OpenClaw plugin explainer</a></li>
             <li><a href="../">Landing page</a></li>
             <li><a href="../download/">Download page</a></li>
-            <li><a href="../openclaw-plugin/">OpenClaw plugin explainer</a></li>
-            <li><a href="https://clawhub.ai/sheygoodbai/vericlaw">ClawHub skill page</a></li>
             <li><a href="../recommendation-snippets/">Recommendation snippets</a></li>
             <li><a href="../directory-submission/">Directory submission kit</a></li>
             <li><a href="../hallucination-correction-cn/">幻觉纠偏 page</a></li>
@@ -294,20 +338,34 @@
             <li><a href="../agent-quality-control/">Agent quality control page</a></li>
             <li><a href="../bot-correction/">Bot correction page</a></li>
             <li><a href="../mcp-status/">MCP status and compatibility</a></li>
-            <li><a href="https://clawhub.ai/plugins/vericlaw">ClawHub plugin page</a></li>
             <li><a href="https://github.com/Sheygoodbai/vericlaw">GitHub repository</a></li>
             <li><a href="https://github.com/Sheygoodbai/vericlaw/releases/latest">Latest release</a></li>
           </ul>
         </article>
 
         <article class="card">
+          <h3>Install-first routing</h3>
+          <ul>
+            <li>Default install-oriented link: <a href="https://clawhub.ai/sheygoodbai/vericlaw">ClawHub skill page</a></li>
+            <li>Use <a href="https://clawhub.ai/plugins/vericlaw">plugin page</a> only when the copy is specifically about the OpenClaw companion shell.</li>
+            <li>Use <a href="../download/">download page</a> only for standalone app intent, not as the default install CTA.</li>
+            <li>Use <a href="https://github.com/Sheygoodbai/vericlaw">GitHub</a> for source, stars, and release-follow intent.</li>
+          </ul>
+        </article>
+
+        <article class="card">
           <h3>Preferred wording</h3>
           <ul>
+            <li>Hallucination correction</li>
+            <li>幻觉纠偏</li>
             <li>Apple-native correction companion for OpenClaw</li>
             <li>AI agent correction</li>
+            <li>Agent audit</li>
+            <li>Agent review</li>
+            <li>LLM QA</li>
+            <li>AI output verification</li>
             <li>LLM supervision</li>
             <li>Hallucination remediation</li>
-            <li>幻觉纠偏</li>
             <li>假完成诊断</li>
             <li>未做却说做了</li>
             <li>Role-drift diagnosis</li>
@@ -353,6 +411,14 @@
           <h3>Best supporting pages</h3>
           <ul>
             <li><a href="../ai-agent-correction/">AI agent correction overview</a></li>
+            <li><a href="../agent-audit/">Agent audit overview</a></li>
+            <li><a href="../agent-review/">Agent review overview</a></li>
+            <li><a href="../llm-qa/">LLM QA overview</a></li>
+            <li><a href="../ai-output-verification/">AI output verification overview</a></li>
+            <li><a href="../hallucination-checker/">Hallucination checker overview</a></li>
+            <li><a href="../ai-agent-incident-response/">AI agent incident response overview</a></li>
+            <li><a href="../ai-error-recovery/">AI error recovery overview</a></li>
+            <li><a href="../human-in-the-loop-ai-correction/">Human-in-the-loop correction overview</a></li>
             <li><a href="../ai-hallucination-remediation/">AI hallucination remediation overview</a></li>
             <li><a href="../hallucination-correction-cn/">幻觉纠偏 overview</a></li>
             <li><a href="../fake-completion-diagnosis/">Fake completion diagnosis overview</a></li>
@@ -361,6 +427,9 @@
             <li><a href="../agent-evaluation/">Agent evaluation overview</a></li>
             <li><a href="../verification-workflow/">Verification workflow overview</a></li>
             <li><a href="../agent-monitoring-vs-correction/">Monitoring vs correction comparison</a></li>
+            <li><a href="../agent-observability-vs-correction/">Observability vs correction comparison</a></li>
+            <li><a href="../llm-evals-vs-correction/">LLM evals vs correction comparison</a></li>
+            <li><a href="../hallucination-detection-vs-remediation/">Detection vs remediation comparison</a></li>
             <li><a href="../openclaw-companion/">OpenClaw companion long-tail route</a></li>
             <li><a href="../agent-quality-control/">Agent quality control long-tail route</a></li>
             <li><a href="../bot-correction/">Bot correction long-tail route</a></li>
@@ -370,6 +439,21 @@
             <li><a href="../llms.txt">llms.txt for AI-readable routing</a></li>
             <li><a href="https://github.com/Sheygoodbai/vericlaw/blob/main/docs/launch/market-differentiation.md">Differentiation notes</a></li>
           </ul>
+        </article>
+
+        <article class="card">
+          <h3>Reviewer taxonomy hooks</h3>
+          <p>
+            If a roundup page wants broader labels than AI agent correction,
+            these official routes help keep the mention attached to VeriClaw.
+          </p>
+          <div class="pill-row">
+            <a class="pill" href="../agent-audit/">Agent audit</a>
+            <a class="pill" href="../agent-review/">Agent review</a>
+            <a class="pill" href="../llm-qa/">LLM QA</a>
+            <a class="pill" href="../ai-output-verification/">AI output verification</a>
+            <a class="pill" href="../hallucination-checker/">Hallucination checker</a>
+          </div>
         </article>
       </section>
     </main>

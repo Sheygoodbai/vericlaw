@@ -14,6 +14,14 @@ AI幻觉纠偏
 幻觉修复
 AI hallucination
 AI hallucination remediation
+agent review
+agent audit
+LLM QA
+AI output QA
+AI error recovery
+AI agent incident response
+human review
+human-in-the-loop AI correction
 AI agent supervision
 LLM supervision
 agent evaluation

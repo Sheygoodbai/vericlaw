@@ -511,6 +511,19 @@
         margin-top: 24px;
       }
 
+      .route-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 18px;
+      }
+
+      .route-actions .button {
+        min-height: 44px;
+        padding: 0 18px;
+        font-size: 0.92rem;
+      }
+
       .download-panel {
         padding-top: 4px;
       }
@@ -776,11 +789,10 @@
         </span>
       </a>
       <nav class="nav" aria-label="Primary">
+        <a href="https://clawhub.ai/sheygoodbai/vericlaw">Install</a>
         <a href="download/">Download</a>
         <a href="clawhub-skill/">Skill</a>
-        <a href="https://github.com/Sheygoodbai/vericlaw/releases/latest">Release</a>
-        <a href="launch/github-launch-kit.md">Launch kit</a>
-        <a href="launch/market-differentiation.md">Differentiation</a>
+        <a href="review-kit/">Review kit</a>
         <a href="https://github.com/Sheygoodbai/vericlaw">GitHub</a>
       </nav>
     </header>
@@ -799,21 +811,33 @@
             professional-role contracts into evidence, diagnosis, intervention,
             agent evaluation, verification, and casebook learning.
           </p>
+          <p>
+            If you are already inside OpenClaw, start from the ClawHub skill or
+            plugin route so the action becomes a real install, not just another
+            anonymous ZIP pull.
+          </p>
+          <p>
+            If the official ClawHub skill genuinely helps on a real workflow,
+            go back to that same
+            <a href="https://clawhub.ai/sheygoodbai/vericlaw">official skill page</a>
+            and leave the star or short comment there so the public signal
+            stays concentrated on the canonical VeriClaw listing.
+          </p>
           <div class="hero-actions">
-            <a class="button button-primary" href="download/">
-              Download VeriClaw
+            <a class="button button-primary" href="https://clawhub.ai/sheygoodbai/vericlaw">
+              Install via ClawHub
             </a>
-            <a class="button button-secondary" href="https://github.com/Sheygoodbai/vericlaw/releases/latest">
-              Open latest release
+            <a class="button button-secondary" href="download/">
+              Download macOS app
             </a>
-            <a class="button button-warm" href="launch/github-launch-kit.md">
-              Share the launch kit
+            <a class="button button-warm" href="https://github.com/Sheygoodbai/vericlaw">
+              View or star on GitHub
             </a>
           </div>
           <div class="hero-notes">
-            <span>evidence -> diagnosis -> intervention -> verification</span>
-            <span>macOS and iPhone companion story</span>
-            <span>OpenClaw remains the runtime and gateway</span>
+            <span><code>clawhub install vericlaw</code></span>
+            <span><code>openclaw skills install vericlaw</code></span>
+            <span>GitHub release for the standalone app</span>
           </div>
         </div>
 
@@ -832,6 +856,64 @@
     </section>
 
     <main class="shell">
+      <section>
+        <div class="section-head">
+          <h2>Choose one real next step.</h2>
+          <p>
+            The cleanest growth actions are the ones that match intent: counted
+            OpenClaw installs on the ClawHub route, direct app downloads on the
+            release route, and GitHub stars for people who want to follow the
+            project before installing.
+          </p>
+        </div>
+        <div class="triple">
+          <article>
+            <h3>Install in OpenClaw first</h3>
+            <p>
+              If you are already using OpenClaw, open the official skill page or
+              run <code>clawhub install vericlaw</code> so the install happens
+              on the canonical VeriClaw surface. If it proves useful, leave the
+              star or short comment on that same skill page instead of on a
+              mirror or summary page.
+            </p>
+            <div class="route-actions">
+              <a class="button button-primary" href="https://clawhub.ai/sheygoodbai/vericlaw">
+                Open skill install
+              </a>
+            </div>
+          </article>
+          <article>
+            <h3>Use the companion plugin when needed</h3>
+            <p>
+              If you want the OpenClaw-facing companion shell and bundled
+              discovery skill, use the plugin route instead of treating the app
+              ZIP like an install step.
+            </p>
+            <div class="route-actions">
+              <a class="button button-secondary" href="https://clawhub.ai/plugins/vericlaw">
+                Open plugin route
+              </a>
+            </div>
+          </article>
+          <article>
+            <h3>Download or follow separately</h3>
+            <p>
+              Use the download page only for the standalone app, and use GitHub
+              when the goal is to watch releases, browse source, or star the
+              project before you install.
+            </p>
+            <div class="route-actions">
+              <a class="button button-secondary" href="download/">
+                Download app
+              </a>
+              <a class="button button-warm" href="https://github.com/Sheygoodbai/vericlaw">
+                GitHub repo
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
       <section>
         <div class="section-head">
           <h2>Built for the moment a bot drifts.</h2>
@@ -899,7 +981,8 @@
           <p>
             VeriClaw now has a cleaner split between the public app download,
             the OpenClaw companion plugin, the bundled discovery skill, and the
-            source repository.
+            source repository. If the goal is a real OpenClaw install, start
+            from the skill or plugin route instead of the app ZIP.
           </p>
         </div>
         <div class="keywords">
@@ -918,7 +1001,8 @@
               when you want the OpenClaw-facing companion entry instead of the
               standalone app bundle. The current published companion package on
               ClawHub includes the bundled <code>vericlaw</code> discovery
-              skill.
+              skill, so this is the right route when you want the companion
+              surface to count as an actual OpenClaw install.
             </p>
           </div>
           <div class="keyword">
@@ -938,7 +1022,8 @@
               discovery skill route. If you are already inside OpenClaw, use
               <code>openclaw skills install vericlaw</code>. The
               <a href="clawhub-skill/">skill guide</a> explains skill vs plugin
-              vs app download.
+              vs app download, and this route is usually the shortest path to a
+              counted skill install.
             </p>
           </div>
           <div class="keyword">
@@ -1001,6 +1086,20 @@
             <p>
               Evidence, intervention guidance, and verification for moments when
               a bot invents, guesses, or closes work falsely.
+            </p>
+          </div>
+          <div class="keyword">
+            <strong>AI output verification</strong>
+            <p>
+              A clearer route for teams that describe the problem as output
+              checking, evidence review, or verification before sign-off.
+            </p>
+          </div>
+          <div class="keyword">
+            <strong>LLM QA</strong>
+            <p>
+              Another useful route for review sites and tooling directories that
+              classify the problem as QA rather than correction.
             </p>
           </div>
           <div class="keyword">
@@ -1096,10 +1195,24 @@
             </p>
           </div>
           <div class="keyword">
+            <strong><a href="intent-map/">Intent map</a></strong>
+            <p>
+              Official route index for AI recommendation systems, directories,
+              reviewers, and other machines choosing the best VeriClaw entry.
+            </p>
+          </div>
+          <div class="keyword">
             <strong><a href="openclaw-companion/">OpenClaw companion page</a></strong>
             <p>
               Long-tail route for `OpenClaw companion`, `OpenClaw correction`,
               and OpenClaw-native install discovery.
+            </p>
+          </div>
+          <div class="keyword">
+            <strong><a href="ai-agent-incident-response/">AI agent incident response</a></strong>
+            <p>
+              Use-case route for incident response, post-failure review, and
+              correction-first recovery around AI agent failures.
             </p>
           </div>
           <div class="keyword">
@@ -1110,6 +1223,20 @@
             </p>
           </div>
           <div class="keyword">
+            <strong><a href="agent-audit/">Agent audit page</a></strong>
+            <p>
+              Focused route for `agent audit`, `AI output review`, `LLM QA`,
+              and evidence-first operator review intent.
+            </p>
+          </div>
+          <div class="keyword">
+            <strong><a href="agent-review/">Agent review page</a></strong>
+            <p>
+              Focused route for `agent review`, `AI work verification`, and
+              claim-checking language used in broader tool roundups.
+            </p>
+          </div>
+          <div class="keyword">
             <strong><a href="agent-quality-control/">Agent quality control page</a></strong>
             <p>
               Long-tail route for `agent quality control`,
@@ -1117,10 +1244,38 @@
             </p>
           </div>
           <div class="keyword">
+            <strong><a href="llm-qa/">LLM QA page</a></strong>
+            <p>
+              Focused route for `LLM QA`, `AI output QA`, and evidence-based
+              quality review terminology.
+            </p>
+          </div>
+          <div class="keyword">
+            <strong><a href="ai-output-verification/">AI output verification page</a></strong>
+            <p>
+              Focused route for `AI output verification`, `verify AI output`,
+              `result checking`, and evidence review intent.
+            </p>
+          </div>
+          <div class="keyword">
+            <strong><a href="ai-error-recovery/">AI error recovery</a></strong>
+            <p>
+              Use-case route for workflow repair, recovery loops, and reopening
+              AI work that failed or closed too early.
+            </p>
+          </div>
+          <div class="keyword">
             <strong><a href="bot-correction/">Bot correction page</a></strong>
             <p>
               Natural-language route for `bot correction`, `bot verification`,
               and `bot drift recovery` searches.
+            </p>
+          </div>
+          <div class="keyword">
+            <strong><a href="human-in-the-loop-ai-correction/">Human-in-the-loop AI correction</a></strong>
+            <p>
+              Use-case route for escalation, human review, and correction-first
+              intervention before trusting AI completion.
             </p>
           </div>
           <div class="keyword">
@@ -1145,6 +1300,27 @@
             </p>
           </div>
           <div class="keyword">
+            <strong><a href="agent-observability-vs-correction/">Observability vs correction</a></strong>
+            <p>
+              Comparison page for `agent observability`, `AI observability`,
+              and correction-first recovery evaluation.
+            </p>
+          </div>
+          <div class="keyword">
+            <strong><a href="llm-evals-vs-correction/">LLM evals vs correction</a></strong>
+            <p>
+              Comparison page for teams deciding between evals-style quality
+              measurement and operational correction loops.
+            </p>
+          </div>
+          <div class="keyword">
+            <strong><a href="hallucination-detection-vs-remediation/">Detection vs remediation</a></strong>
+            <p>
+              Comparison page for `hallucination detection` versus
+              correction-first remediation and verification.
+            </p>
+          </div>
+          <div class="keyword">
             <strong><a href="review-kit/">Review kit</a></strong>
             <p>
               Official facts, screenshots, naming guidance, and canonical links
@@ -1158,6 +1334,13 @@
               server`, and other directory pages that need truthful labeling.
             </p>
           </div>
+          <div class="keyword">
+            <strong><a href="hallucination-checker/">Hallucination checker page</a></strong>
+            <p>
+              Broad-intent route for `hallucination checker`, `AI hallucination
+              review`, and correction-first recovery wording.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -1168,18 +1351,21 @@
               <div class="section-head" style="margin-bottom: 0;">
                 <h2>Download, forward, and reuse.</h2>
                 <p>
-                  The public surface is GitHub-first today. That means the
-                  cleanest calls to action are the release page, the source ZIP,
-                  the launch kit, and the screenshot pack you can forward
-                  internally or externally.
+                  The public surface is GitHub-first today, but real usage grows
+                  fastest when OpenClaw users install from the canonical ClawHub
+                  route first and only use the release ZIP when they truly want
+                  the standalone app.
                 </p>
               </div>
               <div class="download-actions">
-                <a class="button button-primary" href="download/">
-                  Download page
+                <a class="button button-primary" href="https://clawhub.ai/sheygoodbai/vericlaw">
+                  Install via ClawHub
                 </a>
                 <a class="button button-secondary" href="https://clawhub.ai/plugins/vericlaw">
                   ClawHub plugin
+                </a>
+                <a class="button button-secondary" href="download/">
+                  Download page
                 </a>
                 <a class="button button-warm" href="https://github.com/Sheygoodbai/vericlaw">
                   View or star on GitHub
@@ -1194,8 +1380,9 @@
                 hardening continues in parallel.
               </p>
               <ul>
-                <li>GitHub-hosted macOS app ZIP and checksums</li>
+                <li>ClawHub skill route for direct skill installs</li>
                 <li>ClawHub companion plugin with bundled `vericlaw` skill</li>
+                <li>GitHub-hosted macOS app ZIP and checksums</li>
                 <li>launch copy and release-ready messaging</li>
                 <li>product screenshots and social preview assets</li>
                 <li>legal, attribution, trademark, and enforcement materials</li>
@@ -1215,6 +1402,8 @@
         <a href="https://github.com/Sheygoodbai/vericlaw">GitHub</a>
         ·
         <a href="review-kit/">Review kit</a>
+        ·
+        <a href="intent-map/">Intent map</a>
         ·
         <a href="https://clawhub.ai/sheygoodbai/vericlaw">ClawHub skill</a>
         ·

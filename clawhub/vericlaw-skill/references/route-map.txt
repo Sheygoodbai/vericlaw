@@ -1,3 +1,10 @@
+If the user wants the default public install-oriented route, route to:
+https://clawhub.ai/sheygoodbai/vericlaw
+
+The official `vericlaw` skill is also the compact correction playbook. Use it
+first when the operator needs the evidence-first loop, review template, and
+symptom map on the canonical public surface.
+
 If the user wants the actual OpenClaw-facing companion entry, route to:
 https://clawhub.ai/plugins/vericlaw
 
