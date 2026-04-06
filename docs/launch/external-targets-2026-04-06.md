@@ -24,6 +24,48 @@ It is a practical shortlist of current targets that:
 
 ## Best first-wave targets
 
+## Recommended first 3 to submit now
+
+These are the best next three not because they are guaranteed winners, but
+because they give the cleanest mix of:
+
+- low submission friction
+- a realistic chance of preserving brand wording
+- a backlink or citation that points at a canonical VeriClaw route
+
+### Priority A: AIToolsIndex
+
+- Why first:
+  - lowest-friction public form
+  - easiest place to get the first clean external citation live
+  - best for reinforcing the brand URL without overcomplicating the submission
+- Best URL to submit:
+  - `https://sheygoodbai.github.io/vericlaw/`
+- Best anchor if available:
+  - `VeriClaw`
+
+### Priority B: SubmitAITools.org
+
+- Why second:
+  - broad AI-tool fit
+  - likely to pass through structured category language and backlinks
+  - strongest candidate in the first wave for install-intent signal
+- Best URL to submit:
+  - `https://clawhub.ai/sheygoodbai/vericlaw`
+- Best anchor if available:
+  - `VeriClaw skill on ClawHub`
+
+### Priority C: ToolActive
+
+- Why third:
+  - manual email path may preserve wording better than generic forms
+  - strong software-development adjacency
+  - useful for getting an editorial-style mention rather than only a raw listing
+- Best URL to submit:
+  - `https://sheygoodbai.github.io/vericlaw/`
+- Best anchor if available:
+  - `Official VeriClaw`
+
 ### 1. AIToolsIndex
 
 - Submission URL: `https://aitoolsindex.org/submit`
@@ -185,4 +227,5 @@ Treat a target as successful only if at least one of these happens:
 
 - [external-signal-execution-kit.md](external-signal-execution-kit.md)
 - [external-signal-tracker.csv](external-signal-tracker.csv)
+- [first-wave-submission-pack.md](first-wave-submission-pack.md)
 - [directory-submission](../directory-submission/index.html)
