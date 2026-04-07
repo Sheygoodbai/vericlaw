@@ -475,6 +475,48 @@
         font-size: 0.95rem;
       }
 
+      .route-strip {
+        width: var(--content);
+        margin: 0 auto 24px;
+        padding: 24px 28px;
+        background: linear-gradient(180deg, rgba(255, 252, 247, 0.94), rgba(255, 250, 244, 0.88));
+        border: 1px solid var(--line);
+        border-radius: 30px;
+        box-shadow: 0 18px 36px rgba(13, 29, 28, 0.09);
+      }
+
+      .route-strip h2 {
+        margin: 0 0 12px;
+        font-family: "Source Serif 4", serif;
+        font-size: clamp(1.6rem, 3vw, 2.2rem);
+      }
+
+      .route-strip p {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.78;
+      }
+
+      .route-links {
+        margin-top: 18px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+
+      .route-links a {
+        display: inline-flex;
+        align-items: center;
+        min-height: 42px;
+        padding: 0 14px;
+        border-radius: 999px;
+        text-decoration: none;
+        font-size: 0.92rem;
+        color: rgba(17, 23, 22, 0.78);
+        background: rgba(17, 23, 22, 0.05);
+        border: 1px solid rgba(17, 23, 22, 0.08);
+      }
+
       @media (max-width: 900px) {
         .hero-inner,
         .grid,
@@ -493,6 +535,74 @@
         }
       }
     </style>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://sheygoodbai.github.io/vericlaw/support/#page",
+            "url": "https://sheygoodbai.github.io/vericlaw/support/",
+            "name": "Support VeriClaw",
+            "description": "Support page for VeriClaw with WeChat appreciation, Monzo payment link, and canonical product routes.",
+            "isPartOf": {
+              "@id": "https://sheygoodbai.github.io/vericlaw/#website"
+            },
+            "about": {
+              "@id": "https://sheygoodbai.github.io/vericlaw/#softwareapp"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://sheygoodbai.github.io/vericlaw/support/#breadcrumbs",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "VeriClaw",
+                "item": "https://sheygoodbai.github.io/vericlaw/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Support",
+                "item": "https://sheygoodbai.github.io/vericlaw/support/"
+              }
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://sheygoodbai.github.io/vericlaw/support/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Which support route should Mainland China users use?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Use the WeChat appreciation code on this page for the fastest Mainland China compatible route."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Which support route should UK or international supporters use?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Use the Monzo payment link on this page instead of requesting raw bank details."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Where should a new visitor start before deciding to support VeriClaw?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Start with the first proof check, the use-case hub, the ClawHub skill page, or the download page depending on whether you want evaluation, discovery, install, or the standalone app."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
     <header class="shell topbar">
@@ -644,6 +754,24 @@
         live, and the Monzo entry now uses a direct payment link rather than a manual
         request flow.
       </p>
+    </section>
+
+    <section class="route-strip">
+      <h2>Need the product routes before you support?</h2>
+      <p>
+        If you are still evaluating whether VeriClaw fits your workflow, start with
+        the pages that create the clearest public signal: one proof-first walkthrough,
+        one use-case hub, one install route, and one exact-symptom page for work-report
+        hallucination.
+      </p>
+      <div class="route-links">
+        <a href="../use-cases/">Use-case hub</a>
+        <a href="../first-proof-check/">First proof check</a>
+        <a href="../ai-work-hallucination/">AI work hallucination</a>
+        <a href="../clawhub-skill/">Canonical skill page</a>
+        <a href="../download/">Download page</a>
+        <a href="../review-kit/">Review kit</a>
+      </div>
     </section>
 
     <footer>

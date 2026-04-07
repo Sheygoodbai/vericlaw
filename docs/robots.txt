@@ -3,3 +3,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://sheygoodbai.github.io/vericlaw/sitemap.xml
+Sitemap: https://sheygoodbai.github.io/vericlaw/sitemap-supplemental.xml
