@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_DIR="$(cd "${SCRIPT_DIR}/.." && pwd)"
+SUPPLEMENTAL_SITEMAP="${REPO_DIR}/docs/sitemap-supplemental.xml"
+
 KEY="3edbda11b06737f28b1454ffb83c02fe"
 HOST="sheygoodbai.github.io"
 SITE_PREFIX="https://${HOST}/vericlaw"
@@ -18,10 +22,28 @@ default_urls=(
   "${SITE_PREFIX}/hallucination-checker/"
 )
 
+load_supplemental_urls() {
+  if [ ! -f "${SUPPLEMENTAL_SITEMAP}" ]; then
+    return 0
+  fi
+
+  sed -n 's#.*<loc>\(.*\)</loc>.*#\1#p' "${SUPPLEMENTAL_SITEMAP}"
+}
+
+build_default_urls() {
+  {
+    printf '%s\n' "${default_urls[@]}"
+    load_supplemental_urls
+  } | awk 'NF && !seen[$0]++'
+}
+
 if [ "$#" -gt 0 ]; then
   urls=("$@")
 else
-  urls=("${default_urls[@]}")
+  urls=()
+  while IFS= read -r url; do
+    urls+=("${url}")
+  done < <(build_default_urls)
 fi
 
 if ! curl -fsS "${KEY_LOCATION}" >/dev/null; then
