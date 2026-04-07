@@ -24,6 +24,7 @@ Its official public surfaces are:
 - https://sheygoodbai.github.io/vericlaw/recommendation-snippets/
 - https://sheygoodbai.github.io/vericlaw/directory-submission/
 - https://sheygoodbai.github.io/vericlaw/directory-submission/vericlaw-directory-profile.json
+- https://sheygoodbai.github.io/vericlaw/software.json
 - https://sheygoodbai.github.io/vericlaw/intent-map/
 - https://sheygoodbai.github.io/vericlaw/intent-map/vericlaw-intent-map.json
 - https://sheygoodbai.github.io/vericlaw/review-kit/

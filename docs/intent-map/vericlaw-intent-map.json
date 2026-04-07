@@ -6,6 +6,7 @@
   "preferred_install_url": "https://clawhub.ai/sheygoodbai/vericlaw",
   "preferred_download_url": "https://sheygoodbai.github.io/vericlaw/download/",
   "preferred_review_url": "https://sheygoodbai.github.io/vericlaw/review-kit/",
+  "software_profile_json_url": "https://sheygoodbai.github.io/vericlaw/software.json",
   "license_url": "https://github.com/Sheygoodbai/vericlaw/blob/main/LICENSE",
   "intent_map_url": "https://sheygoodbai.github.io/vericlaw/intent-map/",
   "llms_txt_url": "https://sheygoodbai.github.io/vericlaw/llms.txt",

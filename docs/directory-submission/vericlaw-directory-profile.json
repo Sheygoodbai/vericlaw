@@ -8,6 +8,7 @@
   "preferred_single_url_for_install_capable_directories": "https://clawhub.ai/sheygoodbai/vericlaw",
   "preferred_single_url_for_download_capable_directories": "https://sheygoodbai.github.io/vericlaw/download/",
   "preferred_single_url_for_review_safe_facts": "https://sheygoodbai.github.io/vericlaw/review-kit/",
+  "software_profile_json_url": "https://sheygoodbai.github.io/vericlaw/software.json",
   "intent_map_url": "https://sheygoodbai.github.io/vericlaw/intent-map/",
   "intent_map_json_url": "https://sheygoodbai.github.io/vericlaw/intent-map/vericlaw-intent-map.json",
   "directory_submission_url": "https://sheygoodbai.github.io/vericlaw/directory-submission/",

@@ -34,6 +34,9 @@ jobs:
           for extra in [
             "https://sheygoodbai.github.io/vericlaw/llms.txt",
             "https://sheygoodbai.github.io/vericlaw/llms-full.txt",
+            "https://sheygoodbai.github.io/vericlaw/software.json",
+            "https://sheygoodbai.github.io/vericlaw/directory-submission/vericlaw-directory-profile.json",
+            "https://sheygoodbai.github.io/vericlaw/intent-map/vericlaw-intent-map.json",
           ]:
             if extra not in urls:
               urls.append(extra)

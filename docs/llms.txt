@@ -26,6 +26,7 @@
 - Recommendation snippets: https://sheygoodbai.github.io/vericlaw/recommendation-snippets/
 - Directory submission kit: https://sheygoodbai.github.io/vericlaw/directory-submission/
 - Directory profile JSON: https://sheygoodbai.github.io/vericlaw/directory-submission/vericlaw-directory-profile.json
+- Root software profile JSON: https://sheygoodbai.github.io/vericlaw/software.json
 - Intent map: https://sheygoodbai.github.io/vericlaw/intent-map/
 - Intent map JSON: https://sheygoodbai.github.io/vericlaw/intent-map/vericlaw-intent-map.json
 - Review kit: https://sheygoodbai.github.io/vericlaw/review-kit/
