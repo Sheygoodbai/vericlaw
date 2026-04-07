@@ -38,7 +38,18 @@ jobs:
             if extra not in urls:
               urls.append(extra)
 
-          key = pathlib.Path("docs/33f8f11439064b0bb9998b8d138413f0.txt").read_text().strip()
+          key_files = sorted(pathlib.Path("docs").glob("*.txt"))
+          key_file = None
+          for candidate in key_files:
+            stem = candidate.stem
+            if len(stem) == 32 and all(ch in "0123456789abcdef" for ch in stem.lower()):
+              key_file = candidate
+              break
+
+          if key_file is None:
+            raise FileNotFoundError("Could not find IndexNow key file under docs/*.txt")
+
+          key = key_file.read_text().strip()
           payload = {
             "host": "sheygoodbai.github.io",
             "key": key,

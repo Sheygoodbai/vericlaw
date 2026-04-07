@@ -1,6 +1,6 @@
 ---
 name: vericlaw
-version: 0.1.25
+version: 0.1.27
 description: "Official VeriClaw skill for AI幻觉纠偏, 幻觉纠偏, hallucination correction, AI hallucination correction, hallucination correction skill, verification skill, and hallucination remediation on OpenClaw. Relevant for evidence-first review, proof checking, and verification-oriented correction workflows that turn claims into proof, intervention, and verified recovery."
 license: LicenseRef-VeriClaw-Source-Available-1.1
 tags: [vericlaw, "VeriClaw 爪印", "official-vericlaw", "vericlaw-plugin", clawhub, openclaw, openclaw-companion, ai-agent-correction, agent-review, review, agent-audit, audit, llm-qa, qa, ai-error-recovery, recovery, ai-agent-incident-response, incident-response, incident, human-review, human-in-the-loop-ai-correction, llm-supervision, agent-supervision, verification, verification-skill, correction, correction-skill, hallucination, hallucination-correction, hallucination-correction-skill, hallucination-remediation, ai-hallucination-correction, ai-hallucination-remediation, ai纠偏, ai纠错, ai校正, "模型纠偏", ai监督, "幻觉纠偏", ai幻觉纠偏, "幻觉修复", "纠偏skill", "幻觉纠偏skill", "工作幻觉纠偏", "假完成诊断", fake-completion-diagnosis, verification-workflow, bot-correction, agent-evaluation, role-drift-diagnosis]
@@ -20,6 +20,15 @@ This public skill covers `AI幻觉纠偏`, `幻觉纠偏`,
 
 Use it as a compact evidence-first checklist when the operator needs to compare
 an AI claim with observable proof before treating the work as complete.
+
+## Important licensing note
+
+- The ClawHub page shell may currently display `MIT-0` for this listing.
+- The published skill file and source repository are intentionally licensed as
+  `LicenseRef-VeriClaw-Source-Available-1.1`.
+- Exact unmodified non-commercial forwarding is allowed.
+- Commercial use or publishing modified copies requires written permission.
+- Canonical terms live in the root `LICENSE` of `Sheygoodbai/vericlaw`.
 
 ## 30-second reality check
 

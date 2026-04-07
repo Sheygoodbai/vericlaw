@@ -1,0 +1,71 @@
+name: Publish VeriClaw Skill To ClawHub
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/clawhub-publish-vericlaw-skill.yml
+      - clawhub/vericlaw-skill/**
+      - README.md
+      - LICENSE
+      - NOTICE
+      - ATTRIBUTION.md
+      - TRADEMARKS.md
+      - PATENTS.md
+      - INFRINGEMENT.md
+      - LEGAL_ENFORCEMENT.md
+      - scripts/clawhub-skill-publish-local.sh
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Optional skill version override
+        required: false
+        type: string
+      changelog:
+        description: Optional changelog override
+        required: false
+        type: string
+      tags:
+        description: Optional comma-separated tags
+        required: false
+        default: latest
+        type: string
+
+concurrency:
+  group: clawhub-vericlaw-skill-publish-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install ClawHub CLI
+        run: npm install --global clawhub@0.9.0
+
+      - name: Authenticate
+        env:
+          CLAWHUB_TOKEN: ${{ secrets.CLAWHUB_TOKEN }}
+        run: clawhub login --token "$CLAWHUB_TOKEN" --no-browser
+
+      - name: Publish skill
+        env:
+          CLAWD_TAGS: ${{ github.event.inputs.tags || 'latest' }}
+        run: |
+          version="${{ github.event.inputs.version }}"
+          changelog="${{ github.event.inputs.changelog }}"
+          if [[ -n "$version" && -n "$changelog" ]]; then
+            ./scripts/clawhub-skill-publish-local.sh "$version" "$changelog"
+          elif [[ -n "$version" ]]; then
+            ./scripts/clawhub-skill-publish-local.sh "$version"
+          else
+            ./scripts/clawhub-skill-publish-local.sh
+          fi

@@ -75,11 +75,14 @@
             "@type": "SoftwareApplication",
             "@id": "https://sheygoodbai.github.io/vericlaw/clawhub-skill/#software",
             "name": "VeriClaw 爪印",
+            "alternateName": ["VeriClaw", "VeriClaw skill"],
             "applicationCategory": "DeveloperApplication",
             "operatingSystem": "macOS, iOS, Web",
             "downloadUrl": "https://clawhub.ai/sheygoodbai/vericlaw",
             "softwareHelp": "https://clawhub.ai/plugins/vericlaw",
             "codeRepository": "https://github.com/Sheygoodbai/vericlaw",
+            "license": "https://github.com/Sheygoodbai/vericlaw/blob/main/LICENSE",
+            "isAccessibleForFree": true,
             "sameAs": [
               "https://clawhub.ai/sheygoodbai/vericlaw",
               "https://clawhub.ai/plugins/vericlaw",
@@ -120,6 +123,14 @@
                 "acceptedAnswer": {
                   "@type": "Answer",
                   "text": "Install from the official VeriClaw skill page first. If the skill is genuinely useful, leave the star or a short factual comment on that same page so the public trust signal stays concentrated on the canonical listing."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Why might the ClawHub header still show MIT-0?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The listing shell can lag behind the canonical VeriClaw license text. The published SKILL.md and the source repository point to the VeriClaw Source-Available license in the root LICENSE file, which allows exact unmodified non-commercial forwarding but requires permission for commercial use or modified redistribution."
                 }
               }
             ]
@@ -590,6 +601,17 @@
               first. If the skill is genuinely useful, leave the star or a
               short comment on that same page so the public trust signal stays
               concentrated on the canonical listing.
+            </p>
+          </article>
+          <article class="faq">
+            <h3>Why might the ClawHub header still show MIT-0?</h3>
+            <p>
+              The listing shell can lag behind the canonical VeriClaw license
+              text. The published <code>SKILL.md</code> and the
+              <a href="https://github.com/Sheygoodbai/vericlaw/blob/main/LICENSE">repository LICENSE</a>
+              point to the VeriClaw source-available terms: exact unmodified
+              non-commercial forwarding is allowed, while commercial use or
+              modified redistribution requires permission.
             </p>
           </article>
         </div>
