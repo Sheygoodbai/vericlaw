@@ -15,6 +15,18 @@
     <meta name="robots" content="index,follow,max-image-preview:large" />
     <link rel="canonical" href="https://sheygoodbai.github.io/vericlaw/use-cases/" />
     <link rel="icon" type="image/png" href="../assets/branding/vericlaw-brand-mark.png" />
+    <link
+      rel="alternate"
+      type="application/atom+xml"
+      title="VeriClaw Atom Feed"
+      href="https://sheygoodbai.github.io/vericlaw/atom.xml"
+    />
+    <link
+      rel="alternate"
+      type="application/json"
+      title="VeriClaw Route Index"
+      href="https://sheygoodbai.github.io/vericlaw/route-index.json"
+    />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="VeriClaw" />
     <meta property="og:title" content="VeriClaw Use Cases | Hallucination, Fake Completion, Proof Checking" />
@@ -331,6 +343,21 @@
         line-height: 1.7;
       }
 
+      .signal-box {
+        width: var(--content);
+        margin: 0 auto 24px;
+        padding: 18px 22px;
+        border-radius: 22px;
+        background: rgba(17, 23, 22, 0.04);
+        border: 1px solid rgba(17, 23, 22, 0.08);
+        color: rgba(17, 23, 22, 0.78);
+        font-size: 0.95rem;
+      }
+
+      .signal-box a {
+        font-weight: 700;
+      }
+
       footer {
         width: var(--content);
         margin: 0 auto;
@@ -607,6 +634,13 @@
         <li><a href="../fake-completion-diagnosis-cn/">假完成诊断</a></li>
         <li><a href="../not-done-but-claimed-done/">未做却说做了</a></li>
       </ul>
+    </section>
+
+    <section class="signal-box" aria-label="Machine-readable discovery hooks">
+      Machine-readable discovery hooks:
+      <a href="../atom.xml">Atom feed</a>
+      and
+      <a href="../route-index.json">route index JSON</a>.
     </section>
 
     <footer>

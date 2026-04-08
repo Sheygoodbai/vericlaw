@@ -1,0 +1,99 @@
+{
+  "name": "VeriClaw Route Index",
+  "generatedAt": "2026-04-08",
+  "site": "https://sheygoodbai.github.io/vericlaw/",
+  "canonicalInstallRoute": "https://sheygoodbai.github.io/vericlaw/clawhub-skill/",
+  "primaryDownloadRoute": "https://sheygoodbai.github.io/vericlaw/download/",
+  "routes": [
+    {
+      "slug": "use-cases",
+      "title": "VeriClaw Use Cases",
+      "url": "https://sheygoodbai.github.io/vericlaw/use-cases/",
+      "category": "hub",
+      "queries": [
+        "VeriClaw use cases",
+        "AI hallucination remediation",
+        "fake completion diagnosis",
+        "AI work hallucination"
+      ]
+    },
+    {
+      "slug": "ai-work-hallucination",
+      "title": "AI Work Hallucination",
+      "url": "https://sheygoodbai.github.io/vericlaw/ai-work-hallucination/",
+      "category": "exact-intent",
+      "queries": [
+        "AI work hallucination",
+        "AI said it worked but it didn't",
+        "model says it fixed it but didn't",
+        "AI工作幻觉",
+        "AI以为自己工作了",
+        "未做却说做了"
+      ]
+    },
+    {
+      "slug": "first-proof-check",
+      "title": "First Proof Check",
+      "url": "https://sheygoodbai.github.io/vericlaw/first-proof-check/",
+      "category": "workflow",
+      "queries": [
+        "first proof check",
+        "proof-first AI verification",
+        "how to verify AI completion"
+      ]
+    },
+    {
+      "slug": "proof-checking",
+      "title": "Proof Checking",
+      "url": "https://sheygoodbai.github.io/vericlaw/proof-checking/",
+      "category": "workflow",
+      "queries": [
+        "proof checking",
+        "evidence-first verification",
+        "verify if the AI actually did it"
+      ]
+    },
+    {
+      "slug": "done-gate-verification",
+      "title": "Done-Gate Verification",
+      "url": "https://sheygoodbai.github.io/vericlaw/done-gate-verification/",
+      "category": "workflow",
+      "queries": [
+        "done-gate verification",
+        "done without proof",
+        "premature closure verification"
+      ]
+    },
+    {
+      "slug": "clawhub-skill",
+      "title": "VeriClaw ClawHub Skill",
+      "url": "https://sheygoodbai.github.io/vericlaw/clawhub-skill/",
+      "category": "install",
+      "queries": [
+        "VeriClaw skill",
+        "VeriClaw ClawHub",
+        "install VeriClaw"
+      ]
+    },
+    {
+      "slug": "download",
+      "title": "VeriClaw Download",
+      "url": "https://sheygoodbai.github.io/vericlaw/download/",
+      "category": "download",
+      "queries": [
+        "download VeriClaw",
+        "VeriClaw macOS app"
+      ]
+    },
+    {
+      "slug": "support",
+      "title": "Support VeriClaw",
+      "url": "https://sheygoodbai.github.io/vericlaw/support/",
+      "category": "support",
+      "queries": [
+        "support VeriClaw",
+        "sponsor VeriClaw"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>VeriClaw Canonical Route Feed</title>
+  <subtitle>Canonical VeriClaw routes for correction-first discovery, proof checking, and install intent.</subtitle>
+  <link href="https://sheygoodbai.github.io/vericlaw/atom.xml" rel="self" />
+  <link href="https://sheygoodbai.github.io/vericlaw/" rel="alternate" />
+  <updated>2026-04-08T00:00:00Z</updated>
+  <id>https://sheygoodbai.github.io/vericlaw/atom.xml</id>
+  <author>
+    <name>VeriClaw</name>
+  </author>
+
+  <entry>
+    <title>VeriClaw Use Cases</title>
+    <link href="https://sheygoodbai.github.io/vericlaw/use-cases/" />
+    <id>https://sheygoodbai.github.io/vericlaw/use-cases/</id>
+    <updated>2026-04-08T00:00:00Z</updated>
+    <summary>Route hub for canonical VeriClaw symptom, workflow, and install surfaces.</summary>
+  </entry>
+
+  <entry>
+    <title>AI Work Hallucination</title>
+    <link href="https://sheygoodbai.github.io/vericlaw/ai-work-hallucination/" />
+    <id>https://sheygoodbai.github.io/vericlaw/ai-work-hallucination/</id>
+    <updated>2026-04-08T00:00:00Z</updated>
+    <summary>Exact-intent route for AI work hallucination, false completion reports, and proof-first correction.</summary>
+  </entry>
+
+  <entry>
+    <title>First Proof Check</title>
+    <link href="https://sheygoodbai.github.io/vericlaw/first-proof-check/" />
+    <id>https://sheygoodbai.github.io/vericlaw/first-proof-check/</id>
+    <updated>2026-04-08T00:00:00Z</updated>
+    <summary>Fastest proof-oriented starting point for testing VeriClaw on a concrete case.</summary>
+  </entry>
+
+  <entry>
+    <title>Proof Checking</title>
+    <link href="https://sheygoodbai.github.io/vericlaw/proof-checking/" />
+    <id>https://sheygoodbai.github.io/vericlaw/proof-checking/</id>
+    <updated>2026-04-08T00:00:00Z</updated>
+    <summary>Evidence-first route for verifying whether an AI action actually happened.</summary>
+  </entry>
+
+  <entry>
+    <title>Done-Gate Verification</title>
+    <link href="https://sheygoodbai.github.io/vericlaw/done-gate-verification/" />
+    <id>https://sheygoodbai.github.io/vericlaw/done-gate-verification/</id>
+    <updated>2026-04-08T00:00:00Z</updated>
+    <summary>Canonical route for premature closure, missing sign-off proof, and completion gating.</summary>
+  </entry>
+
+  <entry>
+    <title>ClawHub Skill</title>
+    <link href="https://sheygoodbai.github.io/vericlaw/clawhub-skill/" />
+    <id>https://sheygoodbai.github.io/vericlaw/clawhub-skill/</id>
+    <updated>2026-04-08T00:00:00Z</updated>
+    <summary>Primary public install-oriented route for VeriClaw on ClawHub.</summary>
+  </entry>
+
+  <entry>
+    <title>Download</title>
+    <link href="https://sheygoodbai.github.io/vericlaw/download/" />
+    <id>https://sheygoodbai.github.io/vericlaw/download/</id>
+    <updated>2026-04-08T00:00:00Z</updated>
+    <summary>Standalone app download route for macOS users evaluating VeriClaw.</summary>
+  </entry>
+
+  <entry>
+    <title>Support VeriClaw</title>
+    <link href="https://sheygoodbai.github.io/vericlaw/support/" />
+    <id>https://sheygoodbai.github.io/vericlaw/support/</id>
+    <updated>2026-04-08T00:00:00Z</updated>
+    <summary>Support route with live WeChat and Monzo paths plus links back into canonical product surfaces.</summary>
+  </entry>
+</feed>
